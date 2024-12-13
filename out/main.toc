@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {1}Idee}{3}{}%
+\contentsline {section}{\numberline {2}Gameplay Loop}{3}{}%
+\contentsline {section}{\numberline {3}Controls}{3}{}%
+\contentsline {section}{\numberline {4}The Player}{3}{}%
+\contentsline {section}{\numberline {5}Items}{3}{}%
+\contentsline {section}{\numberline {6}Systems}{3}{}%
+\contentsline {section}{\numberline {7}UI und HUD}{3}{}%
+\contentsline {section}{\numberline {8}Graphics/Visuals}{3}{}%
+\contentsline {section}{\numberline {9}Soundeffects}{3}{}%
