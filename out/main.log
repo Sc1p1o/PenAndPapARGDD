@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.30)  16 DEC 2024 11:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.30)  16 DEC 2024 13:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -198,17 +198,27 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+
+Overfull \hbox (7.49162pt too wide) in paragraph at lines 101--103
+[]\OT1/cmr/m/n/10.95 Die Steuerung soll hi-er-bei vor allem durch die Hand-be-w
+e-gun-gen geschehen,
+ []
+
 [4] [5] (/home/mmiller/IdeaProjects/PenAndPapAR_GDD/out/main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 1537 strings out of 476076
- 23522 string characters out of 5793774
+ 1539 strings out of 476076
+ 23566 string characters out of 5793774
  1933187 words of memory out of 5000000
- 23683 multiletter control sequences out of 15000+600000
+ 23685 multiletter control sequences out of 15000+600000
  564177 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,6n,65p,220b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -218,7 +228,7 @@ ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 Output written on /home/mmiller/IdeaProjects/PenAndPapAR_GDD/out/main.pdf (5 pa
-ges, 101240 bytes).
+ges, 101926 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
