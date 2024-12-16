@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.30)  16 DEC 2024 11:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.30)  16 DEC 2024 11:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -165,19 +165,18 @@ LaTeX Font Info:    ... okay on input line 14.
 \openout3 = `main.toc'.
 
  [2]
-./main.tex:26: Misplaced alignment tab character &.
-l.26 ...igitalisierung von DnD und ähnlichen Pen&
-                                                  Paper spielen x
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
+./main.tex:32: Undefined control sequence.
+l.32     auch in die heutige Zeit zu holen.\n
+                                             
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-./main.tex:31: Undefined control sequence.
-l.31     \n
-            Die Idee hinter dem Spiel \textit{Pen\&PapAR} ist es, den seit S...
+./main.tex:41: Undefined control sequence.
+l.41 ... müssen, falls nötig bzw.\ gewünscht.\n
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -185,10 +184,37 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (5.76587pt too wide) in paragraph at lines 38--46
+Overfull \hbox (5.76587pt too wide) in paragraph at lines 34--42
 \OT1/cmr/m/n/10.95 beizube-hal-ten. Genauso wichtig ist es den Spiel-ern nichts
  Dig-i-tales aufzuzwin-
  []
+
+./main.tex:49: Undefined control sequence.
+l.49 ...ke, und NPC-Sheets auf dem Tisch liegen.\n
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.tex:57: Undefined control sequence.
+l.57     Minis.\n
+                 
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./main.tex:69: Undefined control sequence.
+l.69     übersichtlich darstellen.\n
+                                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 [3] [4] [5] (/home/mmiller/IdeaProjects/PenAndPapAR_GDD/out/main.aux)
  ***********
@@ -210,7 +236,7 @@ ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 Output written on /home/mmiller/IdeaProjects/PenAndPapAR_GDD/out/main.pdf (5 pa
-ges, 100544 bytes).
+ges, 100382 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
