@@ -81,18 +81,25 @@
     Oberste Priorität ist der Komfort der Spieler ihr Spiel nur so weit zu digitalisieren, wie sie es sich wünschen.
     Unser Spiel soll sie dabei so wenig wie möglich zwingen, Elemente des Pen\&Papers zu digitalisieren.\n
 
-    \section{Gameplay Loop}
-    - nicht direkt vorhanden
-    - session start ist beginn einer art loop
-    - session ende beendet die loop
+    \section{Gameplay Loop}\label{sec:chapter_gameloop}
 
-    \section{Controls}
+    Eine klassische Gameplay Loop wird es in unserem Spiel vermutlich anfangs noch nicht geben.
+    Die genutzte Loop beginnt, sobald unser Spieler nach Start des Spiels eine Kampagne wählt und eine Session beginnt.
+    Von diesem Zeitpunkt aus wird dauerhaft auf Spieler Eingaben gewartet, welche entweder den eigenen Charakter ändern
+    oder die Anzeige der anderen Spieler bearbeitet.
+    Diese Loop wird beendet, sobald die Session beendet wird.
+    Zu Beginn werden viele dieser Sachen allerdings eher wie GUI Aufrufe in einem 3D Menü. \newblock
+
+    \section{Steuerung}\label{sec:chapter_controls}
     - Steuerung durch Handbewegung und tippen mit Fingern auf 3D projizierte Items
     - Klick auf Spieler öffnet detaillierte Übersicht über dessen Charakter
     - Finger auseinander ziehen/zusammen ziehen bei Map, zoomt rein oder raus
     - anklicken des eigenen Menüs gibt eigenen Charakter detailliert an
     - anklicken kontrollierter NPCs gibt genauere Informationen zu diesen
     - Map Auswahl geschieht über Menü
+
+    Die Steuerung soll hierbei vor allem durch die Handbewegungen geschehen, eventuell ist später auch eine
+    Sprachsteuerung
 
     \section{The Player}
     DM
