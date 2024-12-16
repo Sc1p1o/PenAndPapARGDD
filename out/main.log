@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.30)  16 DEC 2024 11:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.11.30)  16 DEC 2024 11:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -165,25 +165,6 @@ LaTeX Font Info:    ... okay on input line 14.
 \openout3 = `main.toc'.
 
  [2]
-./main.tex:32: Undefined control sequence.
-l.32     auch in die heutige Zeit zu holen.\n
-                                             
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./main.tex:41: Undefined control sequence.
-l.41 ... müssen, falls nötig bzw.\ gewünscht.\n
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 Overfull \hbox (5.76587pt too wide) in paragraph at lines 34--42
 \OT1/cmr/m/n/10.95 beizube-hal-ten. Genauso wichtig ist es den Spiel-ern nichts
  Dig-i-tales aufzuzwin-
@@ -198,25 +179,26 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:57: Undefined control sequence.
-l.57     Minis.\n
-                 
+[3]
+./main.tex:72: Undefined control sequence.
+l.72     Spiels zu erhöhen.\n
+                              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./main.tex:69: Undefined control sequence.
-l.69     übersichtlich darstellen.\n
-                                     
+./main.tex:82: Undefined control sequence.
+l.82 ...mente des Pen\&Papers zu digitalisieren.\n
+                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[3] [4] [5] (/home/mmiller/IdeaProjects/PenAndPapAR_GDD/out/main.aux)
+[4] [5] (/home/mmiller/IdeaProjects/PenAndPapAR_GDD/out/main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -236,7 +218,7 @@ ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 r17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 Output written on /home/mmiller/IdeaProjects/PenAndPapAR_GDD/out/main.pdf (5 pa
-ges, 100382 bytes).
+ges, 101240 bytes).
 PDF statistics:
  50 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream

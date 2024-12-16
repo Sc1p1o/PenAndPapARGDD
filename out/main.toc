@@ -2,7 +2,7 @@
 \contentsline {section}{\numberline {2}Gameplay Loop}{4}{}%
 \contentsline {section}{\numberline {3}Controls}{4}{}%
 \contentsline {section}{\numberline {4}The Player}{4}{}%
-\contentsline {section}{\numberline {5}Systems}{4}{}%
-\contentsline {section}{\numberline {6}UI und HUD}{4}{}%
+\contentsline {section}{\numberline {5}Systems}{5}{}%
+\contentsline {section}{\numberline {6}UI und HUD}{5}{}%
 \contentsline {section}{\numberline {7}Graphics/Visuals}{5}{}%
 \contentsline {section}{\numberline {8}Soundeffects}{5}{}%
