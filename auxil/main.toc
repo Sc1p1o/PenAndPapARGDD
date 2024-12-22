@@ -1,0 +1,8 @@
+\contentsline {section}{\numberline {1}Idee}{3}{}%
+\contentsline {section}{\numberline {2}Gameplay Loop}{4}{}%
+\contentsline {section}{\numberline {3}Steuerung}{4}{}%
+\contentsline {section}{\numberline {4}The Player}{5}{}%
+\contentsline {section}{\numberline {5}Systems}{5}{}%
+\contentsline {section}{\numberline {6}UI und HUD}{5}{}%
+\contentsline {section}{\numberline {7}Graphics/Visuals}{5}{}%
+\contentsline {section}{\numberline {8}Soundeffects}{5}{}%
