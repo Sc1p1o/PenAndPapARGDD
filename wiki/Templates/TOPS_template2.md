@@ -8,25 +8,25 @@ nimmt dem Protokollant dadurch arbeit ab.
 * [ ] Stand wöchentlicher Aufgaben
 * [ ] Stand allgemeiner Aufgaben
 
-# Weiterer Ablauf Plan
+# Ablaufplan:
 
 * [ ] [TOP 1]
 * [ ] [TOP 2]
 * [ ] ...
-* [ ] übrig gebliebene Themen
+* [ ] sonstige Themen
 * [ ] Zuweisung neuer Aufgaben
 
 # Themen
 Hier könnt ihr Themen Vorschläge einreichen und aufschreiben.
 
 ## Jannis
-*  [topic]
+* [ ] [topic]
 
 ## Martin
-*  [topic]
+* [ ] [topic]
 
 ## Nana
-*  [topic]
+* [ ] [topic]
 
 ## Salem
-*  [topic]
+* [ ] [topic]

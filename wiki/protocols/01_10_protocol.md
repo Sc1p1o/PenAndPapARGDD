@@ -1,7 +1,9 @@
-# Protokoll vom [DATUM]
+# Protokoll vom [DATE]
 
 ## Formalia:
 **Protokollant:** [NAME]
+**Start:** [TIME]
+**Ende:** [TIME]
 
 ### Anwesenheit:
 Anwesenheit, bzw entschuldigte nicht Anwesenheit:

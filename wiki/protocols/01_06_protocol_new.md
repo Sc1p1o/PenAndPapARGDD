@@ -5,13 +5,13 @@
 
 ### Anwesenheit:
 Anwesenheit, bzw entschuldigte nicht Anwesenheit:
-* [ ]  Jannis
-* [ ]  Martin
-* [ ]  Nana
-* [ ]  Salem
+* [x]  Jannis
+* [x]  Martin
+* [x]  Nana
+* [x]  Salem
 
 ### Festlegung des nächsten Meetings
-Ort:
+Ort: Z503
 
 Datum:
 

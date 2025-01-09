@@ -5,39 +5,41 @@
 - FREITAG RAUM BUCHEN!!!!!!!!!!!
 - jede Woche Freitag 13Uhr (12Uhr optionales Mensa Essen)
 - jede ungerade KW Montag 13:45 Uhr 
-- Do 09.01. ab 9:30 Design Thinking Arbeit
+- Do, 09.01. ab 9:30 Design Thinking Arbeit
 
 ## Rollenaufteilung:
 
-- GDD aktuell halten : Martin Miller
-- MR-requests : Salem Zin
-- Issue-Ersteller : Jannis Kerz
-- Teamleidung : Martin Miller
-- De(s)chnische Leidung : Jannis Kerz, Salem Zin
-- Designleidung : Cassandra Lenk
+- GDD aktuell halten: Martin Miller
+- MR-requests: Salem Zin
+- Issue-Ersteller: Jannis Kerz
+- Teamleidung: Martin Miller
+- De(s)chnische Leidung: Jannis Kerz, Salem Zin
+- Designleidung: Cassandra Lenk
 
 ## Arbeitsteilung:
 
-Folgende Arbeitsteilung wurde zum Meeting, am Montag, den 06.01. beschlossen.
+Folgende Arbeitsteilung wurde zum Meeting, am Montag, dem 06.01. beschlossen.
 
-- Orga-Templates erstellen (bis Freitag 10.01. 12Uhr) -> Martin
+- Orga-Templates erstellen (bis Freitag, 10.01. 12Uhr) ⇒ Martin
     - Protokoll-Template
     - Tops-Template
     - Issue-Template
     - MR-Template
+  
 - Unity-Projekt Beginn 
-  - How to (bis 10.01. 12 Uhr) -> Jannis 
-  - Player Menü -> Jannis, Martin
-  - GDD fertigstellen, aktuell halten -> Martin
-  - Inventar -> Nana
-  - Actions -> TODO
-  - Fast Item Bar -> Salem 
-  - Notes hinzufügen -> Salem 
-  - professionellleres Designthinking / konkreteres Design Thinking
-    - Nana -> Absprache in Meeting in KW2 (bis 13.01.)
-    - Überarbeitung der Skizzen
-    - Menü-Durchlauf (Mock-up)
-  - Einstellungen -> TODO
+  - How to (bis 10.01. 12 Uhr) ⇒ Jannis 
+  - Player Menü ⇒ Jannis, Martin
+  - GDD fertigstellen, aktuell halten ⇒ Martin
+  - Inventar ⇒ Nana
+  - Actions ⇒ TODO
+  - Fast Item Bar ⇒ Salem 
+  - Notes hinzufügen ⇒ Salem 
+  
+- professionellleres Designthinking / konkreteres Design Thinking
+  - Nana ⇒ Absprache in Meeting in KW2 (bis 13.01.)
+  - Überarbeitung der Skizzen
+  - Menü-Durchlauf (Mock-up)
+  - Einstellungen ⇒ TODO
   
 ## Game Design Thinking
 
