@@ -2,38 +2,59 @@
 
 ## Formalia:
 **Protokollant:** [NAME]
+
 **Start:** [TIME]
+
 **Ende:** [TIME]
+
+**Wo ist die HoloLens?:**
 
 ### Anwesenheit:
 Anwesenheit, bzw entschuldigte nicht Anwesenheit:
 * [ ]  Jannis
 * [ ]  Martin
-* [ ]  Nana
+* [ ]  Nana, entschuldigt
 * [ ]  Salem
 
 ### Festlegung des nächsten Meetings
 Ort:
 
-Datum:
+Datum: 13.01.2025
 
 Zeit:
 
 * [ ] Raum gebucht?
 
-Abmeldungen:
+Abmeldungen für nächstes Meeting:
 
 ## Stand der Aufgaben von letztem Meeting
 
-### Jannis
+### Jannis:
+* [ ] How To Unity
 
-### Martin
+### Martin:
+* [ ] Templates erstellen
+  * [ ] Protokoll Template
+  * [ ] Tops-Template
+  * [ ] Issue Template
 
-### Nana
+### Nana:
+* [ ] beginn Umsetzung Design Thinking
 
-### Salem
+### Salem:
+* [ ] MR Template
 
 ## TOPS
+
+* Was ist mit Einstellungen gemeint
+
+### Design Thinking
+
+### Vorstellung Templates
+
+### Unity How To
+
+### weitere Themen
 
 ## Konklusion
 
@@ -45,17 +66,30 @@ Folgende Aufgaben sind zu erledigen bis zur Nächsten Sitzung
 #### Martin
 
 #### Nana
+* Fertigstellung Design Thinking vorschläge [13.01.2025]
 
 #### Salem
 
 
-### Weitere Aufgaben
+### Weitere Aufgaben:
 Folgende Aufgaben sind zu machen bis zu einem anderen Datum als dem nächsten Meeting.
+Struktur:
+* Aufgabe (Co-Worker) [Due-Date]
 
-#### Jannis
+#### Jannis:
+* Player Menü (mit Martin)
 
-#### Martin
+#### Martin:
+* Player Menü (mit Jannis)
+* GDD aktuell halten
 
-#### Nana
+#### Nana:
+* Inventar
 
-#### Salem
+#### Salem:
+* Fast Item Bar
+* DM Notes
+
+#### Nicht zugewiesen
+* Einstellungen
+* Actions HUD

@@ -3,6 +3,12 @@
 ## Formalia:
 **Protokollant:** [NAME]
 
+**Start**: [TIME]
+
+**Ende:** [TIME]
+
+**Wo ist die HoloLens?:** [MEMBER]
+
 ### Anwesenheit:
 Anwesenheit, bzw entschuldigte nicht Anwesenheit:
 * [ ]  Jannis
@@ -19,17 +25,17 @@ Zeit:
 
 * [ ] Raum gebucht?
 
-Abmeldungen:
+Abmeldungen für nächstes Meeting:
 
 ## Stand der Aufgaben von letztem Meeting
 
-### Jannis
+### Jannis:
 
-### Martin
+### Martin:
 
-### Nana
+### Nana:
 
-### Salem
+### Salem:
 
 ## TOPS
 
@@ -38,22 +44,24 @@ Abmeldungen:
 ### Aufgaben bis nächstes Meeting
 Folgende Aufgaben sind zu erledigen bis zur Nächsten Sitzung
 
-#### Jannis
+#### Jannis:
 
-#### Martin
+#### Martin:
 
-#### Nana
+#### Nana:
 
-#### Salem
+#### Salem:
 
 
-### Weitere Aufgaben
+### Weitere Aufgaben:
 Folgende Aufgaben sind zu machen bis zu einem anderen Datum als dem nächsten Meeting.
 
-#### Jannis
+#### Jannis:
 
-#### Martin
+#### Martin:
 
-#### Nana
+#### Nana:
 
-#### Salem
+#### Salem:
+
+#### Nicht zugewiesen:
