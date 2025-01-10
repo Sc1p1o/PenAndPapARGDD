@@ -54,7 +54,7 @@ Abmeldungen für nächstes Meeting:
 
 ### Design Thinking
  - Nana arbeitet dran
-   - Jannis meinte sieht bisher gut aus
+   - Jannis meinte, sieht bisher gut aus
    - wir warten gespannt auf Montag (Kein Druck)
 
 ### Vorstellung Templates
@@ -69,7 +69,7 @@ Abmeldungen für nächstes Meeting:
 #### Contribution Guidelines
 * Branch Naming: [username]_[issue_nr]_[function]
 * commit messages in english und verständlich
-* MR erst senden wenn fertig, wenn vorher gezeigt, [DRAFT] davor schreiben
+* MR erst senden, wenn fertig, wenn vorher gezeigt, [DRAFT] davor schreiben
 * Name Conventions:
   * Klassen: PascalCase
   * Funktionen: PascalCase
