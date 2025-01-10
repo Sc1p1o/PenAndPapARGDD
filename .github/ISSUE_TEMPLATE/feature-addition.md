@@ -7,14 +7,20 @@ assignees: ''
 
 ---
 
-# Feature Topic
+# Feature
 What is the feature that has to be implemented and what is it related to. 
 
-# Due Date
-Deadline for the Issue
+# Frist
+Deadline des Issues bis wann es erledigt sein sollte
 
 # Definition of Done
-create a list of features that needs to be done to declare the Issue as done.
+Eine Liste von Aufgaben die erledigt werden müssen, bevor dieses Issue geschlossen werden kann.
 
-# Dependencies
-Mention what needs to be finished before the issue can be started to work on.
+# Verwandte Issues
+
+## Haupt-Issue
+Zu welchem Haupt-Issue gehört dieses Issue.
+
+## Abhängigkeiten / Unter Issues
+Welche Issues müssen zuerst beendet werden, damit dieses Issue begonnen werden kann und welche Issues behandeln
+Teilaufgaben dieses Issues.
