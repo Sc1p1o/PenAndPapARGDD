@@ -7,7 +7,7 @@
 
 **Ende:** 16:30
 
-**Wo ist die HoloLens?:**
+**Wo ist die HoloLens?:** Martin
 
 ### Anwesenheit:
 Anwesenheit, bzw entschuldigte nicht Anwesenheit:

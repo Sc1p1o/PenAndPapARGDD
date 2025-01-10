@@ -1,4 +1,4 @@
-# Protokoll vom [DATUM]
+# Protokoll vom 13.01.2025
 
 ## Formalia:
 **Protokollant:** [NAME]
@@ -17,13 +17,13 @@ Anwesenheit, bzw entschuldigte nicht Anwesenheit:
 * [ ]  Salem
 
 ### Festlegung des nächsten Meetings
-Ort:
+Ort: Gruppenarbeitsraum 4 Bibliothek
 
-Datum:
+Datum: 17.01.2025
 
-Zeit:
+Zeit: 9:00
 
-* [ ] Raum gebucht?
+* [x] Raum gebucht?
 
 Abmeldungen für nächstes Meeting:
 
