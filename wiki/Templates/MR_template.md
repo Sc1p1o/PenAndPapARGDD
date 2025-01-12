@@ -2,48 +2,38 @@
 
 ## **Titel des Merge Requests**  
 
----
-
-## **Beschreibung**  
-### ** Issue **  
+### **Die Beschreibung**  
 -
 
-### ** Die Änderungen **  
+### **Die Änderungen**  
 -
 
 ---
 
-### **Funktionalität:**  
+## **Funktionalität:**  
 - [ ] Änderungen getestet  
 - [ ] Tests erfolgreich
-- [ ]
 
 ---
 
 ## **Checkliste**  
 ### **Code-Qualität und Standards:**  
--   [ ] Code-Standards
--   [ ]
-
----
+-   [ ] Code-Standards 
 
 ### **Dokumentation:**  
 - [ ] GDD aktualisiert.  
--  
 
 ---
 
 ## **Verknüpfte Issues**  
-Beispiel:
-Fixes #123  
-Closes #456  
+- Beispiel_1: Fixes #123  
+- Beispiel_2: Closes #456  
 
 ---
 
 ## **Freigabe und Genehmigungen**  
 - **Reviewer 1:** @username   
 - [ ] Finale Freigabe durch Team Lead. 
--
 
 ---
 
