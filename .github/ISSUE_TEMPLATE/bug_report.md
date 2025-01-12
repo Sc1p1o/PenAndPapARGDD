@@ -7,21 +7,22 @@ assignees: ''
 
 ---
 
-# Describe the bug
-A clear and concise description of what the bug is.
+# Beschreibung des Bugs
 
-# To Reproduce
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+Eine Beschreibung des Bugs und wie dieser sich äußert, wann er auftritt und was
 
-# Expected behavior
-A clear and concise description of what you expected to happen.
+# Anleitung zum Reproduzieren
 
-# Screenshots
-If applicable, add screenshots to help explain your problem.
+Welche Schritte müssen gemacht werden um den Bug zu reproduzieren?
 
-# Additional context
-Add any other context about the problem here.
+# Geplantes Verhalten
+Wie sollte das Feature sich eigentlich Verhalten, was ist der geplante Ablauf?
+
+# Screenshots/Report
+Bilder vom Bug oder der die Fehlermeldung.
+
+# Was wurde bereits probiert?
+Lösungen die bereits unternommen wurden um den Bug zu beheben.
+
+# Weitere Infos
+Alles weitere an Informationen, die wichtig wären
