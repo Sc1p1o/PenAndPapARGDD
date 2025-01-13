@@ -13,7 +13,7 @@ Eine Beschreibung des Bugs und wie dieser sich äußert, wann er auftritt und wa
 
 # Anleitung zum Reproduzieren
 
-Welche Schritte müssen gemacht werden um den Bug zu reproduzieren?
+Welche Schritte müssen gemacht werden, um den Bug zu reproduzieren?
 
 # Geplantes Verhalten
 Wie sollte das Feature sich eigentlich Verhalten, was ist der geplante Ablauf?
@@ -22,7 +22,7 @@ Wie sollte das Feature sich eigentlich Verhalten, was ist der geplante Ablauf?
 Bilder vom Bug oder der die Fehlermeldung.
 
 # Was wurde bereits probiert?
-Lösungen die bereits unternommen wurden um den Bug zu beheben.
+Lösungen die bereits unternommen wurden, um den Bug zu beheben.
 
-# Weitere Infos
-Alles weitere an Informationen, die wichtig wären
+# Weitere Informationen
+Alles Weitere an Informationen, die wichtig wären
