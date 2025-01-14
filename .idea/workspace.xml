@@ -4,26 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="added Unity AR SetUp">
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/.plastic/plastic.changes" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/.plastic/plastic.changes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/.plastic/plastic.wktree" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/.plastic/plastic.wktree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker1-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-AssetImportWorker0-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-AssetImportWorker1-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-AssetImportWorker2-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-4.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-6.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
+    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="started stats">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +94,7 @@
       <workItem from="1736419670016" duration="60000" />
       <workItem from="1736419742957" duration="1728000" />
       <workItem from="1736807308231" duration="813000" />
-      <workItem from="1736889643741" duration="465000" />
+      <workItem from="1736889643741" duration="5575000" />
     </task>
     <task id="LOCAL-00001" summary="added keypoints for GDD topics">
       <option name="closed" value="true" />
@@ -202,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736889683988</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="started stats">
+      <option name="closed" value="true" />
+      <created>1736891407413</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1736891407413</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +207,7 @@
     <MESSAGE value="updated TOPS for Friday&#10;set up Protocol" />
     <MESSAGE value="finished Protocol from 13.01" />
     <MESSAGE value="added Unity AR SetUp" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Unity AR SetUp" />
+    <MESSAGE value="started stats" />
+    <option name="LAST_COMMIT_MESSAGE" value="started stats" />
   </component>
 </project>
