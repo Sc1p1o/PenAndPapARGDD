@@ -18,7 +18,7 @@
 
 ## **Checkliste**  
 ### **Code-Qualität und Standards:**  
--   [ ] Code-Standards 
+-   [ ] Code-Standards eingehalten
 
 ### **Dokumentation:**  
 - [ ] GDD aktualisiert.  
