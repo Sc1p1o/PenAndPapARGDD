@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="updated TOPS for Friday&#10;set up Protocol" />
+    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="finished Protocol from 13.01" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736389995432</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finished Protocol from 13.01">
+      <option name="closed" value="true" />
+      <created>1736862645462</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1736862645462</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +165,7 @@
     <MESSAGE value="added empty template files" />
     <MESSAGE value="added Templates, added TOPS" />
     <MESSAGE value="updated TOPS for Friday&#10;set up Protocol" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated TOPS for Friday&#10;set up Protocol" />
+    <MESSAGE value="finished Protocol from 13.01" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished Protocol from 13.01" />
   </component>
 </project>
