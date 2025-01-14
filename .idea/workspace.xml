@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="finished Protocol from 13.01" />
+    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="finished Protocol from 13.01">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/.plastic/plastic.wktree" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/.plastic/plastic.wktree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/XR/Settings/OpenXR Editor Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/XR/Settings/OpenXR Editor Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-AssetImportWorker0-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-AssetImportWorker1-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-13.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-15.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-17.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-20.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-21.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-22.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-3.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-4.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-8.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-9.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
