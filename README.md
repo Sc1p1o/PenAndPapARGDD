@@ -82,7 +82,7 @@ public class ExampleClass : MonoBehavior
     public string SleepState = "Nein";
   
     private bool _isOnline;
-    private int _yawnCounter = 0;
+    private int _yawnCounter = 100;
     
     public void DoSomething()
     {
