@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="started stats">
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" afterDir="false" />
-    </list>
+    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="experimented with UI for Stats" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -204,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736898197339</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="experimented with UI for Stats">
+      <option name="closed" value="true" />
+      <created>1736984589044</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1736984589044</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +222,7 @@
     <MESSAGE value="finished Protocol from 13.01" />
     <MESSAGE value="added Unity AR SetUp" />
     <MESSAGE value="started stats" />
-    <option name="LAST_COMMIT_MESSAGE" value="started stats" />
+    <MESSAGE value="experimented with UI for Stats" />
+    <option name="LAST_COMMIT_MESSAGE" value="experimented with UI for Stats" />
   </component>
 </project>
