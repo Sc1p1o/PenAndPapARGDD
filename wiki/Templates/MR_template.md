@@ -18,7 +18,9 @@
 
 ## **Checkliste**  
 ### **Code-Qualität und Standards:**  
--   [ ] Code-Standards eingehalten
+-   [ ] Benennung und Struktur
+-   [ ] Branch- und Commit-Standards
+-   [ ] Tests und Abhängigkeiten
 
 ### **Dokumentation:**  
 - [ ] GDD aktualisiert.  
@@ -26,14 +28,12 @@
 ---
 
 ## **Verknüpfte Issues**  
-- Beispiel_1: Fixes #123  
-- Beispiel_2: Closes #456  
+- 
 
 ---
 
 ## **Freigabe und Genehmigungen**  
 - **Reviewer 1:** @username   
-- [ ] Finale Freigabe durch Team Lead. 
 
 ---
 
