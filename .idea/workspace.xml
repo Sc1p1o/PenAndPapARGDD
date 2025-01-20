@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="hotfixed canvas">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/Scenes/FirstARScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/Scenes/FirstARScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,17 +29,17 @@
     &quot;assignee&quot;: &quot;Sc1p1o&quot;
   }
 }</component>
-  <component name="GitHubPullRequestState"><![CDATA[{
-  "prStates": [
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
     {
-      "id": {
-        "id": "PR_kwDONbkcGs6IWbn1",
-        "number": 15
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDONbkcGs6IWbn1&quot;,
+        &quot;number&quot;: 15
       },
-      "lastSeen": 1737377910100
+      &quot;lastSeen&quot;: 1737377910100
     }
   ]
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Sc1p1o/PenAndPapARGDD.git&quot;,
@@ -64,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "mmiller__jkerz__10__stats__layer1",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/IdeaProjects/PenAndPapARGDD/wiki/Templates",
@@ -107,6 +110,7 @@
       <workItem from="1736419742957" duration="1728000" />
       <workItem from="1736807308231" duration="813000" />
       <workItem from="1736889643741" duration="6370000" />
+      <workItem from="1737378203079" duration="2148000" />
     </task>
     <task id="LOCAL-00001" summary="added keypoints for GDD topics">
       <option name="closed" value="true" />
@@ -236,11 +240,30 @@
       <option name="project" value="LOCAL" />
       <updated>1737374107515</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="hotfixed canvas">
+      <option name="closed" value="true" />
+      <created>1737378354307</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1737378354307</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added keypoints for GDD topics" />
@@ -255,6 +278,7 @@
     <MESSAGE value="experimented with UI for Stats" />
     <MESSAGE value="Started AR" />
     <MESSAGE value="Added workspace.xml to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added workspace.xml to gitignore" />
+    <MESSAGE value="hotfixed canvas" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotfixed canvas" />
   </component>
 </project>
