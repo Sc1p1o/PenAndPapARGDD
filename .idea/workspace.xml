@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="Added workspace.xml to gitignore">
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/.plastic/plastic.changes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/.plastic/plastic.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/.plastic/plastic.wktree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/.plastic/plastic.workspace" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/Scenes/FirstARScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/Scenes/FirstARScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker1-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker1-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker2-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker3-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker4-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker5-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-AssetImportWorker0-0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-AssetImportWorker1-0.log" beforeDir="false" />
+    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="hotfixed canvas">
       <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +26,17 @@
     &quot;assignee&quot;: &quot;Sc1p1o&quot;
   }
 }</component>
+  <component name="GitHubPullRequestState"><![CDATA[{
+  "prStates": [
+    {
+      "id": {
+        "id": "PR_kwDONbkcGs6IWbn1",
+        "number": 15
+      },
+      "lastSeen": 1737377910100
+    }
+  ]
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Sc1p1o/PenAndPapARGDD.git&quot;,
@@ -68,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "mmiller__jkerz__10__stats__layer1",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/IdeaProjects/PenAndPapARGDD/wiki/Templates",
