@@ -5,50 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28eb7f90-bf8f-4d1b-8f08-137f9bcad908" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/GlobalEnums.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GlobalEnums/conditions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/GlobalEnums/conditions.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Conditions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Conditions/Frightened.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Conditions/Frightened.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Conditions/hand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Resources/Conditions/hand.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StatusControls.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StatusControls.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/AssetImportWorker2.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker2-0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-10.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-11.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-12.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-13.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-14.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-15.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-16.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-17.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-18.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-19.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-22.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-23.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-3.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-4.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-5.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-6.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-7.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-8.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-9.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Packages/manifest.json.backup1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PenAndPapAR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PenAndPapAR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstARScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstARScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe-2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StatusControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StatusControls.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +31,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GlobalEnums/conditions.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -82,21 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "mmiller__jkerz__10__stats__layer1",
-    "ignore.virus.scanning.warn.message": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;mmiller__jkerz__10__stats__layer1&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.C#&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="E:\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe" />
@@ -151,6 +111,7 @@
       <updated>1736898062553</updated>
       <workItem from="1736898065640" duration="39000" />
       <workItem from="1737411689568" duration="7893000" />
+      <workItem from="1737495376613" duration="3199000" />
     </task>
     <servers />
   </component>
