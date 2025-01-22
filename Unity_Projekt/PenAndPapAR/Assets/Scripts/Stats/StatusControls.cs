@@ -1,14 +1,11 @@
-using System;
-using UnityEditor.Experimental;
 using UnityEngine;
 using UnityEngine.UI;
 using GlobalConditions;
-using JetBrains.Annotations;
-using NUnit.Framework.Constraints;
-using UnityEngine.Android;
 
 public class DynamicImageAdder : MonoBehaviour
 {
+    private Condition[] _currentConditions;
+    
     private bool _isActive;
     
     public GameObject layoutGroup;
@@ -44,8 +41,9 @@ public class DynamicImageAdder : MonoBehaviour
     void AddConditionObject(Condition changedCondition)
     {
         if (layoutGroup.transform.childCount >= 9) return;
-                
-        AddImageToLayout(Condition.Frightened, $"{changedCondition}");
+        if (layoutGroup.transform.Find($"{changedCondition}")) return;
+        
+        AddImageToLayout(changedCondition, $"{changedCondition}");
     }
     void AddImageToLayout(Condition condition ,string statusCondition)
     {
@@ -70,6 +68,15 @@ public class DynamicImageAdder : MonoBehaviour
         catch
         {
             //TODO LOG AND EXCEPTION HANDLING
+        }
+    }
+
+    public void changeActiveState(bool activitiyState)
+    {
+        if (activitiyState)
+        {
+            _isActive = true;
+            
         }
     }
 }
