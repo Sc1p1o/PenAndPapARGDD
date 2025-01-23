@@ -7,14 +7,7 @@
     <list default="true" id="28eb7f90-bf8f-4d1b-8f08-137f9bcad908" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PenAndPapAR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PenAndPapAR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Conditions/hand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Conditions/hand.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StatusControls.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StatusControls.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/XR/Settings/OpenXR Package Settings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.learn.iet-framework/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.learn.iet-framework/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/StatusControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/StatusControls.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +31,6 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///AIAssistantSnippet." root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GlobalEnums/conditions.cs" root0="FORCE_HIGHLIGHTING" />
@@ -71,7 +60,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="E:\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath E:\IdeaProjects\PenAndPapARGDD\Unity_Projekt\PenAndPapAR -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\IdeaProjects\PenAndPapARGDD\Unity_Projekt\PenAndPapAR" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -79,7 +68,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="E:\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath E:\IdeaProjects\PenAndPapARGDD\Unity_Projekt\PenAndPapAR -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\IdeaProjects\PenAndPapARGDD\Unity_Projekt\PenAndPapAR" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -129,6 +118,9 @@
       <workItem from="1737544756612" duration="12000" />
       <workItem from="1737544796552" duration="126000" />
       <workItem from="1737545011032" duration="3198000" />
+      <workItem from="1737648808696" duration="665000" />
+      <workItem from="1737653620383" duration="100000" />
+      <workItem from="1737653745659" duration="2739000" />
     </task>
     <servers />
   </component>
