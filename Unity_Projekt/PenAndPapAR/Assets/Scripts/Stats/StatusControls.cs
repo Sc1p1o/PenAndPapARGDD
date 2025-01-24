@@ -8,7 +8,7 @@ using Utils;
 
 namespace Stats
 {
-    public class DynamicImageAdder : MonoBehaviour
+    public class StatsLayer1Controller : MonoBehaviour
     {
         private Condition[] _currentConditions;
     
@@ -16,6 +16,7 @@ namespace Stats
     
         public GameObject layoutGroup;
         public Vector2 imageSize;
+        public GameObject inspirationGameObject;
 
         void Start()
         {
@@ -25,34 +26,14 @@ namespace Stats
     
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.A) && _isActive) // Taste "A" wird gedrückt
+            if (Input.GetKeyDown(KeyCode.U) && _isActive) // Taste "A" wird gedrückt
             {
-                ChangeActiveState(false, layoutGroup.transform.parent.Find("StatsLayer2").gameObject);
+                SetInspiration(true);
             }
         
             if (Input.GetKeyDown(KeyCode.I) && _isActive) // Taste "I" wird gedrückt
             {
-                ChangeActiveState(true, layoutGroup.transform.parent.Find("StatsLayer2").gameObject);
-            }
-            
-            if (Input.GetKeyDown(KeyCode.F) && _isActive) // Taste "I" wird gedrückt
-            {
-                AddConditionObject(Condition.Frightened);
-            }
-            
-            if (Input.GetKeyDown(KeyCode.G) && _isActive) // Taste "I" wird gedrückt
-            {
-                AddConditionObject(Condition.Grappled);
-            }
-            
-            if (Input.GetKeyDown(KeyCode.R) && _isActive) // Taste "I" wird gedrückt
-            {
-                RemoveConditionObject(Condition.Frightened);
-            }
-            
-            if (Input.GetKeyDown(KeyCode.E) && _isActive) // Taste "I" wird gedrückt
-            {
-                RemoveConditionObject(Condition.Grappled);
+                SetInspiration(false);
             }
         }
     
@@ -110,5 +91,8 @@ namespace Stats
 
             VisibilityManager.ChangeVisibility(gameObjectsArray, activitiyChangeArray);
         }
+
+        public void SetInspiration(bool isOn) => inspirationGameObject.SetActive(isOn);
+        //TODO prüfen ob notwendig oder durch VisibilityManager erledigt
     }
 }
