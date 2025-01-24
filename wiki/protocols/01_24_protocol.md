@@ -6,7 +6,7 @@
 
 **Start**: 09:06
 
-**Ende:** 10:
+**Ende:** 10:23
 
 **Wo ist die HoloLens?:** Nana
 
