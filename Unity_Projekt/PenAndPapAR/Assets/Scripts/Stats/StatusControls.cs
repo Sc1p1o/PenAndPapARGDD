@@ -1,8 +1,7 @@
 using System.Linq;
+using GlobalEnums;
 using UnityEngine;
 using UnityEngine.UI;
-
-using GlobalConditions;
 using Microsoft.MixedReality.Toolkit;
 using Utils;
 
@@ -26,7 +25,7 @@ namespace Stats
     
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.U) && _isActive) // Taste "U" wird gedrückt
+            if (Input.GetKeyDown(KeyCode.A) && _isActive) // Taste "A" wird gedrückt
             {
                 ChangeActiveState(false, layoutGroup.transform.parent.Find("StatsLayer2").gameObject);
             }
@@ -34,6 +33,26 @@ namespace Stats
             if (Input.GetKeyDown(KeyCode.I) && _isActive) // Taste "I" wird gedrückt
             {
                 ChangeActiveState(true, layoutGroup.transform.parent.Find("StatsLayer2").gameObject);
+            }
+            
+            if (Input.GetKeyDown(KeyCode.F) && _isActive) // Taste "I" wird gedrückt
+            {
+                AddConditionObject(Condition.Frightened);
+            }
+            
+            if (Input.GetKeyDown(KeyCode.G) && _isActive) // Taste "I" wird gedrückt
+            {
+                AddConditionObject(Condition.Grappled);
+            }
+            
+            if (Input.GetKeyDown(KeyCode.R) && _isActive) // Taste "I" wird gedrückt
+            {
+                RemoveConditionObject(Condition.Frightened);
+            }
+            
+            if (Input.GetKeyDown(KeyCode.E) && _isActive) // Taste "I" wird gedrückt
+            {
+                RemoveConditionObject(Condition.Grappled);
             }
         }
     

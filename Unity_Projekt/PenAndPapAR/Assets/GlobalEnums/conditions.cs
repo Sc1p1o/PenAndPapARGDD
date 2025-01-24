@@ -1,4 +1,4 @@
-namespace GlobalConditions
+namespace GlobalEnums
 {
     public enum Condition
     {
