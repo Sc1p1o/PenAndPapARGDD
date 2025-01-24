@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="finished techncal Layer 1 Stats&#10;&#10;Missing fancy bancy Graphics for conditions&#10;&#10;Deleted Log Files from Git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/.idea/.idea.PenAndPapAR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/.idea/.idea.PenAndPapAR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/Scripts/Stats/StatusControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/Scripts/Stats/StatusControls.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
