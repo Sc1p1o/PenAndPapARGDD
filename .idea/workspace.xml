@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="Started StatsLayer3 TopLine" />
+    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="Implemented Attribute Script in Layer 3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -317,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737735399182</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Implemented Attribute Script in Layer 3">
+      <option name="closed" value="true" />
+      <created>1737744031549</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1737744031550</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +364,7 @@
     <MESSAGE value="Added Inspiration to Layer 2&#10;Added Example TableIcon" />
     <MESSAGE value="Added Conditions and Example Attributes to Layer 2" />
     <MESSAGE value="Started StatsLayer3 TopLine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started StatsLayer3 TopLine" />
+    <MESSAGE value="Implemented Attribute Script in Layer 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Attribute Script in Layer 3" />
   </component>
 </project>
