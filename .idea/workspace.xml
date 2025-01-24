@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="Added Inspiration to Layer 2&#10;Added Example TableIcon">
-      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/Scenes/FirstARScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Assets/Scenes/FirstARScene.unity" afterDir="false" />
+    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="Added Conditions and Example Attributes to Layer 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737724761874</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added Conditions and Example Attributes to Layer 2">
+      <option name="closed" value="true" />
+      <created>1737725200429</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1737725200429</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +349,7 @@
     <MESSAGE value="unified conditions" />
     <MESSAGE value="added Inspiration Indicator to StatsLayer1" />
     <MESSAGE value="Added Inspiration to Layer 2&#10;Added Example TableIcon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Inspiration to Layer 2&#10;Added Example TableIcon" />
+    <MESSAGE value="Added Conditions and Example Attributes to Layer 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Conditions and Example Attributes to Layer 2" />
   </component>
 </project>
