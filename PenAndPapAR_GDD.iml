@@ -7,6 +7,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Unity_Projekt/PenAndPapAR/Library" />
       <excludeFolder url="file://$MODULE_DIR$/Unity_Projekt/PenAndPapAR/obj" />
       <excludeFolder url="file://$MODULE_DIR$/out" />
+      <excludeFolder url="file://$MODULE_DIR$/Unity_Projekt/PenAndPapAR/Logs" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
