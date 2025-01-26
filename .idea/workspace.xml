@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="Implemented Attribute Script in Layer 3" />
+    <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="Attribute Modifier automated now in Layer3 Stats">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,8 +86,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.117" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.117" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.153" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.153" />
       </set>
     </attachedChunks>
   </component>
@@ -108,6 +111,8 @@
       <workItem from="1737378203079" duration="3851000" />
       <workItem from="1737408526147" duration="3960000" />
       <workItem from="1737494572089" duration="944000" />
+      <workItem from="1737891026499" duration="745000" />
+      <workItem from="1737898881445" duration="2510000" />
     </task>
     <task id="LOCAL-00001" summary="added keypoints for GDD topics">
       <option name="closed" value="true" />
@@ -333,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737744048219</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Attribute Modifier automated now in Layer3 Stats">
+      <option name="closed" value="true" />
+      <created>1737894881878</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1737894881878</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +386,7 @@
     <MESSAGE value="Added Conditions and Example Attributes to Layer 2" />
     <MESSAGE value="Started StatsLayer3 TopLine" />
     <MESSAGE value="Implemented Attribute Script in Layer 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented Attribute Script in Layer 3" />
+    <MESSAGE value="Attribute Modifier automated now in Layer3 Stats" />
+    <option name="LAST_COMMIT_MESSAGE" value="Attribute Modifier automated now in Layer3 Stats" />
   </component>
 </project>
