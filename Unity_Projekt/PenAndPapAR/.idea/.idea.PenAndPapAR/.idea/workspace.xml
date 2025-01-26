@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="28eb7f90-bf8f-4d1b-8f08-137f9bcad908" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PenAndPapAR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PenAndPapAR/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstARScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstARScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/ModifierCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/ModifierCalculator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/SavingThrowsCalculator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stats/SavingThrowsCalculator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Utils/StatsValuesDB.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/StatsValuesDB.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/SavingThrowsCalculator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stats/SavingThrowsCalculator.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-6000.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +66,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="E:\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath E:\IdeaProjects\PenAndPapARGDD\Unity_Projekt\PenAndPapAR -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\IdeaProjects\PenAndPapARGDD\Unity_Projekt\PenAndPapAR" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -76,7 +74,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="E:\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath E:\IdeaProjects\PenAndPapARGDD\Unity_Projekt\PenAndPapAR -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="E:\IdeaProjects\PenAndPapARGDD\Unity_Projekt\PenAndPapAR" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -139,6 +137,7 @@
       <workItem from="1737893750499" duration="1058000" />
       <workItem from="1737902645751" duration="807000" />
       <workItem from="1737907857873" duration="7685000" />
+      <workItem from="1737927657166" duration="681000" />
     </task>
     <servers />
   </component>
