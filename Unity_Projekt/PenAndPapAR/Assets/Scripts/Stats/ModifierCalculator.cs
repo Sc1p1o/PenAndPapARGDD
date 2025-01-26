@@ -16,7 +16,10 @@ namespace Stats
                 string attributeValueString = attributeValueObject.GetComponent<TextMeshProUGUI>().text;
                 if(int.TryParse(attributeValueString, out int resultValue))
                 {
-                    
+                    TextMeshProUGUI modifierValue = modifierValueObject.GetComponent<TextMeshProUGUI>();
+                    int modifierInt = (resultValue - 10) / 2;
+                    modifierValue.text = modifierInt.ToString();
+
                 }
 
             }
