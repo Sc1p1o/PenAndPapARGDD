@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f7f2f27014dbb794e903597f5a22f214
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - noteTitlePrefab: {fileID: 1276583465162849166, guid: 7abcf2a617869124db2af34b877e10a4, type: 3}
+  - contentTransform: {instanceID: 0}
+  - listPanel: {instanceID: 0}
+  - writingPanel: {instanceID: 0}
+  - notesInputField: {instanceID: 0}
+  - titleInputField: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
