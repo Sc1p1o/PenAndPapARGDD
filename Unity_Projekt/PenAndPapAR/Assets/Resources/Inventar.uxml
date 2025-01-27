@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/InventarStyle.uss?fileID=7433441132597879392&amp;guid=9753f4d3257623f4689024f1c5abfb8a&amp;type=3#InventarStyle" />
+    <engine:VisualElement name="Container" style="flex-grow: 1;">
+        <engine:Label text="Inventory&#10;" name="InventarTop" class="header" />
+        <engine:ListView name="InventarScroll" />
+        <engine:Button text="Button" class="button" />
+        <engine:Button class="button" />
+        <engine:Button text="Button" class="button" />
+        <engine:Button text="Button" class="button" />
+        <engine:Button text="Button" class="button" />
+        <engine:Button text="Button" class="button" />
+    </engine:VisualElement>
+</engine:UXML>

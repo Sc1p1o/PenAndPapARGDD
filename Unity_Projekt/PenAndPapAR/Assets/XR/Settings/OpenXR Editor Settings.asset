@@ -15,7 +15,8 @@ MonoBehaviour:
   Keys: 07000000010000000e000000
   Values:
   - featureSets: []
-  - featureSets: []
+  - featureSets:
+    - com.microsoft.openxr.featureset.wmr
   - featureSets:
     - com.microsoft.openxr.featureset.hololens
   m_vulkanAdditionalGraphicsQueue: 0
