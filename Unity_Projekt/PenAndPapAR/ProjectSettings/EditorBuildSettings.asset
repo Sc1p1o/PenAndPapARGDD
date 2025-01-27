@@ -8,12 +8,19 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
+  - enabled: 1
+    path: Assets/Scenes/StatsScene.unity
+    guid: 5ffe98e3971219340b0e4195034836d3
+  - enabled: 0
+    path: Assets/Scenes/InventoryScene.unity
+    guid: 515bcb5c07e978749ab770cac951eab4
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260, type: 2}
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: dc5a169419fa04987b057f65238cf3ba, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6c167fe159386214697618eba0781b1a, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: ca112c1a4f298de46b1f76e8a9100644, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: f8a442de0c8906f4d9c00184993fc289, type: 2}
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: b72ab2a46d9094be38774d023beb4d34, type: 3}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 4f9af1d6385b042438c6a55ee5d2d081, type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 43e231e21fbbf574a9be9d5f1a44b151, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f03eb1b4b5cc1ad43b7d0440a4990e9d, type: 2}
