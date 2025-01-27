@@ -11,6 +11,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Unity_Projekt/PenAndPapAR/TestBuilds" />
       <excludeFolder url="file://$MODULE_DIR$/Unity_Projekt/PenAndPapAR/TestBuilds/HoloLens2/Il2CppOutputProject/IL2CPP/build" />
       <excludeFolder url="file://$MODULE_DIR$/Unity_Projekt/PenAndPapAR/TestBuilds/HoloLens2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Unity_Projekt/PenAndPapAR/Temp" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
