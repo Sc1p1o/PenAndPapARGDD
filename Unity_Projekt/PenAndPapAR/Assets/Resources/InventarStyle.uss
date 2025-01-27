@@ -1,0 +1,11 @@
+VisualElement {
+}
+
+.header {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.button {
+    font-size: 20px;
+}
