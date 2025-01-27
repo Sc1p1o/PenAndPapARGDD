@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="323767f5-8694-4a36-8f48-974dd44ee3cc" name="Changes" comment="new branch + implement">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/.idea/.idea.PenAndPapAR/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/Packages-Update.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-AssetImportWorker0-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-AssetImportWorker1-0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unity_Projekt/PenAndPapAR/Logs/shadercompiler-UnityShaderCompiler.exe-0.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="clenk_Inventar" />
+        <entry key="$PROJECT_DIR$" value="mmiller_jkerz_10_stats_layer1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -233,30 +241,11 @@
       <option name="project" value="LOCAL" />
       <updated>1737976768192</updated>
     </task>
-    <task id="LOCAL-00018" summary="new branch + implement">
-      <option name="closed" value="true" />
-      <created>1737977004763</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1737977004763</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added keypoints for GDD topics" />
@@ -282,6 +271,7 @@
     <MESSAGE value="Started StatsLayer3 TopLine" />
     <MESSAGE value="Implemented Attribute Script in Layer 3" />
     <MESSAGE value="new branch + implement" />
-    <option name="LAST_COMMIT_MESSAGE" value="new branch + implement" />
+    <MESSAGE value="added Item script and working on Inventar UI + style" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Item script and working on Inventar UI + style" />
   </component>
 </project>
