@@ -18,6 +18,8 @@ public class NotesListManager : MonoBehaviour
     private string currentEditingNoteTitle = ""; // Tracks the currently edited note
     private Dictionary<string, string> savedNotes = new Dictionary<string, string>(); // Stores notes by title
 
+    public NotepadInteraction notepadInteraction; // Reference to the NotepadInteraction script
+
     private void Start()
     {
         // Ensure list panel is active initially
@@ -125,6 +127,12 @@ private void AddNoteToList(string noteTitle)
     public void CloseListPanel()
     {
         listPanel.SetActive(false);
+
+        // Rotate the notepad back to 90 degrees (closed position)
+        if (notepadInteraction != null)
+        {
+            notepadInteraction.RotateNotepadBack(); // Rotate to 90 degrees
+        }
     }
 
     private void PopulateNoteList()
@@ -149,6 +157,12 @@ private void AddNoteToList(string noteTitle)
         notesButton.SetActive(true); // Show the "Notes" button again
         closeListButton.SetActive(false); // Hide the "Close List" button
         listPanel.SetActive(false); // Hide the notes list
+
+        // Rotate the notepad back to 90 degrees (closed position)
+        if (notepadInteraction != null)
+        {
+            notepadInteraction.RotateNotepadBack(); // Rotate to 90 degrees
+        }
     }
 
 // Show the Notes list when clicking the "Notes" button
@@ -157,5 +171,11 @@ private void AddNoteToList(string noteTitle)
         notesButton.SetActive(false); // Hide the "Notes" button
         closeListButton.SetActive(true); // Show the "Close List" button
         listPanel.SetActive(true); // Show the notes list
+
+        // Rotate the notepad to 30 degrees (open position)
+        if (notepadInteraction != null)
+        {
+            notepadInteraction.RotateNotepadToOpen(); // Rotate to 30 degrees
+        }
     }
 }
