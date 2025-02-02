@@ -7,7 +7,6 @@ public class NotepadInteraction : MonoBehaviour
     public float rotationDuration = 0.5f; // Duration of rotation
     public float openRotationX = 30f; // Rotation when open
     public float closedRotationX = 90f; // Rotation when closed
-
     private bool isOpen = false; // Tracks if the notepad is open
     private bool isRotating = false; // Prevents multiple rotations
 
