@@ -7,26 +7,27 @@ namespace Stats
 {
     public class DetermineProficiency : MonoBehaviour
     {
-        private string _labelName;
+        private Text _label;
+        
         public Toggle proficiencyToggle; 
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            Text label = proficiencyToggle.GetComponentInChildren<Text>();
-            _labelName = label.text;
+            _label = proficiencyToggle.GetComponentInChildren<Text>();
             
 
-            StatsValuesDB.OnStatsUpdated += SetToggle;
+            DBConnector.OnStatsUpdated += SetToggle;
+            SetToggle();
         }
 
         void OnEnable()
         {
-            StatsValuesDB.OnStatsUpdated += SetToggle;
+            DBConnector.OnStatsUpdated += SetToggle;
         }
 
         void OnDisable()
         {
-            StatsValuesDB.OnStatsUpdated -= SetToggle;
+            DBConnector.OnStatsUpdated -= SetToggle;
         }
 
         // Update is called once per frame
@@ -37,7 +38,10 @@ namespace Stats
 
         private void SetToggle()
         {
-            proficiencyToggle.isOn = StatsValuesDB.GetIsProficiency(_labelName);
+            if (_label)
+            {
+                proficiencyToggle.isOn = DBConnector.GetIsProficiency(_label.text);
+            }
         }
     }
 }

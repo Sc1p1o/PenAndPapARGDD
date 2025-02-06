@@ -1,5 +1,7 @@
+using Microsoft.MixedReality.Toolkit.Editor;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Utils;
 
 namespace Stats.OnStartUp
@@ -8,23 +10,27 @@ namespace Stats.OnStartUp
     
     {
         public GameObject proficiencyValue;
+        public GameObject loadedStatName;
+        private TextMeshProUGUI _statNameText;
         
-        TextMeshProUGUI proficiencyValueString;
+        private TextMeshProUGUI _statValueString;
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            proficiencyValueString = proficiencyValue.GetComponent<TextMeshProUGUI>();
-            StatsValuesDB.OnStatsUpdated += UpdateProficiency;
+            _statValueString = proficiencyValue.GetComponent<TextMeshProUGUI>();
+            DBConnector.OnStatsUpdated += UpdateStatsValue;
+            _statNameText = loadedStatName.GetComponent<TextMeshProUGUI>();
+
         }
     
         void OnEnable()
         {
-            StatsValuesDB.OnStatsUpdated += UpdateProficiency;
+            DBConnector.OnStatsUpdated += UpdateStatsValue;
         }
 
         void OnDisable()
         {
-            StatsValuesDB.OnStatsUpdated -= UpdateProficiency;
+            DBConnector.OnStatsUpdated -= UpdateStatsValue;
         }
 
         // Update is called once per frame
@@ -33,11 +39,11 @@ namespace Stats.OnStartUp
         
         }
 
-        private void UpdateProficiency()
+        private void UpdateStatsValue()
         {
-            string proficiencyBonusText = StatsValuesDB.GetProficiencyBonus().ToString();
+            string statValueText = DBConnector.GetStatValue(_statNameText.text).ToString();
             
-            proficiencyValueString.text = proficiencyBonusText;
+            _statValueString.text = statValueText;
         }
     }
 }

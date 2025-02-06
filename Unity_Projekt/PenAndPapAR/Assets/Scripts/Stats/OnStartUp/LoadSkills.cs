@@ -1,16 +1,19 @@
 using UnityEngine;
 
-public class LoadProficiencies : MonoBehaviour
+namespace Stats.OnStartUp
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class LoadProficiencies : MonoBehaviour
     {
+        // Start is called once before the first execution of Update after the MonoBehaviour is created
+        void Start()
+        {
         
-    }
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
+        // Update is called once per frame
+        void Update()
+        {
         
+        }
     }
 }

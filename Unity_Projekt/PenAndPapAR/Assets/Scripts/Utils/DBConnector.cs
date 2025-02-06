@@ -4,11 +4,11 @@ using UnityEngine.UI;
 
 namespace Utils
 {
-    public static class StatsValuesDB
+    public static class DBConnector
     {
         public static event Action OnStatsUpdated;
 
-        private static bool _isInitialized = false;
+        private static bool _isInitialized;
 
         private static int _strengthAttribute;
         private static int _dexterityAttribute;
@@ -36,15 +36,15 @@ namespace Utils
         private static string _characterGender;
         private static string _characterSubClass;
         
-        private static bool _isStrengthSavingThrowProficiency = false;
-        private static bool _isDexteritySavingThrowProficiency = false;
+        private static bool _isStrengthSavingThrowProficiency;
+        private static bool _isDexteritySavingThrowProficiency;
         private static bool _isIntelligenceSavingThrowProficiency = false;
         private static bool _isConstitutionSavingThrowProficiency = false;
         private static bool _isWisdomSavingThrowProficiency = false;
         private static bool _isCharismaSavingThrowProficiency = false;
 
         private static bool _isAthleticsSkillProficient = false;
-        private static bool _isAcrobaticsSkillProficient = false;
+        private static bool _isAcrobaticsSkillProficient;
         private static bool _isArcanaSkillProficient = false;
         private static bool _isSleightOfHandSkillProficient = false;
         private static bool _isHistorySkillProficient = false;
@@ -77,7 +77,7 @@ namespace Utils
             _isDexteritySavingThrowProficiency = true;
             _isAcrobaticsSkillProficient = true;
             
-            _proficiencyBonus = 2;
+            _proficiencyBonus = 4;
         }
         
         public static void Initialize()
@@ -87,8 +87,7 @@ namespace Utils
                 Debug.Log("StatsValuesDB is already initialized.");
                 return;
             }
-
-            LoadFromDB(); // Initialisiert die statische Klasse mit Werten
+            LoadFromDB();
             _isInitialized = true; // Verhindert erneute Initialisierung
             Debug.Log("StatsValuesDB has been initialized.");
             OnStatsUpdated?.Invoke();
@@ -101,7 +100,7 @@ namespace Utils
 
         }
         
-        public static int[] GetAttributes() => new int[]
+        public static int[] GetAttributes() => new[]
         {
             _strengthAttribute,
             _dexterityAttribute,
@@ -113,7 +112,7 @@ namespace Utils
 
         public static bool GetIsProficiency(string proficiencyName)
         {
-            switch (proficiencyName.ToLower())
+            switch (proficiencyName.ToLower()+"x")
             {
                 case "acrobatics":
                     return _isAcrobaticsSkillProficient;
@@ -169,10 +168,21 @@ namespace Utils
                 // Standard-Fallback für ungültige Namen
                 default:
                     Debug.LogWarning($"Proficiency name '{proficiencyName}' not recognized.");
-                    return false;
+                    return true;
             }
         }
-        
-        public static int GetProficiencyBonus() => _proficiencyBonus;
+
+        public static int GetStatValue(string statName)
+        {
+            switch (statName.ToLower())
+            {
+                case "proficiency bonus:":
+                    return _proficiencyBonus;
+                
+                default:
+                    Debug.LogWarning($"Proficiency name '{statName}' not recognized.");
+                    return 0;
+            }
+        }
     }
 }

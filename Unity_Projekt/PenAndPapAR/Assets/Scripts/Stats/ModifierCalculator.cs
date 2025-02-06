@@ -16,17 +16,18 @@ namespace Stats
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
+            DBConnector.OnStatsUpdated += LoadModifier;
             LoadModifier();
         }
 
         void OnEnable()
         {
-            StatsValuesDB.OnStatsUpdated += LoadModifier;
+            DBConnector.OnStatsUpdated += LoadModifier;
         }
 
         void OnDisable()
         {
-            StatsValuesDB.OnStatsUpdated -= LoadModifier;
+            DBConnector.OnStatsUpdated -= LoadModifier;
         }
 
         // Update is called once per frame

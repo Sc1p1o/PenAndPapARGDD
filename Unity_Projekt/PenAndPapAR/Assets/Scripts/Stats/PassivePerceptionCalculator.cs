@@ -15,17 +15,17 @@ namespace Stats
         void Start()
         {
             LoadPassivePerception();
-            StatsValuesDB.OnStatsUpdated += LoadPassivePerception;
+            DBConnector.OnStatsUpdated += LoadPassivePerception;
         }
         
         void OnEnable()
         {
-            StatsValuesDB.OnStatsUpdated += LoadPassivePerception;
+            DBConnector.OnStatsUpdated += LoadPassivePerception;
         }
 
         void OnDisable()
         {
-            StatsValuesDB.OnStatsUpdated -= LoadPassivePerception;
+            DBConnector.OnStatsUpdated -= LoadPassivePerception;
         }
 
         // Update is called once per frame
