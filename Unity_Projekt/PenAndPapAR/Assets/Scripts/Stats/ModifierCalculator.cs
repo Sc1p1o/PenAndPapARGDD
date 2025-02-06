@@ -2,6 +2,7 @@ using Microsoft.MixedReality.Toolkit;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Utils;
 
 namespace Stats
 {
@@ -16,6 +17,16 @@ namespace Stats
         void Start()
         {
             LoadModifier();
+        }
+
+        void OnEnable()
+        {
+            StatsValuesDB.OnStatsUpdated += LoadModifier;
+        }
+
+        void OnDisable()
+        {
+            StatsValuesDB.OnStatsUpdated -= LoadModifier;
         }
 
         // Update is called once per frame
@@ -59,6 +70,11 @@ namespace Stats
             else
             {
                 modifierInt = (attributeValue - 10) / 2;
+            }
+
+            if (attributeValue < 10)
+            {
+                modifierInt--;
             }
 
             modifierValueObject.GetComponent<TextMeshProUGUI>().text = modifierInt.ToString();

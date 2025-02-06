@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Utils;
 
 namespace Stats
 {
@@ -14,6 +15,17 @@ namespace Stats
         void Start()
         {
             LoadPassivePerception();
+            StatsValuesDB.OnStatsUpdated += LoadPassivePerception;
+        }
+        
+        void OnEnable()
+        {
+            StatsValuesDB.OnStatsUpdated += LoadPassivePerception;
+        }
+
+        void OnDisable()
+        {
+            StatsValuesDB.OnStatsUpdated -= LoadPassivePerception;
         }
 
         // Update is called once per frame
