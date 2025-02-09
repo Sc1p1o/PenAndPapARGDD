@@ -2,6 +2,7 @@ using GlobalEnums;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using Utils;
 
 namespace Stats
 {
@@ -12,6 +13,11 @@ namespace Stats
         public GameObject parentGameObject;
         public GameObject conditionPrefab;
 
+        public void Start()
+        {
+            
+        }
+        
         // Update is called once per frame
         public void Update()
         {
@@ -24,6 +30,16 @@ namespace Stats
             {
                 RemoveCondition(Condition.Frightened);
             }
+        }
+        
+        private void OnEnable()
+        {
+            DBConnector.OnStatsUpdated += LoadConditions;
+        }
+
+        private void OnDisable()
+        {
+            DBConnector.OnStatsUpdated -= LoadConditions;
         }
     
         public void AddCondition(Condition condition)
@@ -56,6 +72,11 @@ namespace Stats
             {
                 //TODO LOG AND EXCEPTION HANDLING
             }
+        }
+
+        public void LoadConditions()
+        {
+            
         }
     
     

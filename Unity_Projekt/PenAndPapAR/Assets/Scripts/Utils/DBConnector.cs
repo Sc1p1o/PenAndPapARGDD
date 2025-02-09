@@ -1,4 +1,5 @@
 using System;
+using GlobalEnums;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -18,6 +19,8 @@ namespace Utils
         private static int _charismaAttribute;
 
         private static int _proficiencyBonus;
+        
+        private static int _initiative;
 
         private static int _speed;
 
@@ -30,12 +33,18 @@ namespace Utils
 
         private static int _baseLevel;
 
+        private static int _exhaustionLevel;
+
         private static string _characterName;
         private static string _characterRace;
         private static string _characterClass;
         private static string _characterGender;
         private static string _characterSubClass;
+        private static int _characterLevel;
+        private static string _characterBackground;
+        private static string _characterAlignment;
         
+        // Saving Throw Proficiencies
         private static bool _isStrengthSavingThrowProficiency;
         private static bool _isDexteritySavingThrowProficiency;
         private static bool _isIntelligenceSavingThrowProficiency = false;
@@ -62,6 +71,22 @@ namespace Utils
         private static bool _isPersuasionSkillProficient = false;
         private static bool _isStealthSkillProficient = false;
         
+        // Armor Proficiencies
+        private static bool _isLightArmorProficient = true;
+        private static bool _isMediumArmorProficient = true;
+        private static bool _isHeavyArmorProficient = true;
+        private static bool _isShieldProficient = true;
+        
+        // Weapons Proficiencies
+        private static bool _isSimpleWeaponsProficient = true;
+        private static bool _isMartialWeaponsProficient = true;
+        private static bool _isImprovisedWeaponProficient = true;
+        
+        private static int _deathSaveSuccesses;
+        private static int _deathSaveFailures;
+        
+        private static Condition[] _conditions;
+        
         static void LoadFromDB()
         {
             //TODO DB Connection
@@ -78,6 +103,33 @@ namespace Utils
             _isAcrobaticsSkillProficient = true;
             
             _proficiencyBonus = 4;
+            
+            _exhaustionLevel = 4;
+            
+            _deathSaveSuccesses = 0;
+            _deathSaveFailures = 0;
+            _speed = 30;
+
+            _healthpointsTemporary = 10;
+            _healthpointsCurrent = 60;
+            _healthpointsMax = 70;
+            _nonLethalDamage = 0;
+
+            _baseAc = 10;
+
+            _initiative = 2;
+            
+            _characterName = "Test";
+            _characterRace = "Drow";
+            _characterClass = "Sorcerer";
+            _characterGender = "Female";
+            
+            _characterSubClass = "Draconic";
+            
+            _characterAlignment = "Chaotic Evil";
+            _characterBackground = "Acolyte";
+            
+            _characterLevel = 11;
         }
         
         public static void Initialize()
@@ -94,7 +146,7 @@ namespace Utils
 
         }
 
-        static void UpdateValues()
+        public static void UpdateValues()
         {
             OnStatsUpdated?.Invoke();
 
@@ -112,7 +164,7 @@ namespace Utils
 
         public static bool GetIsProficiency(string proficiencyName)
         {
-            switch (proficiencyName.ToLower()+"x")
+            switch (proficiencyName.ToLower())
             {
                 case "acrobatics":
                     return _isAcrobaticsSkillProficient;
@@ -164,11 +216,29 @@ namespace Utils
                     return _isWisdomSavingThrowProficiency;
                 case "charisma":
                     return _isCharismaSavingThrowProficiency;
-
+                
+                // Armor Proficiencies
+                case "light":
+                    return _isLightArmorProficient;
+                case "medium":
+                    return _isMediumArmorProficient;
+                case "heavy":
+                    return _isHeavyArmorProficient;
+                case "shield":
+                    return _isShieldProficient;
+                
+                // Weapon Proficiencies
+                case "simple":
+                    return _isSimpleWeaponsProficient;
+                case "martial":
+                    return _isMartialWeaponsProficient;
+                case "improvised":
+                    return _isImprovisedWeaponProficient;
+                    
                 // Standard-Fallback für ungültige Namen
                 default:
                     Debug.LogWarning($"Proficiency name '{proficiencyName}' not recognized.");
-                    return true;
+                    return false;
             }
         }
 
@@ -178,11 +248,64 @@ namespace Utils
             {
                 case "proficiency bonus:":
                     return _proficiencyBonus;
+                case "exhaustion":
+                    return _exhaustionLevel;
+                case "failed death saves":
+                    return _deathSaveFailures;
+                case "succeeded death saves":
+                    return _deathSaveSuccesses;
+                case "speed":
+                    return _speed;
+                case "temporal hp":
+                    return _healthpointsTemporary;
+                case "current hp":
+                    return _healthpointsCurrent;
+                case "max health":
+                    return _healthpointsMax;
+                case "non lethal dmg":
+                    return _nonLethalDamage;
+                case "armor class":
+                    return _baseAc;
+                case "initiative":
+                    return _initiative;
+                case "level":
+                    return _characterLevel;
                 
                 default:
                     Debug.LogWarning($"Proficiency name '{statName}' not recognized.");
                     return 0;
             }
+        }
+
+        public static string GetStatString(string statName)
+        {
+            switch (statName.ToLower())
+            {
+                case "charactername":
+                    return _characterName;
+                case "characterrace":
+                    return _characterRace;
+                case "characterclass":
+                    return _characterClass;
+                case "charactergender":
+                    return _characterGender;
+                case "subclass":
+                    return _characterSubClass;
+                case "characteralignment":
+                    return _characterAlignment;
+                case "characterbackground":
+                    return _characterBackground;
+                
+                
+                default:
+                    Debug.LogWarning($"Proficiency name '{statName}' not recognized.");
+                    return "";
+            }
+        }
+
+        public static void TriggerUpdate()
+        {
+            UpdateValues();
         }
     }
 }

@@ -1,4 +1,3 @@
-using Microsoft.MixedReality.Toolkit.Editor;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
@@ -9,17 +8,24 @@ namespace Stats.OnStartUp
     public class LoadStat : MonoBehaviour
     
     {
-        public GameObject proficiencyValue;
+        [FormerlySerializedAs("proficiencyValue")] public GameObject statValue;
         public GameObject loadedStatName;
+        public string statNameString = "";
         private TextMeshProUGUI _statNameText;
         
         private TextMeshProUGUI _statValueString;
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            _statValueString = proficiencyValue.GetComponent<TextMeshProUGUI>();
+            if (loadedStatName != null)
+            {
+                _statNameText = loadedStatName.GetComponent<TextMeshProUGUI>();
+                statNameString = _statNameText.text;
+            }
+            _statValueString = statValue.GetComponent<TextMeshProUGUI>();
+            
             DBConnector.OnStatsUpdated += UpdateStatsValue;
-            _statNameText = loadedStatName.GetComponent<TextMeshProUGUI>();
+            UpdateStatsValue();
 
         }
     
@@ -41,7 +47,8 @@ namespace Stats.OnStartUp
 
         private void UpdateStatsValue()
         {
-            string statValueText = DBConnector.GetStatValue(_statNameText.text).ToString();
+            if ((_statNameText == null) && statNameString == "") return;
+            string statValueText = DBConnector.GetStatValue(statNameString).ToString();
             
             _statValueString.text = statValueText;
         }

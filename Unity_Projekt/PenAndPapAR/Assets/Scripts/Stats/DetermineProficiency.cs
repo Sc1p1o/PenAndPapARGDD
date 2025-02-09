@@ -15,9 +15,8 @@ namespace Stats
         {
             _label = proficiencyToggle.GetComponentInChildren<Text>();
             
-
             DBConnector.OnStatsUpdated += SetToggle;
-            SetToggle();
+            DBConnector.TriggerUpdate();
         }
 
         void OnEnable()

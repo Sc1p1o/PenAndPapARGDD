@@ -13,12 +13,12 @@ namespace Stats
         void Start()
         {
             // Listener für Buttons hinzufügen
-            increaseButton.onClick.AddListener(IncreaseHPValue);
-            decreaseButton.onClick.AddListener(DecreaseHPValue);
+            increaseButton.onClick.AddListener(OnIncreaseHpValue);
+            decreaseButton.onClick.AddListener(OnDecreaseHpValue);
         }
 
         // Funktion zum Erhöhen der HP
-        void IncreaseHPValue()
+        void OnIncreaseHpValue()
         {
             // Lese aktuelle HP und maximale HP aus dem Text
             string text = hpText.text; // Beispiel: "HP: 42/50"
@@ -29,7 +29,7 @@ namespace Stats
                 if (currentHP < maxHP)
                 {
                     currentHP++;
-                    UpdateHPText(currentHP, maxHP);
+                    OnUpdateHPText(currentHP, maxHP);
                 }
             }
             else
@@ -39,7 +39,7 @@ namespace Stats
         }
 
         // Funktion zum Verringern der HP
-        void DecreaseHPValue()
+        void OnDecreaseHpValue()
         {
             // Lese aktuelle HP und maximale HP aus dem Text
             string text = hpText.text; // Beispiel: "HP: 42/50"
@@ -50,7 +50,7 @@ namespace Stats
                 if (currentHP > 0)
                 {
                     currentHP--;
-                    UpdateHPText(currentHP, maxHP);
+                    OnUpdateHPText(currentHP, maxHP);
                 }
             }
             else
@@ -60,7 +60,7 @@ namespace Stats
         }
 
         // Aktualisiert den HP-Text
-        void UpdateHPText(int currentHP, int maxHP)
+        void OnUpdateHPText(int currentHP, int maxHP)
         {
             hpText.text = $"HP: {currentHP}/{maxHP}";
 
