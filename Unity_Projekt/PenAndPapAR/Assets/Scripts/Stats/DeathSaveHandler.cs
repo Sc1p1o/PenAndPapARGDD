@@ -59,6 +59,8 @@ namespace Stats
         {
             _numberOfFailedDeathSaves = DBConnector.GetStatValue("failed death saves");
             _numberOfSucceededDeathSaves = DBConnector.GetStatValue("succeeded death saves");
+            
+            if((_failedDeathSaves == null) || (_succeededDeathSaves == null)) return;
             for (int i = 0; i < 3; i++)
             {
                 _failedDeathSaves[i].isOn = i < _numberOfFailedDeathSaves;

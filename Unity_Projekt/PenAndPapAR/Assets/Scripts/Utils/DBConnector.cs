@@ -130,6 +130,9 @@ namespace Utils
             _characterBackground = "Acolyte";
             
             _characterLevel = 11;
+            
+            _characterName = "Faelyndiira";
+            
         }
         
         public static void Initialize()
@@ -295,7 +298,6 @@ namespace Utils
                     return _characterAlignment;
                 case "characterbackground":
                     return _characterBackground;
-                
                 
                 default:
                     Debug.LogWarning($"Proficiency name '{statName}' not recognized.");

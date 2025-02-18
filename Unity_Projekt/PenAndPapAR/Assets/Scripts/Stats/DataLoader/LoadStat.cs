@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using Utils;
 
-namespace Stats.OnStartUp
+namespace Stats.DataLoader
 {
     public class LoadStat : MonoBehaviour
     
@@ -22,9 +22,12 @@ namespace Stats.OnStartUp
                 _statNameText = loadedStatName.GetComponent<TextMeshProUGUI>();
                 statNameString = _statNameText.text;
             }
-            _statValueString = statValue.GetComponent<TextMeshProUGUI>();
+
+            if (statValue != null)
+            {
+                _statValueString = statValue.GetComponent<TextMeshProUGUI>();
+            }
             
-            DBConnector.OnStatsUpdated += UpdateStatsValue;
             UpdateStatsValue();
 
         }
@@ -40,17 +43,14 @@ namespace Stats.OnStartUp
         }
 
         // Update is called once per frame
-        void Update()
-        {
-        
-        }
 
         private void UpdateStatsValue()
         {
-            if ((_statNameText == null) && statNameString == "") return;
-            string statValueText = DBConnector.GetStatValue(statNameString).ToString();
-            
-            _statValueString.text = statValueText;
+            if(_statValueString != null)
+            {
+                string statValueText = DBConnector.GetStatValue(statNameString).ToString();
+                _statValueString.text = statValueText;
+            }
         }
     }
 }

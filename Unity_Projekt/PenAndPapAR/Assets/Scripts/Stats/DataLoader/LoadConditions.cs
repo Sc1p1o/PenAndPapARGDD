@@ -1,7 +1,7 @@
 using UnityEngine;
 using Utils;
 
-namespace Stats.OnStartUp
+namespace Stats.DataLoader
 {
     public class LoadConditions : MonoBehaviour
     {

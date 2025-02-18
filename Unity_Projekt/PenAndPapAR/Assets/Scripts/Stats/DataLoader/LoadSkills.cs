@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Stats.OnStartUp
+namespace Stats.DataLoader
 {
     public class LoadProficiencies : MonoBehaviour
     {

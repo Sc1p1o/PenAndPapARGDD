@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using Utils;
 
-namespace Stats.OnStartUp
+namespace Stats.DataLoader
 {
     public class LoadStatString : MonoBehaviour
     {
@@ -18,6 +18,8 @@ namespace Stats.OnStartUp
                 _statNameText = statNameObject.GetComponent<TextMeshProUGUI>();
                 statNameString = statNameObject.name;
             }
+            
+            LoadString();
         }
 
         // Update is called once per frame
@@ -38,7 +40,10 @@ namespace Stats.OnStartUp
 
         public void LoadString()
         {
-            _statNameText.text = DBConnector.GetStatString(statNameString);
+            if (_statNameText != null)
+            {
+                _statNameText.text = DBConnector.GetStatString(statNameString);
+            }
         }
     }
 }

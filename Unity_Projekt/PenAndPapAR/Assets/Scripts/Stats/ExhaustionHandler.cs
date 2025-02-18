@@ -30,7 +30,6 @@ namespace Stats
                 exhaustionLevel6Toggle
             };
             LoadExhaustionLevels();
-            DBConnector.TriggerUpdate();
         }
     
         void OnEnable()
@@ -50,7 +49,8 @@ namespace Stats
         }
 
         public void LoadExhaustionLevels()
-        {
+        {   
+            if(_exhaustionToggles == null) return;
             _exhaustionLevel = DBConnector.GetStatValue("exhaustion");
             for (int i = 0; i < _exhaustionToggles.Length; i++)
             {
