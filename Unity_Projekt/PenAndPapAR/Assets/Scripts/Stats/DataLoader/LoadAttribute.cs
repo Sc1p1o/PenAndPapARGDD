@@ -13,6 +13,7 @@ namespace Stats.DataLoader
         [FormerlySerializedAs("IntelligenceValue")] public GameObject intelligenceValue;
         [FormerlySerializedAs("WisdomValue")] public GameObject wisdomValue;
         [FormerlySerializedAs("CharismaValue")] public GameObject charismaValue;
+        
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {

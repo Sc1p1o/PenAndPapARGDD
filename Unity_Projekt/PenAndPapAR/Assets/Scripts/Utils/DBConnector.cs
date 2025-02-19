@@ -132,7 +132,9 @@ namespace Utils
             _characterLevel = 11;
             
             _characterName = "Faelyndiira";
-            
+
+            _conditions = new Condition[2]{Condition.Frightened, Condition.Grappled};
+
         }
         
         public static void Initialize()
@@ -304,6 +306,8 @@ namespace Utils
                     return "";
             }
         }
+        
+        public static Condition[] GetConditions() => _conditions;
 
         public static void TriggerUpdate()
         {
