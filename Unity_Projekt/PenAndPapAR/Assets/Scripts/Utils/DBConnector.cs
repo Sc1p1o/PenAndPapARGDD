@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using GlobalEnums;
 using UnityEngine;
 using UnityEngine.UI;
@@ -85,7 +86,7 @@ namespace Utils
         private static int _deathSaveSuccesses;
         private static int _deathSaveFailures;
         
-        private static Condition[] _conditions;
+        private static List<Condition> _conditions = new List<Condition>();
         
         static void LoadFromDB()
         {
@@ -133,7 +134,8 @@ namespace Utils
             
             _characterName = "Faelyndiira";
 
-            _conditions = new Condition[2]{Condition.Frightened, Condition.Grappled};
+            _conditions.Add(Condition.Frightened);
+            _conditions.Add(Condition.Grappled);
 
         }
         
@@ -307,11 +309,25 @@ namespace Utils
             }
         }
         
-        public static Condition[] GetConditions() => _conditions;
+        public static List<Condition> GetConditions() => _conditions;
 
         public static void TriggerUpdate()
         {
             UpdateValues();
+        }
+
+        public static bool RemoveCondition(string conditionName)
+        {
+            Enum.TryParse(conditionName, out Condition conditionEnum);
+
+            if (_conditions.Remove(conditionEnum))
+            {
+                Debug.Log($"Condition {conditionEnum} successfully removed.");
+                return true;
+            }
+
+            Debug.LogWarning($"Condition {conditionEnum} not found.");
+            return false;
         }
     }
 }

@@ -1,4 +1,4 @@
-using System.Linq;
+using System.Collections.Generic;
 using GlobalEnums;
 using TMPro;
 using UnityEngine;
@@ -39,7 +39,7 @@ namespace Stats.DataLoader
         {
             if ((conditionLayout != null) && (conditionPrefab != null))
             {
-                Condition[] conditions = DBConnector.GetConditions();
+                List<Condition> conditions = DBConnector.GetConditions();
                 if( conditions == null) return;
                 
                 foreach (Condition condition in conditions)
@@ -75,6 +75,11 @@ namespace Stats.DataLoader
                 }
             }
             
+        }
+
+        public void RemoveClicked()
+        {
+            Debug.Log("Remove clicked");
         }
     }
 }
