@@ -3,7 +3,7 @@ using UnityEngine.UI;
 using Utils;
 using Toggle = UnityEngine.UI.Toggle;
 
-namespace Stats
+namespace Stats.Layer3
 {
     public class DetermineProficiency : MonoBehaviour
     {
@@ -16,7 +16,7 @@ namespace Stats
             _label = proficiencyToggle.GetComponentInChildren<Text>();
             
             DBConnector.OnStatsUpdated += SetToggle;
-            DBConnector.TriggerUpdate();
+            DBConnector.UpdateValues();
         }
 
         void OnEnable()

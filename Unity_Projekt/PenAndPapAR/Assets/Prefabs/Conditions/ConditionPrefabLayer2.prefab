@@ -152,7 +152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c6a4c155d1c474479893b94ad682b63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  conditionObjectSelf: {fileID: 2316023598607483857}
 --- !u!1 &4628279088468695063
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +309,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1838538002273819477}
-        m_TargetAssemblyTypeName: ConditionHandler, Assembly-CSharp
+        m_TargetAssemblyTypeName: Stats.ConditionHandler, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:

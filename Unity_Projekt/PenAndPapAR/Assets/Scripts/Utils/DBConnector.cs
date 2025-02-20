@@ -152,12 +152,6 @@ namespace Utils
             OnStatsUpdated?.Invoke();
 
         }
-
-        public static void UpdateValues()
-        {
-            OnStatsUpdated?.Invoke();
-
-        }
         
         public static int[] GetAttributes() => new[]
         {
@@ -253,6 +247,20 @@ namespace Utils
         {
             switch (statName.ToLower())
             {
+                case "strength_attribute":
+                    return _strengthAttribute;
+                case "dexterity_attribute":
+                    return _dexterityAttribute;
+                case "intelligence_attribute":
+                    return _intelligenceAttribute;
+                case "constitution_attribute":
+                    return _constitutionAttribute;
+                case "wisdom_attribute":
+                    return _wisdomAttribute;
+                case "charisma_attribute":
+                    return _charismaAttribute;
+                
+                
                 case "proficiency bonus:":
                     return _proficiencyBonus;
                 case "exhaustion":
@@ -310,12 +318,7 @@ namespace Utils
         }
         
         public static List<Condition> GetConditions() => _conditions;
-
-        public static void TriggerUpdate()
-        {
-            UpdateValues();
-        }
-
+        
         public static bool RemoveCondition(string conditionName)
         {
             Enum.TryParse(conditionName, out Condition conditionEnum);
@@ -328,6 +331,78 @@ namespace Utils
 
             Debug.LogWarning($"Condition {conditionEnum} not found.");
             return false;
+        }
+
+        public static bool SetIntValue(string statName, int value)
+        {
+            switch (statName.ToLower())
+            {
+                case "proficiency bonus:":
+                    _proficiencyBonus = value;
+                    return true;
+                case "exhaustion":
+                    _exhaustionLevel = value;
+                    return true;
+                case "failed death saves":
+                    _deathSaveFailures = value;
+                    return true;
+                case "succeeded death saves":
+                    _deathSaveSuccesses = value;
+                    return true;
+                case "speed":
+                    _speed = value;
+                    return true;
+                case "temporal hp":
+                    _healthpointsTemporary = value;
+                    return true;
+                case "current hp":
+                    _healthpointsCurrent = value;
+                    return true;
+                case "max health":
+                    _healthpointsMax = value;
+                    return true;
+                case "non lethal dmg":
+                    _nonLethalDamage = value;
+                    return true;
+                case "armor class":
+                    _baseAc = value;
+                    return true;
+                case "initiative":
+                    _initiative = value;
+                    return true;
+                case "level":
+                    _characterLevel = value;
+                    return true;
+                
+                case "strength_attribute":
+                    _strengthAttribute = value;
+                    return true;
+                case "dexterity_attribute":
+                    _dexterityAttribute = value;
+                    return true;
+                case "intelligence_attribute":
+                    _intelligenceAttribute = value;
+                    return true;
+                case "constitution_attribute":
+                    _constitutionAttribute = value;
+                    return true;
+                case "wisdom_attribute":
+                    _wisdomAttribute = value;
+                    return true;
+                case "charisma_attribute":
+                    _charismaAttribute = value;
+                    return true;
+                
+                default:
+                    Debug.LogWarning($"{statName} is not a valid stat.");
+                    return false;
+            }
+        }
+
+        public static void UpdateValues()
+        {
+            Debug.Log("Update Triggered");
+            OnStatsUpdated?.Invoke();
         }
     }
 }

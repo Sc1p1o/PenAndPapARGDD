@@ -2,7 +2,7 @@ using UnityEngine;
 using Utils;
 using Toggle = UnityEngine.UI.Toggle;
 
-namespace Stats
+namespace Stats.Layer3
 {
     public class ExhaustionHandler : MonoBehaviour
     {

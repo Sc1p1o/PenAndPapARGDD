@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using Utils;
 
-namespace Stats
+namespace Stats.Layer3
 {
     public class DeathSaveHandler : MonoBehaviour
     {

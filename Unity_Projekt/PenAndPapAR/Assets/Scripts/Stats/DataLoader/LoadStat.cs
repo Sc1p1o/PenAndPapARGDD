@@ -52,5 +52,16 @@ namespace Stats.DataLoader
                 _statValueString.text = statValueText;
             }
         }
+
+        public void ChangeStatByValue(int value)
+        {
+            int currentStatValue = DBConnector.GetStatValue(statNameString);
+            bool isChangeSuccessful = DBConnector.SetIntValue(statNameString, currentStatValue + value);
+            if (isChangeSuccessful)
+            {
+                DBConnector.UpdateValues();
+            }
+            else Debug.Log("Change failed");
+        }
     }
 }

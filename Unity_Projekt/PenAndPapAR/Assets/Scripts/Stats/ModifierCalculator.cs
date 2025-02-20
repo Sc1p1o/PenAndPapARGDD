@@ -38,6 +38,7 @@ namespace Stats
 
         public void LoadModifier()
         {
+            Debug.Log("LoadModifier");
             int modifierInt;
             bool appliesProficiency;
             int attributeValue;
