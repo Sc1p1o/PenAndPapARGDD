@@ -2,74 +2,77 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HPManager : MonoBehaviour
+namespace Stats
 {
-    public TextMeshProUGUI hpText;     // Referenz für den HP-Text (Anzeige)
-    public Button increaseButton;     // Button zum Erhöhen der HP
-    public Button decreaseButton;     // Button zum Verringern der HP
-
-    void Start()
+    public class HPManager : MonoBehaviour
     {
-        // Listener für Buttons hinzufügen
-        increaseButton.onClick.AddListener(IncreaseHPValue);
-        decreaseButton.onClick.AddListener(DecreaseHPValue);
-    }
+        public TextMeshProUGUI hpText;     // Referenz für den HP-Text (Anzeige)
+        public Button increaseButton;     // Button zum Erhöhen der HP
+        public Button decreaseButton;     // Button zum Verringern der HP
 
-    // Funktion zum Erhöhen der HP
-    void IncreaseHPValue()
-    {
-        // Lese aktuelle HP und maximale HP aus dem Text
-        string text = hpText.text; // Beispiel: "HP: 42/50"
-        string[] parts = text.Replace("HP: ", "").Split('/');
-
-        if (parts.Length == 2 && int.TryParse(parts[0], out int currentHP) && int.TryParse(parts[1], out int maxHP))
+        void Start()
         {
-            if (currentHP < maxHP)
+            // Listener für Buttons hinzufügen
+            increaseButton.onClick.AddListener(OnIncreaseHpValue);
+            decreaseButton.onClick.AddListener(OnDecreaseHpValue);
+        }
+
+        // Funktion zum Erhöhen der HP
+        void OnIncreaseHpValue()
+        {
+            // Lese aktuelle HP und maximale HP aus dem Text
+            string text = hpText.text; // Beispiel: "HP: 42/50"
+            string[] parts = text.Replace("HP: ", "").Split('/');
+
+            if (parts.Length == 2 && int.TryParse(parts[0], out int currentHP) && int.TryParse(parts[1], out int maxHP))
             {
-                currentHP++;
-                UpdateHPText(currentHP, maxHP);
+                if (currentHP < maxHP)
+                {
+                    currentHP++;
+                    OnUpdateHPText(currentHP, maxHP);
+                }
+            }
+            else
+            {
+                Debug.LogError("HP-Text ist ungültig. Format: 'HP: <currentHP>/<maxHP>' erforderlich.");
             }
         }
-        else
-        {
-            Debug.LogError("HP-Text ist ungültig. Format: 'HP: <currentHP>/<maxHP>' erforderlich.");
-        }
-    }
 
-    // Funktion zum Verringern der HP
-    void DecreaseHPValue()
-    {
-        // Lese aktuelle HP und maximale HP aus dem Text
-        string text = hpText.text; // Beispiel: "HP: 42/50"
-        string[] parts = text.Replace("HP: ", "").Split('/');
-
-        if (parts.Length == 2 && int.TryParse(parts[0], out int currentHP) && int.TryParse(parts[1], out int maxHP))
+        // Funktion zum Verringern der HP
+        void OnDecreaseHpValue()
         {
-            if (currentHP > 0)
+            // Lese aktuelle HP und maximale HP aus dem Text
+            string text = hpText.text; // Beispiel: "HP: 42/50"
+            string[] parts = text.Replace("HP: ", "").Split('/');
+
+            if (parts.Length == 2 && int.TryParse(parts[0], out int currentHP) && int.TryParse(parts[1], out int maxHP))
             {
-                currentHP--;
-                UpdateHPText(currentHP, maxHP);
+                if (currentHP > 0)
+                {
+                    currentHP--;
+                    OnUpdateHPText(currentHP, maxHP);
+                }
+            }
+            else
+            {
+                Debug.LogError("HP-Text ist ungültig. Format: 'HP: <currentHP>/<maxHP>' erforderlich.");
             }
         }
-        else
+
+        // Aktualisiert den HP-Text
+        void OnUpdateHPText(int currentHP, int maxHP)
         {
-            Debug.LogError("HP-Text ist ungültig. Format: 'HP: <currentHP>/<maxHP>' erforderlich.");
+            hpText.text = $"HP: {currentHP}/{maxHP}";
+
+            // Buttons aktivieren/deaktivieren, wenn Grenzen erreicht sind
+            increaseButton.interactable = currentHP < maxHP;
+            decreaseButton.interactable = currentHP > 0;
+
+            // Ändere Farbe basierend auf aktuellen HP
+            if (currentHP <= maxHP / 4)
+                hpText.color = Color.red; // Kritisch
+            else
+                hpText.color = Color.white; // Normal
         }
-    }
-
-    // Aktualisiert den HP-Text
-    void UpdateHPText(int currentHP, int maxHP)
-    {
-        hpText.text = $"HP: {currentHP}/{maxHP}";
-
-        // Buttons aktivieren/deaktivieren, wenn Grenzen erreicht sind
-        increaseButton.interactable = currentHP < maxHP;
-        decreaseButton.interactable = currentHP > 0;
-
-        // Ändere Farbe basierend auf aktuellen HP
-        if (currentHP <= maxHP / 4)
-            hpText.color = Color.red; // Kritisch
-        else
-            hpText.color = Color.white; // Normal
     }
 }
