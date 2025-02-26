@@ -1,4 +1,5 @@
 using Microsoft.MixedReality.Toolkit;
+using Stats.DataLoader;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -13,27 +14,46 @@ namespace Stats
         public Toggle proficiencyIndicatorObject;
         public GameObject proficiencyValueObject;
         
+        private Text _label;
+        
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
+            if (proficiencyIndicatorObject != null)
+            {
+                _label = proficiencyIndicatorObject.GetComponentInChildren<Text>();
+            }
             DBConnector.OnStatsUpdated += LoadModifier;
+            LoadProficiencies();
             LoadModifier();
         }
 
         void OnEnable()
         {
-            DBConnector.OnStatsUpdated += LoadModifier;
+            DBConnector.OnStatsUpdated += UpdateModifiers;
         }
 
         void OnDisable()
         {
-            DBConnector.OnStatsUpdated -= LoadModifier;
+            DBConnector.OnStatsUpdated -= UpdateModifiers;
         }
 
         // Update is called once per frame
         void Update()
         {
             
+        }
+
+        public void UpdateModifiers()
+        {
+            proficiencyIndicatorObject.isOn = DBConnector.GetIsProficiency(_label.text);
+            
+        }
+
+        public void LoadProficiencies()
+        {
+            proficiencyIndicatorObject.isOn = DBConnector.GetIsProficiency(_label.text);
+            LoadModifier();
         }
 
         public void LoadModifier()
@@ -80,6 +100,13 @@ namespace Stats
             }
 
             modifierValueObject.GetComponent<TextMeshProUGUI>().text = modifierInt.ToString();
+        }
+
+        public void UpdateProficiency()
+        {
+            DBConnector.SetBoolValue(_label.text, proficiencyIndicatorObject.isOn);
+            DBConnector.UpdateValues();
+
         }
     }
 }
