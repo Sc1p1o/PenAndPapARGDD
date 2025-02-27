@@ -15,18 +15,18 @@ namespace Stats.Layer3
         {
             _label = proficiencyToggle.GetComponentInChildren<Text>();
             
-            DBConnector.OnStatsUpdated += SetToggle;
+            DBConnector.OnStatsUpdated += LoadProficiency;
             DBConnector.UpdateValues();
         }
 
         void OnEnable()
         {
-            DBConnector.OnStatsUpdated += SetToggle;
+            DBConnector.OnStatsUpdated += LoadProficiency;
         }
 
         void OnDisable()
         {
-            DBConnector.OnStatsUpdated -= SetToggle;
+            DBConnector.OnStatsUpdated -= LoadProficiency;
         }
 
         // Update is called once per frame
@@ -35,12 +35,18 @@ namespace Stats.Layer3
         
         }
 
-        private void SetToggle()
+        public void LoadProficiency()
         {
             if (_label)
             {
                 proficiencyToggle.isOn = DBConnector.GetIsProficiency(_label.text);
             }
+        }
+
+        public void UpdateProficiency()
+        {
+            DBConnector.SetBoolValue(_label.text, proficiencyToggle.isOn);
+            DBConnector.UpdateValues();
         }
     }
 }

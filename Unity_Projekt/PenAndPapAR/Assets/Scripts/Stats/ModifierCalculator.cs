@@ -24,7 +24,10 @@ namespace Stats
                 _label = proficiencyIndicatorObject.GetComponentInChildren<Text>();
             }
             DBConnector.OnStatsUpdated += LoadModifier;
-            LoadProficiencies();
+            if (proficiencyIndicatorObject != null)
+            {
+                LoadProficiencies(); 
+            }
             LoadModifier();
         }
 
@@ -46,14 +49,21 @@ namespace Stats
 
         public void UpdateModifiers()
         {
-            proficiencyIndicatorObject.isOn = DBConnector.GetIsProficiency(_label.text);
+            if (proficiencyIndicatorObject != null && _label != null)
+            {
+                proficiencyIndicatorObject.isOn = DBConnector.GetIsProficiency(_label.text);
+            }
             
         }
 
         public void LoadProficiencies()
         {
-            proficiencyIndicatorObject.isOn = DBConnector.GetIsProficiency(_label.text);
-            LoadModifier();
+            
+            if (proficiencyIndicatorObject != null)
+            {
+                proficiencyIndicatorObject.isOn = DBConnector.GetIsProficiency(_label.text);
+                LoadModifier();
+            }
         }
 
         public void LoadModifier()
