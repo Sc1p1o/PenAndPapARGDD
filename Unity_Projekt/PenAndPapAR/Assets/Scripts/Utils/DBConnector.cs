@@ -399,6 +399,116 @@ namespace Utils
             }
         }
 
+        public static bool SetBoolValue(string statName, bool value)
+        {
+            switch (statName.ToLower())
+            {
+                case "acrobatics":
+                    _isAcrobaticsSkillProficient = value;
+                    return true;
+                case "athletics":
+                    _isAthleticsSkillProficient = value;
+                    return true;
+                case "sleight of hands":
+                    _isSleightOfHandSkillProficient = value;
+                    return true;
+                case "stealth":
+                    _isStealthSkillProficient = value;
+                    return true;
+                case "arcana":
+                    _isArcanaSkillProficient = value;
+                    return true;
+                case "history":
+                    _isHistorySkillProficient = value;
+                    return true;
+                case "investigation":
+                    _isInvestigationSkillProficient = value;
+                    return true;
+                case "nature":
+                    _isNatureSkillProficient = value;
+                    return true;
+                case "religion":
+                    _isReligionSkillProficient = value;
+                    return true;
+                case "animal handling":
+                    _isAnimalHandlingSkillProficient = value;
+                    return true;
+                case "insight":
+                    _isInsightSkillProficient = value;
+                    return true;
+                case "medicine":
+                    _isMedicineSkillProficient = value;
+                    return true;
+                case "perception":
+                    _isPerceptionSkillProficient = value;
+                    return true;
+                case "survival":
+                    _isSurvivalSkillProficient = value;
+                    return true;
+                case "deception":
+                    _isDeceptionSkillProficient = value;
+                    return true;
+                case "intimidation":
+                    _isIntimidationSkillProficient = value;
+                    return true;
+                case "performance":
+                    _isPerformanceSkillProficient = value;
+                    return true;
+                case "persuasion":
+                    _isPersuasionSkillProficient = value;
+                    return true;
+
+                // Saving Throws
+                case "strength":
+                    _isStrengthSavingThrowProficiency = value;
+                    return true;
+                case "dexterity":
+                    _isDexteritySavingThrowProficiency = value;
+                    return true;
+                case "intelligence":
+                    _isIntelligenceSavingThrowProficiency = value;
+                    return true;
+                case "constitution":
+                    _isConstitutionSavingThrowProficiency = value;
+                    return true;
+                case "wisdom":
+                    _isWisdomSavingThrowProficiency = value;
+                    return true;
+                case "charisma":
+                    _isCharismaSavingThrowProficiency = value;
+                    return true;
+
+                // Armor Proficiencies
+                case "light":
+                    _isLightArmorProficient = value;
+                    return true;
+                case "medium":
+                    _isMediumArmorProficient = value;
+                    return true;
+                case "heavy":
+                    _isHeavyArmorProficient = value;
+                    return true;
+                case "shield":
+                    _isShieldProficient = value;
+                    return true;
+
+                // Weapon Proficiencies
+                case "simple":
+                    _isSimpleWeaponsProficient = value;
+                    return true;
+                case "martial":
+                    _isMartialWeaponsProficient = value;
+                    return true;
+                case "improvised":
+                    _isImprovisedWeaponProficient = value;
+                    return true;
+                
+                default:
+                    Debug.LogWarning($"{statName} is not a valid Proficiency.");
+                    return false;
+            }
+        }
+
         public static void UpdateValues()
         {
             Debug.Log("Update Triggered");
