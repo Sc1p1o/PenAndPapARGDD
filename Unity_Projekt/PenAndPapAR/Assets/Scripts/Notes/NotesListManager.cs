@@ -18,6 +18,8 @@ public class NotesListManager : MonoBehaviour
     private string currentEditingNoteTitle = ""; // Tracks the currently edited note
     private Dictionary<string, string> savedNotes = new Dictionary<string, string>(); // Stores notes by title
 
+    public NotepadInteraction notepadInteraction; // Reference to the NotepadInteraction script
+
     private void Start()
     {
         // Ensure list panel is active initially
@@ -67,34 +69,34 @@ public class NotesListManager : MonoBehaviour
         // Return to the list panel
         SwitchToListPanel();
     }
-private void AddNoteToList(string noteTitle)
-{
-    // Instantiate the note title button
-    GameObject newButton = Instantiate(noteTitlePrefab, contentTransform);
+    private void AddNoteToList(string noteTitle)
+    {
+        // Instantiate the note title button
+        GameObject newButton = Instantiate(noteTitlePrefab, contentTransform);
 
-    // Ensure the new button's TMP_Text is updated
-    TMP_Text buttonText = newButton.GetComponentInChildren<TMP_Text>();
-    if (buttonText != null)
-    {
-        buttonText.text = noteTitle; // Set the button's title
-        Debug.Log($"Title set to: {noteTitle}");
-    }
-    else
-    {
-        Debug.LogError("TMP_Text component not found in noteTitlePrefab.");
-    }
+        // Ensure the new button's TMP_Text is updated
+        TMP_Text buttonText = newButton.GetComponentInChildren<TMP_Text>();
+        if (buttonText != null)
+        {
+            buttonText.text = noteTitle; // Set the button's title
+            Debug.Log($"Title set to: {noteTitle}");
+        }
+        else
+        {
+            Debug.LogError("TMP_Text component not found in noteTitlePrefab.");
+        }
 
-    // Add click listener to load the note
-    Button button = newButton.GetComponent<Button>();
-    if (button != null)
-    {
-        button.onClick.AddListener(() => LoadNote(noteTitle));
+        // Add click listener to load the note
+        Button button = newButton.GetComponent<Button>();
+        if (button != null)
+        {
+            button.onClick.AddListener(() => LoadNote(noteTitle));
+        }
+        else
+        {
+            Debug.LogError("Button component not found in noteTitlePrefab.");
+        }
     }
-    else
-    {
-        Debug.LogError("Button component not found in noteTitlePrefab.");
-    }
-}
 
     public void LoadNote(string noteTitle)
     {
@@ -125,6 +127,11 @@ private void AddNoteToList(string noteTitle)
     public void CloseListPanel()
     {
         listPanel.SetActive(false);
+        // Rotate the notepad back to 90 degrees (closed position)
+        if (notepadInteraction != null)
+        {
+            notepadInteraction.RotateNotepadBack(); // Rotate to 90 degrees
+        }
     }
 
     private void PopulateNoteList()
@@ -149,13 +156,24 @@ private void AddNoteToList(string noteTitle)
         notesButton.SetActive(true); // Show the "Notes" button again
         closeListButton.SetActive(false); // Hide the "Close List" button
         listPanel.SetActive(false); // Hide the notes list
+        // Rotate the notepad back to 90 degrees (closed position)
+        if (notepadInteraction != null)
+        {
+            notepadInteraction.RotateNotepadBack(); // Rotate to 90 degrees
+        }
     }
 
-// Show the Notes list when clicking the "Notes" button
+    // Show the Notes list when clicking the "Notes" button
     public void OpenNotesList()
     {
         notesButton.SetActive(false); // Hide the "Notes" button
         closeListButton.SetActive(true); // Show the "Close List" button
         listPanel.SetActive(true); // Show the notes list
+
+        // Rotate the notepad to 30 degrees (open position)
+        if (notepadInteraction != null)
+        {
+            notepadInteraction.RotateNotepadToOpen(); // Rotate to 30 degrees
+        }
     }
 }
