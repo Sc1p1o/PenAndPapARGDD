@@ -1,19 +1,21 @@
 using UnityEngine;
 
-public class InventoryManager : MonoBehaviour
-{
-    public Items[] items;
-    public GameObject buttonPrefab;
-    public GameObject buttonContainer;
-
-    private void Start()
+namespace Inventory{
+    public class InventoryManager : MonoBehaviour
     {
-        foreach(Items items in items)
+        public Items[] items;
+        public GameObject buttonPrefab;
+        public GameObject buttonContainer;
+
+        private void Start()
         {
-            GameObject go = Instantiate(buttonPrefab);
-            go.transform.SetParent(buttonContainer.transform);
-            go.GetComponent<ItemButton>().item = items;
-            go.GetComponent<ItemButton>().setUI();
+            foreach(Items items in items)
+            {
+                GameObject go = Instantiate(buttonPrefab);
+                go.transform.SetParent(buttonContainer.transform);
+                go.GetComponent<ItemButton>().item = items;
+                go.GetComponent<ItemButton>().setUI();
+            }
         }
     }
 }

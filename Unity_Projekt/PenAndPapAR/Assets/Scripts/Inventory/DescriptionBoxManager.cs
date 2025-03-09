@@ -2,45 +2,48 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public class DescriptionBoxManager : MonoBehaviour
-{
-    public TextMeshProUGUI itemName;
-    public TextMeshProUGUI itemDescription;
-    public TextMeshProUGUI itemWeight;
-    //public Image itemSprite;
+namespace Inventory{
 
-    public Items currentItem;
-
-    private static DescriptionBoxManager instance;
-
-    private void Awake()
+    public class DescriptionBoxManager : MonoBehaviour
     {
-        if (instance == null)
+        public TextMeshProUGUI itemName;
+        public TextMeshProUGUI itemDescription;
+        public TextMeshProUGUI itemWeight;
+        //public Image itemSprite;
+
+        public Items currentItem;
+
+        private static DescriptionBoxManager instance;
+
+        private void Awake()
         {
-            instance = this;
+            if (instance == null)
+            {
+                instance = this;
 
-            itemName.text = "";
-            itemDescription.text = "";
-            itemWeight.text = "0";
-            //itemSprite.gameObject.SetActive(false);
+                itemName.text = "";
+                itemDescription.text = "";
+                itemWeight.text = "0";
+                //itemSprite.gameObject.SetActive(false);
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
-        else
+
+        public static void SetUI(Items items)
         {
-            Destroy(gameObject);
+            instance.currentItem = items;
+
+        // if (!instance.itemSprite.IsActive())
+               //- instance.itemSprite.gameObject.SetActive(true);
+
+            instance.itemName.text = items.name;
+            instance.itemDescription.text = items.itemDescription;
+            instance.itemWeight.text = items.itemWeight.ToString();
+            //instance.itemSprite.sprite = items.itemSprite;
+
         }
-    }
-
-    public static void SetUI(Items items)
-    {
-        instance.currentItem = items;
-
-       // if (!instance.itemSprite.IsActive())
-           //- instance.itemSprite.gameObject.SetActive(true); 
-
-        instance.itemName.text = items.name;
-        instance.itemDescription.text = items.itemDescription;
-        instance.itemWeight.text = items.itemWeight.ToString();
-        //instance.itemSprite.sprite = items.itemSprite;
-
     }
 }
