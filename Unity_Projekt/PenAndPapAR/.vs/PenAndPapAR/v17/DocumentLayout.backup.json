@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\zwieb\\IdeaProjects\\PenAndPapARGDD\\Unity_Projekt\\PenAndPapAR\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{58FA300C-B076-6524-302C-72F3388E218D}|Assembly-CSharp.csproj|c:\\users\\zwieb\\ideaprojects\\penandpapargdd\\unity_projekt\\penandpapar\\assets\\scripts\\stats\\layer1\\buttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58FA300C-B076-6524-302C-72F3388E218D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stats\\layer1\\buttonhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{58FA300C-B076-6524-302C-72F3388E218D}|Assembly-CSharp.csproj|c:\\users\\zwieb\\ideaprojects\\penandpapargdd\\unity_projekt\\penandpapar\\assets\\globalenums\\conditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{58FA300C-B076-6524-302C-72F3388E218D}|Assembly-CSharp.csproj|solutionrelative:assets\\globalenums\\conditions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ButtonHandler.cs",
+              "DocumentMoniker": "C:\\Users\\zwieb\\IdeaProjects\\PenAndPapARGDD\\Unity_Projekt\\PenAndPapAR\\Assets\\Scripts\\Stats\\Layer1\\ButtonHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Stats\\Layer1\\ButtonHandler.cs",
+              "ToolTip": "C:\\Users\\zwieb\\IdeaProjects\\PenAndPapARGDD\\Unity_Projekt\\PenAndPapAR\\Assets\\Scripts\\Stats\\Layer1\\ButtonHandler.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Stats\\Layer1\\ButtonHandler.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T13:15:20.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "conditions.cs",
               "DocumentMoniker": "C:\\Users\\zwieb\\IdeaProjects\\PenAndPapARGDD\\Unity_Projekt\\PenAndPapAR\\Assets\\GlobalEnums\\conditions.cs",
               "RelativeDocumentMoniker": "Assets\\GlobalEnums\\conditions.cs",
