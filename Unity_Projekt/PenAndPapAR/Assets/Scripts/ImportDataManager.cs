@@ -44,7 +44,7 @@ public class ImportDataManager : MonoBehaviour
     // Methode für den Add Button (ohne Funktion)
     public void OnAddButtonClick()
     {
-        Debug.Log("Add Button wurde gedrückt, aber keine Funktion zugewiesen");
+        Debug.Log("Add Button wurde gedrückt, aber keine Funktion zugewiesen. Plan QR Code Scanner.");
     }
 
     // Methode für den Load Button (letzten oder Standard-Link laden)
@@ -55,8 +55,6 @@ public class ImportDataManager : MonoBehaviour
 
         Debug.Log("Lade Sheet-Link: " + lastSheetLink);
 
-        // Hier kannst du den Link weiterverarbeiten (z. B. in einem Browser öffnen)
-        // Beispiel: Application.OpenURL(lastSheetLink);
     }
 
     // Methode, um den aktuellen Link zu speichern
