@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ImportDataManager : MonoBehaviour
 {
@@ -21,13 +20,13 @@ public class ImportDataManager : MonoBehaviour
         }
     }
 
-    // Methode, um das Panel zu öffnen
+    // Methode, um das Panel zu öffnen oder zu schließen
     public void OnOpenCharacterSheetButtonClick()
     {
         if (characterSheetPanel != null)
         {
-            // Aktiviere das Panel
-            characterSheetPanel.SetActive(true);
+            // Schalte die Sichtbarkeit des Panels um
+            characterSheetPanel.SetActive(!characterSheetPanel.activeSelf);
         }
     }
 
