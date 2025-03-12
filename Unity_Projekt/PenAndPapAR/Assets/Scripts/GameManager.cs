@@ -4,6 +4,7 @@ using Utils;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public DBConnector dbConnection;
     
     private void Awake()
     {
@@ -22,7 +23,9 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        DBConnector.Initialize();
+        dbConnection = gameObject.AddComponent<DBConnector>();
+        
+        dbConnection.Initialize();
     }
 
     // Update is called once per frame

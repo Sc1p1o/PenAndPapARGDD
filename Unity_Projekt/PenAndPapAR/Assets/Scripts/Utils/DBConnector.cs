@@ -3,12 +3,16 @@ using System.Collections.Generic;
 using GlobalEnums;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
+using UnityEngine.Networking;
 
 namespace Utils
 {
     public class DBConnector : MonoBehaviour
     {
         public static event Action OnStatsUpdated;
+        
+        private static string _url = "http://127.0.0.1:8000/api/stats/?character_id=%230000";
 
         private static bool _isInitialized;
 
@@ -88,11 +92,29 @@ namespace Utils
         
         private static List<Condition> _conditions = new List<Condition>();
         
-        static void LoadFromDB()
+        private IEnumerator LoadFromDB()
         {
             //TODO DB Connection
 
             Debug.Log("Loading from DB");
+            
+            UnityWebRequest request = UnityWebRequest.Get(_url);
+            yield return request.SendWebRequest();
+
+            if (request.result == UnityWebRequest.Result.Success)
+            {
+                Debug.Log("Request successful");
+                string json_request = request.downloadHandler.text;
+                
+                
+                
+            }
+            else
+            {
+                Debug.Log("Request failed");
+            }
+            
+            Debug.Log("Loading from DB finished");
             /**
             _strengthAttribute = 18;
             _dexterityAttribute = 15;
@@ -142,7 +164,7 @@ namespace Utils
 
         }
         
-        public static void Initialize()
+        public void Initialize()
         {
             if (_isInitialized)
             {
@@ -151,10 +173,13 @@ namespace Utils
             }
             _isInitialized = true;
             Debug.Log("StatsValuesDB has been initialized.");
-            
+
+            StartCoroutine(LoadFromDB());
 
         }
-        
+
+
+
         public static int[] GetAttributes() => new[]
         {
             _strengthAttribute,
