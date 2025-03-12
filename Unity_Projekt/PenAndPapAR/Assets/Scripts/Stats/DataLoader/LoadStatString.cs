@@ -18,8 +18,8 @@ namespace Stats.DataLoader
                 _statNameText = statNameObject.GetComponent<TextMeshProUGUI>();
                 statNameString = statNameObject.name;
             }
+            DBConnector.OnStatsUpdated += LoadString;
             
-            LoadString();
         }
 
         // Update is called once per frame

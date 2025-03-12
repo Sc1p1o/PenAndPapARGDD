@@ -35,8 +35,8 @@ namespace Stats.Layer3
                 failedDeathSave3
             };
         
-            LoadDeathSaves();
-        
+            //LoadDeathSaves();
+            DBConnector.OnStatsUpdated += LoadDeathSaves;
         }
     
         void OnEnable()

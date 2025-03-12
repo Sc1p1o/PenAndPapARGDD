@@ -29,7 +29,8 @@ namespace Stats.Layer3
                 exhaustionLevel5Toggle,
                 exhaustionLevel6Toggle
             };
-            LoadExhaustionLevels();
+            //LoadExhaustionLevels();
+            DBConnector.OnStatsUpdated += LoadExhaustionLevels;
         }
     
         void OnEnable()

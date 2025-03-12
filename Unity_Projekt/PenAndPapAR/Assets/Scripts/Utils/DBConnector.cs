@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 namespace Utils
 {
-    public static class DBConnector
+    public class DBConnector : MonoBehaviour
     {
         public static event Action OnStatsUpdated;
 
@@ -48,29 +48,29 @@ namespace Utils
         // Saving Throw Proficiencies
         private static bool _isStrengthSavingThrowProficiency;
         private static bool _isDexteritySavingThrowProficiency;
-        private static bool _isIntelligenceSavingThrowProficiency = false;
-        private static bool _isConstitutionSavingThrowProficiency = false;
-        private static bool _isWisdomSavingThrowProficiency = false;
-        private static bool _isCharismaSavingThrowProficiency = false;
+        private static bool _isIntelligenceSavingThrowProficiency;
+        private static bool _isConstitutionSavingThrowProficiency;
+        private static bool _isWisdomSavingThrowProficiency;
+        private static bool _isCharismaSavingThrowProficiency;
 
-        private static bool _isAthleticsSkillProficient = false;
+        private static bool _isAthleticsSkillProficient;
         private static bool _isAcrobaticsSkillProficient;
-        private static bool _isArcanaSkillProficient = false;
-        private static bool _isSleightOfHandSkillProficient = false;
-        private static bool _isHistorySkillProficient = false;
-        private static bool _isInvestigationSkillProficient = false;
-        private static bool _isNatureSkillProficient = false;
-        private static bool _isReligionSkillProficient = false;
-        private static bool _isAnimalHandlingSkillProficient = false;
-        private static bool _isInsightSkillProficient = false;
-        private static bool _isMedicineSkillProficient = false;
-        private static bool _isPerceptionSkillProficient = false;
-        private static bool _isSurvivalSkillProficient = false;
-        private static bool _isDeceptionSkillProficient = false;
-        private static bool _isIntimidationSkillProficient = false;
-        private static bool _isPerformanceSkillProficient = false;
-        private static bool _isPersuasionSkillProficient = false;
-        private static bool _isStealthSkillProficient = false;
+        private static bool _isArcanaSkillProficient;
+        private static bool _isSleightOfHandSkillProficient;
+        private static bool _isHistorySkillProficient;
+        private static bool _isInvestigationSkillProficient;
+        private static bool _isNatureSkillProficient;
+        private static bool _isReligionSkillProficient;
+        private static bool _isAnimalHandlingSkillProficient;
+        private static bool _isInsightSkillProficient;
+        private static bool _isMedicineSkillProficient;
+        private static bool _isPerceptionSkillProficient;
+        private static bool _isSurvivalSkillProficient;
+        private static bool _isDeceptionSkillProficient;
+        private static bool _isIntimidationSkillProficient;
+        private static bool _isPerformanceSkillProficient;
+        private static bool _isPersuasionSkillProficient;
+        private static bool _isStealthSkillProficient;
         
         // Armor Proficiencies
         private static bool _isLightArmorProficient = true;
@@ -91,7 +91,9 @@ namespace Utils
         static void LoadFromDB()
         {
             //TODO DB Connection
-            
+
+            Debug.Log("Loading from DB");
+            /**
             _strengthAttribute = 18;
             _dexterityAttribute = 15;
             _intelligenceAttribute = 10;
@@ -136,6 +138,7 @@ namespace Utils
 
             _conditions.Add(Condition.Frightened);
             _conditions.Add(Condition.Grappled);
+            */
 
         }
         
@@ -146,10 +149,9 @@ namespace Utils
                 Debug.Log("StatsValuesDB is already initialized.");
                 return;
             }
-            LoadFromDB();
-            _isInitialized = true; // Verhindert erneute Initialisierung
+            _isInitialized = true;
             Debug.Log("StatsValuesDB has been initialized.");
-            OnStatsUpdated?.Invoke();
+            
 
         }
         
