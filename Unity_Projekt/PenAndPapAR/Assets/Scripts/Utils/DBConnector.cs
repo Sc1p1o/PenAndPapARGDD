@@ -92,6 +92,8 @@ namespace Utils
         
         private static List<Condition> _conditions = new List<Condition>();
         
+        
+        
         private IEnumerator LoadFromDB()
         {
             //TODO DB Connection
