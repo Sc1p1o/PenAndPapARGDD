@@ -16,7 +16,6 @@ namespace Stats.Layer3
             _label = proficiencyToggle.GetComponentInChildren<Text>();
             
             DBConnector.OnStatsUpdated += LoadProficiency;
-            DBConnector.UpdateValues();
         }
 
         void OnEnable()

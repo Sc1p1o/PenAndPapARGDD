@@ -3,14 +3,15 @@ using Utils;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager Instance;
+    public static GameManager instance;
+    public DBConnector dbConnection;
     
     private void Awake()
     {
         // Singleton-Setup
-        if (Instance == null)
+        if (instance == null)
         {
-            Instance = this;
+            instance = this;
             DontDestroyOnLoad(gameObject);
         }
         else
@@ -22,7 +23,9 @@ public class GameManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        DBConnector.Initialize();
+        dbConnection = gameObject.AddComponent<DBConnector>();
+        
+        dbConnection.Initialize();
     }
 
     // Update is called once per frame

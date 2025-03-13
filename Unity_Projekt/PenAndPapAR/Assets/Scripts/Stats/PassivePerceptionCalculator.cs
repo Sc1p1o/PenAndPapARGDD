@@ -14,7 +14,6 @@ namespace Stats
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
         {
-            LoadPassivePerception();
             DBConnector.OnStatsUpdated += LoadPassivePerception;
         }
         

@@ -27,9 +27,7 @@ namespace Stats.DataLoader
             {
                 _statValueString = statValue.GetComponent<TextMeshProUGUI>();
             }
-            
-            UpdateStatsValue();
-
+            DBConnector.OnStatsUpdated += UpdateStatsValue;
         }
     
         void OnEnable()
