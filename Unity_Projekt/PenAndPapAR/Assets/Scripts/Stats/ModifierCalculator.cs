@@ -18,17 +18,23 @@ namespace Stats
         
         // Start is called once before the first execution of Update after the MonoBehaviour is created
         void Start()
-        {
+        {   
+            DBConnector.OnStatsUpdated += LoadModifier;
+            
+            
             if (proficiencyIndicatorObject != null)
             {
                 _label = proficiencyIndicatorObject.GetComponentInChildren<Text>();
             }
-            DBConnector.OnStatsUpdated += LoadModifier;
+            
+            /**
             if (proficiencyIndicatorObject != null)
             {
                 LoadProficiencies(); 
             }
             LoadModifier();
+            */
+            
         }
 
         void OnEnable()
