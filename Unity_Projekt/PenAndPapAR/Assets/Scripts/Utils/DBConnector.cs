@@ -20,6 +20,8 @@ namespace Utils
 
         private static bool _isInitialized;
         
+        private static bool _savingToDB;
+        
         
         // Stats
         private static string _characterId;
@@ -180,7 +182,6 @@ namespace Utils
             {
                 Debug.Log("Request successful");
                 string jsonRequest = request.downloadHandler.text;
-                Debug.Log(jsonRequest);
                 
                 var data = JsonConvert.DeserializeObject<Root>(jsonRequest);
                 if (data != null && data.attributes != null)
@@ -261,7 +262,7 @@ namespace Utils
         private void SetSkills(List<Skills> skillList)
         {
             foreach (var skill in skillList)
-            {
+            {   
                 SetBoolValue(skill.skillName, skill.skillIsProficient);
                 SetBoolValue(skill.skillName + " expertise", skill.skillIsExpertise);
             }
@@ -300,6 +301,7 @@ namespace Utils
             }
             _isInitialized = true;
             Debug.Log("StatsValuesDB has been initialized.");
+            OnStatsUpdated += SyncWithDB;
 
             StartCoroutine(LoadFromDB());
 
@@ -777,6 +779,86 @@ namespace Utils
         {
             Debug.Log("Update Triggered");
             OnStatsUpdated?.Invoke();
+        }
+
+        private void SyncWithDB()
+        {
+            if (!_savingToDB)
+            {
+                _savingToDB = true;
+                StartCoroutine(SaveToDB());
+            }
+        }
+
+        private static IEnumerator SaveToDB()
+        {
+            Debug.Log("Saving to DB");
+
+            Root serializedRoot = new Root();
+            
+            serializedRoot.stats = new List<Stat>();
+            serializedRoot.attributes = new List<Attribute>();
+            serializedRoot.ac = new List<Ac>();
+            serializedRoot.savingThrowProficiencies = new List<SavingThrowProficiencies>();
+            serializedRoot.skills = new List<Skills>();
+            serializedRoot.hitPoints = new List<HitPoints>();
+            
+            serializedRoot.stats.Add(SerializeStats(new Stat(), serializedRoot));
+
+            
+            
+            UnityWebRequest request = UnityWebRequest.Put(_url, JsonConvert.SerializeObject(serializedRoot));
+            request.SetRequestHeader("Content-Type", "application/json");
+            Debug.Log(JsonConvert.SerializeObject(serializedRoot));
+            yield return request.SendWebRequest();
+
+            if (request.result == UnityWebRequest.Result.Success)
+            {
+                Debug.Log("Request successful");
+
+            }
+            else
+            {
+                Debug.Log("Request failed");
+            }
+            
+            _savingToDB = false;
+            Debug.Log("Saving To DB finished");
+
+        }
+
+        private static Stat SerializeStats(Stat serializedStats, Root root)
+        {
+            serializedStats.characterId = _characterId;
+            serializedStats.characterIsInspired = _isInspired;
+            serializedStats.characterName = _characterName;
+            serializedStats.characterClass = _characterClass;
+            serializedStats.characterRace = _characterRace;
+            serializedStats.characterBackground = _characterBackground;
+            serializedStats.characterSubclass = _characterSubClass;
+            serializedStats.characterLevel = _baseLevel;
+            serializedStats.characterAlignment = _characterAlignment;
+            serializedStats.characterConditions = TurnConditionToString(_conditions);
+            serializedStats.characterUpdateLink = _characterLink;
+            serializedStats.characterProficiencyBonus = _proficiencyBonus;
+            serializedStats.characterGender = _characterGender;
+            serializedStats.characterDeathSaveSuccess = _deathSaveSuccesses;
+            serializedStats.characterDeathSaveFailed = _deathSaveFailures;
+            serializedStats.characterExhaustion = _exhaustionLevel;
+            serializedStats.characterSpeed = _speed;
+            serializedStats.initiativeAdjustment = _initiativeAdjustment;
+            serializedStats.characterProficiencyBonusAdjustment = _proficiencyBonusAdjustment;
+            return serializedStats;
+        }
+
+        private static string TurnConditionToString(List<Condition> conditions)
+        {
+            string conditionString = "";
+            foreach (Condition condition in conditions)
+            {
+                conditionString += condition + " ";
+            }
+            return conditionString;
         }
     }
 }

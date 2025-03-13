@@ -5,7 +5,7 @@ namespace Utils.DB_Classes
 {
     public class Stat
     {
-        [JsonProperty("characert_id")]
+        [JsonProperty("character_id")]
         public string characterId { get; set; }
         
         [JsonProperty("character_is_inspired")]
@@ -23,7 +23,7 @@ namespace Utils.DB_Classes
         [JsonProperty("character_background")]
         public string characterBackground { get; set; }
         
-        [JsonProperty("character_subclasses")]
+        [JsonProperty("character_subclass")]
         public string characterSubclass { get; set; }
         
         [JsonProperty("character_level")]
