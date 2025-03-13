@@ -14,6 +14,18 @@ namespace Utils
 {
     public class DBConnector : MonoBehaviour
     {
+        private static readonly string[] attribute_strings =
+        {
+            "strength", "dexterity", "constitution", "intelligence", "wisdom", "charisma"
+        };
+
+        private static string[] skill_strings =
+        {
+            "athletics", "acrobatics", "arcana", "sleight_of_hand", "history", "investigation", "nature", "religion",
+            "animal_handling", "insight", "medicine", "perception", "survival", "deception", "intimidation", "performance",
+            "persuasion"
+        };
+        
         public static event Action OnStatsUpdated;
         
         private static string _url = "http://127.0.0.1:8000/api/stats/?character_id=%230000";
@@ -318,6 +330,8 @@ namespace Utils
                     return _isAthleticsSkillProficient;
                 case "sleight of hands":
                     return _isSleightOfHandSkillProficient;
+                case "sleight of hand":
+                    return _isSleightOfHandSkillProficient;
                 case "stealth":
                     return _isStealthSkillProficient;
                 case "arcana":
@@ -390,19 +404,20 @@ namespace Utils
 
         public static int GetStatValue(string statName)
         {
+            statName = statName.Replace("_", " ");
             switch (statName.ToLower())
             {
-                case "strength_attribute":
+                case "strength attribute":
                     return _strengthAttribute + _strengthAttributeAdjustment;
-                case "dexterity_attribute":
+                case "dexterity attribute":
                     return _dexterityAttribute + _dexterityAttributeAdjustment;
-                case "intelligence_attribute":
+                case "intelligence attribute":
                     return _intelligenceAttribute + _intelligenceAttributeAdjustment;
-                case "constitution_attribute":
+                case "constitution attribute":
                     return _constitutionAttribute + _constitutionAttributeAdjustment;
-                case "wisdom_attribute":
+                case "wisdom attribute":
                     return _wisdomAttribute + _wisdomAttributeAdjustment;
-                case "charisma_attribute":
+                case "charisma attribute":
                     return _charismaAttribute + _charismaAttributeAdjustment;
                 
                 
@@ -804,8 +819,23 @@ namespace Utils
             serializedRoot.hitPoints = new List<HitPoints>();
             
             serializedRoot.stats.Add(SerializeStats(new Stat(), serializedRoot));
+            foreach (string attribute in attribute_strings)
+            {
+                serializedRoot.attributes.Add(SerializeAttributes(attribute, serializedRoot));
+            }
+            serializedRoot.ac.Add(SerializeAc(new Ac(), serializedRoot));
 
+            foreach (string attribute in attribute_strings)
+            {
+                serializedRoot.savingThrowProficiencies.Add(SerializeSavingThrowProficiencies(attribute, serializedRoot));
+            }
+
+            foreach (string skill in skill_strings)
+            {
+                serializedRoot.skills.Add(SerializeSkills(skill, serializedRoot));
+            }
             
+            serializedRoot.hitPoints.Add(SerializeHitPoints(new HitPoints(), serializedRoot));
             
             UnityWebRequest request = UnityWebRequest.Put(_url, JsonConvert.SerializeObject(serializedRoot));
             request.SetRequestHeader("Content-Type", "application/json");
@@ -849,6 +879,51 @@ namespace Utils
             serializedStats.initiativeAdjustment = _initiativeAdjustment;
             serializedStats.characterProficiencyBonusAdjustment = _proficiencyBonusAdjustment;
             return serializedStats;
+        }
+
+        private static Attribute SerializeAttributes(string attribute, Root root)
+        {
+            Attribute serializedAttribute = new Attribute();
+            serializedAttribute.attributeName = attribute;
+            serializedAttribute.attributeValue = GetStatValue(attribute + "_attribute");
+            return serializedAttribute;
+        }
+
+        private static Ac SerializeAc(Ac serializedAc, Root root)
+        {
+            serializedAc.acModifier = _acAdjustment;
+            serializedAc.acBase = _baseAc;
+            serializedAc.acCharacter = _characterId;
+            return serializedAc;
+        }
+
+        private static SavingThrowProficiencies SerializeSavingThrowProficiencies(string savingThrow, Root root)
+        {
+            SavingThrowProficiencies serializedSavingThrow = new SavingThrowProficiencies();
+            serializedSavingThrow.savingThrowName = savingThrow;
+            serializedSavingThrow.savingThrowIsProficient = GetIsProficiency(savingThrow);
+            serializedSavingThrow.savingThrowAdjustment = 0;
+            return serializedSavingThrow;
+        }
+
+        private static Skills SerializeSkills(string skill, Root root)
+        {
+            Skills serializedSkill = new Skills();
+            serializedSkill.skillName = skill;
+            serializedSkill.skillIsProficient = GetIsProficiency(skill);
+            serializedSkill.skillIsExpertise = false;
+            serializedSkill.skillValue = 0;
+            return serializedSkill;
+        }
+
+        private static HitPoints SerializeHitPoints(HitPoints serializedHitPoints, Root root)
+        {
+            serializedHitPoints.nonLethalDamage = _nonLethalDamage;
+            serializedHitPoints.temporary = _healthpointsTemporary;
+            serializedHitPoints.current = _healthpointsCurrent;
+            serializedHitPoints.maximum = _healthpointsMax;
+            serializedHitPoints.hitPointsCharacter = _characterId;
+            return serializedHitPoints;
         }
 
         private static string TurnConditionToString(List<Condition> conditions)
