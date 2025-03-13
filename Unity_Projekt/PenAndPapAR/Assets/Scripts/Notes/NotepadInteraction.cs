@@ -1,14 +1,16 @@
+using Microsoft.MixedReality.Toolkit.Input;
 using UnityEngine;
 using System.Collections;
 
-public class NotepadInteraction : MonoBehaviour
+// Update your NotepadInteraction script to implement MRTK input interfaces
+public class NotepadInteraction : MonoBehaviour, IMixedRealityInputHandler, IMixedRealityPointerHandler
 {
-    public NotesListManager notesListManager; // Reference to the Notes UI Manager
-    public float rotationDuration = 0.5f; // Duration of rotation
-    public float openRotationX = 30f; // Rotation when open
-    public float closedRotationX = 90f; // Rotation when closed
-    private bool isOpen = false; // Tracks if the notepad is open
-    private bool isRotating = false; // Prevents multiple rotations
+    public NotesListManager notesListManager;
+    public float rotationDuration = 0.5f;
+    public float openRotationX = 30f;
+    public float closedRotationX = 90f;
+    private bool isOpen = false;
+    private bool isRotating = false;
 
     void Start()
     {
@@ -17,14 +19,60 @@ public class NotepadInteraction : MonoBehaviour
             notesListManager = FindObjectOfType<NotesListManager>();
         }
 
+        // Register for input events
+        Microsoft.MixedReality.Toolkit.CoreServices.InputSystem?.RegisterHandler<IMixedRealityInputHandler>(this);
+        Microsoft.MixedReality.Toolkit.CoreServices.InputSystem?.RegisterHandler<IMixedRealityPointerHandler>(this);
+
         // Ensure the initial rotation is set correctly
         transform.rotation = Quaternion.Euler(closedRotationX, transform.eulerAngles.y, transform.eulerAngles.z);
     }
 
-    void OnMouseDown()
+    void OnDestroy()
+    {
+        // Unregister from input events when destroyed
+        Microsoft.MixedReality.Toolkit.CoreServices.InputSystem?.UnregisterHandler<IMixedRealityInputHandler>(this);
+        Microsoft.MixedReality.Toolkit.CoreServices.InputSystem?.UnregisterHandler<IMixedRealityPointerHandler>(this);
+    }
+
+    // MRTK input handlers
+    public void OnInputDown(InputEventData eventData)
+    {
+        // Handle input down events if needed
+    }
+
+    public void OnInputUp(InputEventData eventData)
+    {
+        // Handle input up events if needed
+    }
+
+    // MRTK pointer handlers
+    public void OnPointerDown(MixedRealityPointerEventData eventData)
+    {
+        HandleNotepadClick();
+    }
+
+    public void OnPointerUp(MixedRealityPointerEventData eventData)
+    {
+        // Handle pointer up if needed
+    }
+
+    public void OnPointerClicked(MixedRealityPointerEventData eventData)
+    {
+        // This will also fire when the notepad is clicked
+        // You can use either this or OnPointerDown
+    }
+
+    public void OnPointerDragged(MixedRealityPointerEventData eventData)
+    {
+        // Handle dragging if needed
+    }
+
+    // Consolidated click handling logic
+    private void HandleNotepadClick()
     {
         if (isRotating) return; // Prevent clicking while rotating
-        Debug.Log("Notepad clicked!");
+        
+        Debug.Log("Notepad clicked via HoloLens!");
 
         if (notesListManager != null)
         {
