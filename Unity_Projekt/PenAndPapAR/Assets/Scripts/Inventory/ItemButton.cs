@@ -1,17 +1,20 @@
 using UnityEngine;
 using TMPro;
 
-public class ItemButton : MonoBehaviour
+namespace Inventory
 {
-    public TextMeshProUGUI buttonText;
-    public Items item;
+    public class ItemButton : MonoBehaviour
+    {
+        public TextMeshProUGUI buttonText;
+        public Items item;
 
-    public void setUI()
-    {
-        buttonText.text = item.itemName;
-    }
-    public void ButtonPressed()
-    {
-        DescriptionBoxManager.SetUI(item);
+        public void setUI()
+        {
+            buttonText.text = item.itemName;
+        }
+        public void ButtonPressed()
+        {
+            DescriptionBoxManager.SetUI(item);
+        }
     }
 }
