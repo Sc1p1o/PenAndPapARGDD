@@ -1,0 +1,81 @@
+%! Author = mmiller
+%! Date = 10.12.24
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+\usepackage{amsmath}
+\usepackage{titling}
+
+
+% Document
+\begin{document}
+
+    \title{Pen and PapAR}
+    \author{Martin Miller, Jannis Kerz, Cassandra Lenk und Salem Zin Ider Naser}
+
+    \maketitle
+    \newpage
+
+    \tableofcontents
+    \newpage
+
+    \section{Idee}\label{sec:chapter_idea}
+    \input{idee}
+
+    \section{Gameplay}\label{sec:chapter_gameplay}
+    \input{gameplay}
+
+    \section{Steuerung}\label{sec:chapter_controls}
+
+    - Steuerung durch Handbewegung und tippen mit Fingern auf 3D projizierte Items
+    - Klick auf Spieler öffnet detaillierte Übersicht über dessen Charakter
+    - Finger auseinander ziehen/zusammen ziehen bei Map, zoomt rein oder raus
+    - anklicken des eigenen Menüs gibt eigenen Charakter detailliert an
+    - anklicken kontrollierter NPCs gibt genauere Informationen zu diesen
+    - Map Auswahl geschieht über Menü
+
+    Die Steuerung soll hierbei vor allem durch die Handbewegungen geschehen, eventuell ist später auch eine
+    Sprachsteuerung
+
+    \subsection{The Player}\label{subsec:the-player}
+    DM
+
+
+    Regular PLayer
+
+
+    \section{Systems}\label{sec:systems}
+    - Hololens für AR
+    - Server für lokalen Mehrspielermodus
+    - JSON Files als Interface für 3D Map generierung
+    - im Multiplayer, Fog of War Mechanik und highlight für sichtbares Areal der Spieler
+
+    \section{UI und HUD}\label{sec:ui-und-hud}
+    Eigene Ansicht:
+    - Eigene HP, Rüstungsklasse und kontrollierte NPCs, sowie Statuseffekte als HUD
+    - Menü Aufruf öffnet Charakter sheet und erlaubt so eigene Stats zu verändern
+    - Menü für eigene Item (eigenes Inventar)
+    - Menü für eigene Spells
+
+    \section{Graphics/Visuals}\label{sec:graphics/visuals}
+    Spieler ansicht:
+    - Herz, welches die aktuellen HP anzeigt
+    - XP Balken
+    - Schild, das den aktuellen Verteidigungswert anzeigt
+    - aufzählung der jeweiligen Stärke, Intelligenz, Konstitution, Weisheit, Charisma
+    - evtl Minibild von kontrollierten NPCs
+    - kurzbild von Statuseffekten
+
+    Detaillierte Ansicht:
+    - genaue Charaktere Statistiken; Charaktersheet
+    - Informationen über Inventar (Inhalt, Platz, usw.)
+    - detaillierte Statuseffekte
+    - kontrollierte NPCs in Namensliste
+
+    \section{Soundeffects}\label{sec:soundeffects}
+    - Link zu Spotify/Youtube um Musik für Atmosphäre zu steuern
+    - evtl Soundeffekte für bestimmte Spiel Events, Explosionen, Angriffe
+
+\end{document}

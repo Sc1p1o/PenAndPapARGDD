@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  14 MAR 2025 00:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  14 MAR 2025 01:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**./main.tex
-(main.tex
+**./PenAndPapAR.tex
+(PenAndPapAR.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -103,34 +103,34 @@ tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count274
 \l__pdf_internal_box=\box53
-) (E:/IdeaProjects\PenAndPapARGDD\auxil\main.aux)
-\openout1 = `main.aux'.
+) (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.aux)
+\openout1 = `PenAndPapAR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 
-Overfull \hbox (15.82959pt too wide) in paragraph at lines 19--19
+Overfull \hbox (15.82959pt too wide) in paragraph at lines 18--18
  [] 
  []
 
 [1
 
 {C:/Users/maddi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(E:/IdeaProjects\PenAndPapARGDD\auxil\main.toc)
+(E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.toc)
 \tf@toc=\write3
-\openout3 = `main.toc'.
+\openout3 = `PenAndPapAR.toc'.
 
  [2] (idee.tex
 Overfull \hbox (5.76587pt too wide) in paragraph at lines 8--16
@@ -166,19 +166,19 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) (gameplay.tex)
-Overfull \hbox (4.78622pt too wide) in paragraph at lines 11--30
+) (gameplay.tex
+Overfull \hbox (4.78622pt too wide) in paragraph at lines 11--15
 \OT1/cmr/m/n/10.95 keine eigene ^^?offentlich zug^^?angliche API zur Verf^^?ugu
 ng stellt, muss der Charak-
  []
 
-[4]
-Overfull \hbox (7.49162pt too wide) in paragraph at lines 40--42
+) [4]
+Overfull \hbox (7.49162pt too wide) in paragraph at lines 39--41
 []\OT1/cmr/m/n/10.95 Die Steuerung soll hi-er-bei vor allem durch die Hand-be-w
 e-gun-gen geschehen,
  []
 
-[5] [6] (E:/IdeaProjects\PenAndPapARGDD\auxil\main.aux)
+[5] [6] (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
@@ -186,12 +186,12 @@ L3 programming layer <2024-02-13>
  ) 
 Here is how much of TeX's memory you used:
  1288 strings out of 474462
- 20159 string characters out of 5742883
+ 20285 string characters out of 5742883
  1932998 words of memory out of 5000000
  23634 multiletter control sequences out of 15000+600000
  564484 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,6n,65p,222b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 56i,6n,65p,229b,199s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb><C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -199,8 +199,8 @@ ublic/amsfonts/cm/cmr10.pfb><C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maddi/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/maddi/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on E:/IdeaProjects\PenAndPapARGDD\out\main.pdf (6 pages, 110091 
-bytes).
+Output written on E:/IdeaProjects\PenAndPapARGDD\out\PenAndPapAR.pdf (6 pages, 
+110634 bytes).
 PDF statistics:
  51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

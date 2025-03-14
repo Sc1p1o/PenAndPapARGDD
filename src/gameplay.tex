@@ -1,0 +1,17 @@
+\subsection{Core Game Loop}\label{subsec:chapter_gameloop}
+
+Beim Start lädt das Spiel automatisch den Character aus der Datenbank und füllt die verschiedenen Charaktereigenschaften
+mit den entsprechenden Informationen aus.\ Dann können die Spieler auch bereits loslegen und sind spielbereit.\ Durch
+Antippen der einzelnen Menüs können sie die kleinen Icons erweitern, um ausführlichere Charaktereigenschaften zu erhalten
+und abhängig davon in welchem Layer sie sich befinden, können sie dann auch mehr Eigenschaften bearbeiten.
+Auch können sie ihr Inventar verwalten und sich eigene Notizen machen, indem sie auf die jeweils anderen dazugehörigen
+Menüs tippen.\ Wenn die Spieler ihre Menüs erstmal aus dem Weg haben wollen, können sie diese durch gedrückt halten auf
+das Icon im ersten Layer in 3D Objekte verwandeln und dann im Raum abstellen, der ihnen besser passt.
+
+Auch können sie mit einer eigenen API ihren \textit{DnDBeyond} Charakter verwenden.\ Da \textit{DnDBeyond} nach unserem
+Wissensstand aktuell allerdings keine eigene öffentlich zugängliche API zur Verfügung stellt, muss der Charakter auf
+\textit{DnDBeyond} öffentlich einsehbar sein.\ Die Datenbank erlaubt dabei auch das Speichern mehrerer Charaktere, da
+diese automatisch mit einer ID versehen werden.\ Der Index reicht für 9.999 Charaktere pro Spieler.
+
+Aktionen, Zauber und Feats müssen aktuell allerdings noch in das Feld eingefügt werden.
+\newblock
