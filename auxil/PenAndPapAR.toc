@@ -1,9 +1,14 @@
-\contentsline {section}{\numberline {1}Idee}{3}{}%
-\contentsline {section}{\numberline {2}Gameplay}{4}{}%
-\contentsline {subsection}{\numberline {2.1}Core Game Loop}{4}{}%
-\contentsline {section}{\numberline {3}Steuerung}{5}{}%
-\contentsline {subsection}{\numberline {3.1}The Player}{5}{}%
-\contentsline {section}{\numberline {4}Systems}{5}{}%
-\contentsline {section}{\numberline {5}UI und HUD}{5}{}%
-\contentsline {section}{\numberline {6}Graphics/Visuals}{5}{}%
-\contentsline {section}{\numberline {7}Soundeffects}{6}{}%
+\contentsline {section}{\numberline {1}TODOs}{3}{}%
+\contentsline {section}{\numberline {2}Idee}{3}{}%
+\contentsline {section}{\numberline {3}Gameplay}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Core Game Loop}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Steuerung}{5}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Allgemeine Steuerung}{5}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Kartensteuerung}{6}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}PC Steuerung}{6}{}%
+\contentsline {subsection}{\numberline {3.3}Der Spieler}{6}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Der Mitspieler}{6}{}%
+\contentsline {section}{\numberline {4}Systems}{7}{}%
+\contentsline {section}{\numberline {5}UI und HUD}{7}{}%
+\contentsline {section}{\numberline {6}Graphics/Visuals}{7}{}%
+\contentsline {section}{\numberline {7}Soundeffects}{7}{}%

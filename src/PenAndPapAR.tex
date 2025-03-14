@@ -7,6 +7,8 @@
 % Packages
 \usepackage{amsmath}
 \usepackage{titling}
+\usepackage{graphicx}
+
 
 
 % Document
@@ -21,30 +23,24 @@
     \tableofcontents
     \newpage
 
+    \section{TODOs}\label{sec:todos}
+    Folgende Dinge sind im GDD bereits dokumentiert, aber noch nicht im Spiel implementiert:
+
+    \begin{itemize}
+        \item Icons und Graphics einbauen (Merge ausstehend, siehe Git)
+        \item einlesen von Texten via HoloLens (begonnen)
+        \item generierte 3D Karte (ausgearbeitet, wartend auf Abhängigkeiten)
+        \item Multiplayer
+        \item Spielleiter Ansicht
+        \item Aktionen und Zauber Menü
+    \end{itemize}
+
+
     \section{Idee}\label{sec:chapter_idea}
     \input{idee}
 
     \section{Gameplay}\label{sec:chapter_gameplay}
     \input{gameplay}
-
-    \section{Steuerung}\label{sec:chapter_controls}
-
-    - Steuerung durch Handbewegung und tippen mit Fingern auf 3D projizierte Items
-    - Klick auf Spieler öffnet detaillierte Übersicht über dessen Charakter
-    - Finger auseinander ziehen/zusammen ziehen bei Map, zoomt rein oder raus
-    - anklicken des eigenen Menüs gibt eigenen Charakter detailliert an
-    - anklicken kontrollierter NPCs gibt genauere Informationen zu diesen
-    - Map Auswahl geschieht über Menü
-
-    Die Steuerung soll hierbei vor allem durch die Handbewegungen geschehen, eventuell ist später auch eine
-    Sprachsteuerung
-
-    \subsection{The Player}\label{subsec:the-player}
-    DM
-
-
-    Regular PLayer
-
 
     \section{Systems}\label{sec:systems}
     - Hololens für AR
