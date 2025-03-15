@@ -158,4 +158,4 @@ public interface ISleepless
 
 ## Game Design Document
 
-Das vollständige Game Design Document (GDD) für Pen&PapAR kann [hier](out\PenAndPapAR.pdf) eingesehen werden.
+Das vollständige Game Design Document (GDD) für Pen&PapAR kann [hier](out/PenAndPapAR.pdf) eingesehen werden.
