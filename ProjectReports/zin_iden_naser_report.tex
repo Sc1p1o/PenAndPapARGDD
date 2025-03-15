@@ -1,0 +1,64 @@
+%! Author = Salem Zin Iden Naser
+%! Date = 14.03.2025
+
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{enumitem}
+
+\title{Pen and PapAR \\ \large --- Projektbericht ---}
+\author{Salem Zin Iden Naser}
+\date{14. März 2025}
+
+\begin{document}
+\maketitle
+
+\section{Einleitung}\label{sec:einleitung}
+Das vorliegende Projekt \textit{Pen and PapAR} hatte zum Ziel, die Vielzahl an physischen Spielunterlagen des Rollenspiels Dungeons \& Dragons in eine digitale Mixed-Reality-Umgebung zu überführen. Mithilfe der Microsoft HoloLens 2 in Kombination mit der Unity-Engine sollte es möglich werden, Regelbücher, Charakterbögen und weitere Spielmaterialien virtuell darzustellen. Dadurch wird der physische Spieltisch entlastet, sodass mehr Platz für Miniaturen, Snacks und andere reale Objekte zur Verfügung steht. Gleichzeitig soll der Einstieg für neue Spieler erleichtert werden, indem komplexe Regelwerke und Spielmechaniken durch interaktive digitale Hilfestellungen vereinfacht werden.
+
+\section{Ziel des Projekts}\label{sec:ziel}
+Das Projekt verfolgt folgende Hauptziele:
+\begin{itemize}[noitemsep]
+    \item Digitale Darstellung sämtlicher Spielunterlagen, um den physischen Platzbedarf zu reduzieren.
+    \item Verbesserung der Zugänglichkeit für neue Spieler durch eine intuitive und visuell unterstützte Benutzeroberfläche.
+    \item Integration von AR/VR-Interaktionen, sodass Nutzer mithilfe der HoloLens 2 direkt mit den Spielmaterialien interagieren können.
+\end{itemize}
+
+\section{Technische Umsetzung}\label{sec:technische_umsetzung}
+Die Umsetzung des Projekts erfolgte unter Einsatz der Microsoft HoloLens 2 und der Unity-Engine. Dabei kamen insbesondere folgende Ansätze zum Einsatz:
+
+\subsection{HoloLens 2}
+Die HoloLens 2 ist eine Mixed-Reality-Brille, die es ermöglicht, digitale Inhalte in die reale Umgebung zu projizieren. Dank hoher Hand- und Eye-Tracking-Präzision können Nutzer natürliche Interaktionen wie Air-Taps und Handgesten nutzen. Diese Eigenschaften machten die HoloLens 2 zu einem idealen Gerät für die Umsetzung unseres Projekts.
+
+\subsection{Unity und MRTK}
+Unity stellte die Entwicklungsumgebung dar, in der die digitalen Inhalte erstellt und in einer Mixed-Reality-Szene integriert wurden. Mit dem Mixed Reality Toolkit (MRTK) konnten komplexe Interaktionen (z. B. die Umsetzung von Near Interaction mittels NearInteractionTouchable) realisiert werden. So wurden:
+\begin{itemize}[noitemsep]
+    \item 3D-Objekte wie das digitale Notizbuch (Notepad) erstellt und so konfiguriert, dass sie auf Eingaben reagieren.
+    \item Benutzeroberflächen (UI-Elemente) im World Space Canvas angeordnet, um eine intuitive Bedienung zu ermöglichen.
+    \item Interaktionsskripte implementiert, die sowohl auf Desktop- als auch auf HoloLens-Eingaben reagieren.
+\end{itemize}
+
+\section{Projektverlauf und Herausforderungen}\label{sec:verlauf_herausforderungen}
+Aufgrund persönlicher Schwierigkeiten und anderer Lebensumstände begann ich erst verspätet mit dem Projekt. Dennoch konnte ich durch mein Vorwissen aus dem Vorjahr rasch in die Materie einsteigen. Als im Team Probleme mit Unreal Engine und der Integration der HoloLens auftraten, lag mein Schwerpunkt auf organisatorischen Aufgaben. Ich erstellte Templates für Meetings, Tickets und Merge-Requests und definierte Code-Standards, um den Projektablauf zu strukturieren. Da mir anfangs unklar war, wie das Spielkonzept aussehen sollte, konzentrierte ich mich vor allem auf die Planung und Strukturierung des Projekts.
+
+\subsection{Aufgabe 1: Erstellung des Notizen-Panels}
+Meine erste konkrete Aufgabe bestand darin, ein digitales Notizen-Panel in Unity zu entwickeln. Mithilfe von TextMeshPro wurden Eingabefelder für Notizinhalt und Titel implementiert, und über PlayerPrefs konnten die Daten lokal gespeichert werden. Ziel war es, eine Benutzeroberfläche zu schaffen, die sowohl auf dem Desktop als auch auf der HoloLens funktioniert, um den physischen Spieltisch zu entlasten.
+
+\subsection{Aufgabe 2: Verbindung eines 3D-Objekts mit der Notizenliste}
+Im nächsten Schritt wurde ein 3D-Notizbuch erstellt, das in der virtuellen Umgebung interaktiv werden sollte. Beim Klicken auf das Notizbuch sollte die Notizenliste erscheinen und das Notizbuch rotiert werden, sodass seine Vorderseite optimal der Kamera zugewandt ist. Hierfür entwickelte ich zwei Skripte: Eines zur Verarbeitung von Pointer-Eingaben (mittels IPointerClickHandler) und zur Steuerung der Rotationslogik, sodass das Notizbuch zwischen einer offenen (etwa 30° X-Rotation) und einer geschlossenen Position (etwa 90°) wechselt. Die Integration von MRTK-Komponenten, wie NearInteractionTouchable, war hierbei entscheidend, um die HoloLens-Interaktionen zu ermöglichen.
+
+\subsection{Aufgabe 3: Integration der HoloLens 2}
+Die finale Herausforderung bestand darin, die HoloLens 2 in das Projekt zu integrieren. Hierbei stieß ich auf erhebliche Schwierigkeiten, da viele der verfügbaren Tutorials und Dokumentationen veraltet waren – einige lagen zwei Jahre zurück – und nicht mehr den aktuellen Stand von Unity und MRTK widerspiegelten. Zudem fehlte mir zum Zeitpunkt der Integration ein tiefgehendes Wissen in Unity, was die Umsetzung der HoloLens-spezifischen Interaktionen zusätzlich erschwerte. Letztlich konnte ich zwar erreichen, dass das 3D-Notizbuch in der Mixed-Reality-Umgebung anklickbar war und die Notizenliste öffnete, jedoch blieben andere UI-Elemente teilweise unzugänglich. Diese Erfahrung machte deutlich, wie wichtig aktuelle Dokumentationen und vertiefte Kenntnisse in der Engine sind.
+
+\section{Fazit und Ausblick}\label{sec:fazit}
+Das Projekt \textit{Pen and PapAR} hat mir wertvolle Einblicke in die Entwicklung von Mixed-Reality-Anwendungen gegeben. Trotz eines verspäteten Projektbeginns und zahlreicher Herausforderungen – sowohl technischer als auch organisatorischer Natur – konnte ich wichtige Beiträge leisten. Ich war maßgeblich an der Erstellung des Notizen-Panels sowie der Integration und Interaktivität des 3D-Notizbuchs beteiligt. Besonders herausfordernd war die Integration der HoloLens 2, da veraltete Dokumentationen und mein noch begrenztes Unity-Wissen die Umsetzung erschwerten. Letztlich gelang es mir jedoch, zumindest das 3D-Notizbuch interaktiv zu gestalten.
+
+Die Erfahrungen aus diesem Projekt haben mir gezeigt, wie komplex die Entwicklung von VR/AR-Anwendungen sein kann, und wie wichtig es ist, sich kontinuierlich fortzubilden und aktuelle Ressourcen zu nutzen. Zukünftig möchte ich mein Wissen in Unity weiter vertiefen und moderne Dokumentationen nutzen, um noch robustere und intuitivere Mixed-Reality-Lösungen zu entwickeln.
+
+\end{document}
