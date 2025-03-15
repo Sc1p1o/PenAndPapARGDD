@@ -40,3 +40,6 @@ public class PopupManager : MonoBehaviour
         }
     }
 }
+
+/*Innerhalb dieser Funktion wären auch die vorwiegenden Anpassungen für die Erweiterung zum hinzufügen weiterer
+Items gewesen*/
