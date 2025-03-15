@@ -223,6 +223,11 @@ namespace Utils
             OnStatsUpdated?.Invoke();
         }
 
+        public static void LoadCharacterData(string characterId)
+        {
+            OnStatsUpdated?.Invoke();
+        }
+
         private static void SetStats(Stat stats)
         {
             _characterId = stats.characterId;

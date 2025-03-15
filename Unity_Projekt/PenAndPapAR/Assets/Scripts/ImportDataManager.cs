@@ -1,4 +1,5 @@
 using UnityEngine;
+using Utils;
 
 public class ImportDataManager : MonoBehaviour
 {
@@ -54,7 +55,10 @@ public class ImportDataManager : MonoBehaviour
     // Methode für den Load Button (letzten oder Standard-Link laden)
     public void OnLoadButtonClick()
     {
-      Debug.Log("Load Button wurde gedrückt, aber keine Funktion zugewiesen. Plan QR Code Scanner.");
+        Debug.Log("Load Button pressed, calling LoadCharacterData");
+
+        // Call the static method with the character ID "#0000"
+        DBConnector.LoadCharacterData("#0000");
 
     }
 
