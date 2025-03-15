@@ -59,10 +59,10 @@ Das Projekt wurde mit folgenden Technologien entwickelt:
 
 ### Sofware
 
-Operating System: Windows
-Unity Editor Version: 6000.0.32f1
-Python: 3.10 or later (used for Python Server)
-Git: Latest version installed
+Operating System: Windows \
+Unity Editor Version: 6000.0.32f1 \
+Python: 3.10 or later (used for Python Server) \
+Git: Latest version installed \
 
 ## How To Start Up
 
