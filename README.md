@@ -54,7 +54,7 @@ Das Projekt wurde mit folgenden Technologien entwickelt:
 ### Hardware
 
 * AR/VR-Gerät
-* PC/Laptop:
+* PC/Laptop
 * Stabile Netzwerk verbindung
 
 ### Sofware
