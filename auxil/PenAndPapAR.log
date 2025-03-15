@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  15 MAR 2025 19:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  15 MAR 2025 20:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -460,20 +460,34 @@ Overfull \hbox (1.6546pt too wide) in paragraph at lines 14--42
 hmen, ihre kreativit^^?at
  []
 
-(Inhalt/grafik_und_sound.tex) [11] [12]
-(E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.aux)
+(Inhalt/grafik_und_sound.tex) (Inhalt/finanzierung.tex
+
+Inhalt/finanzierung.tex:1: LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \usepackage
+               {eurosym}Das gesamte Projekt hat nicht das große Geld oder g...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[11]) [12] (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
  ***********
 Package rerunfilecheck Info: File `PenAndPapAR.out' has not changed.
-(rerunfilecheck)             Checksum: 486166BFF85555D556AE6D9CD7247EFF;3465.
+(rerunfilecheck)             Checksum: F3536E2D3252CADD5958B22358193EDB;3361.
  ) 
 Here is how much of TeX's memory you used:
- 11398 strings out of 474462
- 176966 string characters out of 5742883
+ 11404 strings out of 474462
+ 177205 string characters out of 5742883
  1934998 words of memory out of 5000000
- 33522 multiletter control sequences out of 15000+600000
+ 33526 multiletter control sequences out of 15000+600000
  564825 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,266b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -486,9 +500,9 @@ ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/maddi/AppData/Local/Programs/MiKTeX
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/maddi/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 Output written on E:/IdeaProjects\PenAndPapARGDD\GameDesignDocument\PenAndPapAR
-.pdf (12 pages, 145246 bytes).
+.pdf (12 pages, 145110 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 236 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 209 words of extra memory for PDF output out of 10000 (max. 10000000)
 
