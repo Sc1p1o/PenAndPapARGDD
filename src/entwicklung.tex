@@ -13,33 +13,129 @@ Meilensteine und Ziele:
         \item Zweite Technische Leitung: Salem Zin Edin Naser
         \item Design Leitung: Cassandra Monika Lenk
     \end{itemize}
-    \item Festlegung der Zielplatform
+    \item Festlegung der Zielplattform
     \begin{itemize}
         \item Primär Ziel: Holo Lens
-        \item Nice To Have: Alle VR/AR Fähigen Geräte
+        \item Nice To Have: Alle VR/AR fähigen Geräte
     \end{itemize}
     \item Einrichtung von Versionskontrollsystemen (Git)
     \begin{itemize}
         \item Anfangs Unity Version Control, später GitHub
-        \item \href{https://github.com/Sc1p1o/PenAndPapARGDD}(Hauptspiel und GDD)
-        \item \href{https://github.com/Sc1p1o/PenAndPapARDB}(Implementierung der Datenbank)
+        \item \href{https://github.com/Sc1p1o/PenAndPapARGDD}{Hauptspiel und GDD}
+        \item \href{https://github.com/Sc1p1o/PenAndPapARDB}{Implementierung der Datenbank}
     \end{itemize}
-    \item Bestimmung der primären Entwicklungstools
+    \item Bestimmung der primären Entwicklungstools und Frameworks
+    \begin{itemize}
+        \item Entwicklung: Unity als Game Engine
+        \item Persistierung: DjangoDB für das Backend
+        \item Kommunikation zwischen DB, Unity und Charakterquelle: ReST API
+        \item Server Backend für Multiplayer: ausstehend
+    \end{itemize}
+    \item Erstellung eines MockUps
 \end{itemize}
 
 \subsection{Einarbeitung}\label{subsec:getting_started}
+In der Einarbeitung wird das Team auf die kommenden Herausforderungen vorbereitet und instruiert und der Grundstein
+für das Projekt gelegt.\ Dies lässt sich insgesamt auf folgende Meilensteine unterteilen:
+\begin{itemize}
+    \item Aufsetzen des Gits und der .gitignore für Unity, um große Uploads zu vermeiden.
+    \item Einrichtung von Unity für ein HoloLens Projekt
+    \item Einrichtung der HoloLens
+    \item Verbindung der HoloLens mit Unity
+\end{itemize}
 
 
-\subsec{Das MVP}\label{subsec:mvp}
-
-
-\subsection{Basic Character}\label{subsec:base_character}
+\subsection{Das MVP}\label{subsec:mvp}
+Das MVP sollte primär Inventar, Stats und Notes haben und mit MOCK-UP daten einen Character darstellen, um eine grobe
+Kernfunktion zu zeigen und die Idee grob zu visualisieren
+Dazu gehören die folgenden Features:
+\begin{itemize}
+    \item Charakter Stats
+    \begin{itemize}
+        \item Layer 1 mit funktionierenden Conditions
+        \item Layer 2 mit zusätzlich Attributen und Haupt Charakter Informationen
+        \item Layer 3 mit ausführlichen Charakter-Informationen
+    \end{itemize}
+    \item Das Inventar mit Buttons für einzelne Items
+    \begin{itemize}
+        \item Mock Up Items
+        \item Informationen zu enthaltenen Items abrufbar
+    \end{itemize}
+    \item Eine Oberfläche um Notizen zu erstellen
+    \begin{itemize}
+        \item Neue Note Tabs erstellbar
+        \item Notizen in Note Tabs einfügbar
+        \item Layer 1 als Button
+        \item Layer 2 mit Notizen
+    \end{itemize}
+    \item hard Coded Charakter
+    \begin{itemize}
+        \item Charakter Eigenschaften werden im Code erstellt
+        \item Eigenschaften sind manipulierbar in der UI
+    \end{itemize}
+\end{itemize}
 
 
 \subsection{Persistierung und Importierung}\label{subsec:database_and_import}
+Die Persistierung der erstellten Charaktere ist ein Kern Element für unsere Funktion, da ein Charakter, welcher nicht
+gespeichert werden kann, am Ende nicht die Papiercharakterbögen ersetzt.
+Die Datenbank benötigt folgende Funktionen:
+\begin{itemize}
+    \item Modellierung
+    \begin{itemize}
+        \item Charakter ist mit Models in Django repräsentiert.
+        \item Charakter kann aus der Datenbank eine JSON ausgeben.
+        \item Charakter wird durch eine JSON eingelesen und in Datenbank gespeichert.
+    \end{itemize}
+    \item Integritätssicherung
+    \begin{itemize}
+        \item Eingelesene JSON wird auf korrektes Format geprüft.
+        \item Ausgegebene JSON ist standardisiert.
+        \item Charaktere im falschen Format werden nicht gespeichert.
+    \end{itemize}
+    \item Schnittstelle nach aussen
+    \begin{itemize}
+        \item GET, POST und PUT funktionieren und sind über ReST abrufbar.
+        \item Operationen erfüllen Integritätsbedingungen.
+        \item Bilderkennung um ein Sheet auszulesen und das JSON Schema zu füllen
+        \item API Schnittstelle, um einen Charakter aus \textit{DnD-Beyond} auszulesen.
+    \end{itemize}
+\end{itemize}
 
 
 \subsection{Der Mitspieler}\label{subsec:the_player}
+Jeder Spieler hat Zugriff auf die Basis Spieler Tools, diese umfassen folgende Features:
+\begin{itemize}
+    \item Verbindung zum Backend
+    \begin{itemize}
+        \item Charakter wird von Datenbank in Unity geladen
+        \item Charakter wird aus Unity in Datenbank gespeichert
+        \item Datenbank ist stets erreichbar unter standardisierter Addresse
+        \item Datenbank ist um Spielerverzeichnis erweitert
+    \end{itemize}
+    \item HUD ist vollständig
+    \begin{itemize}
+        \item Stats sind fertig
+        \item Inventar ist fertig
+        \item Notizen sind fertig
+        \item Charakter kann importiert werden aus dem HUD aus
+        \item Aktionen und Zauber sind im HUD integriert
+    \end{itemize}
+    \item HUD Design ist fertig
+    \begin{itemize}
+        \item Inventar hat grafische Icons und Grafiken
+        \item Stats haben Icons und Grafiken+
+        \item Notizen haben Icons und Grafiken
+        \item Aktionen und Zauber haben Icons und Grafiken
+        \item Importierung eines Charakters hat Icons und Grafiken
+    \end{itemize}
+    \item Charakter vollständig
+    \begin{itemize}
+        \item Text im HUD ist minimiert auf das nötigste
+        \item HUD Icons erklären durch Aussehen, was sie darstellen.
+        \item Bilderkennung funktioniert stabil und zuverlässig
+    \end{itemize}
+\end{itemize}
 
 
 \subsection{Der Spielleiter}\label{subsec:gamemaster}

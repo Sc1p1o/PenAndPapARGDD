@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  15 MAR 2025 13:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  15 MAR 2025 15:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -268,47 +268,129 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip56
 )
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstdoc.sty
+Package: lstdoc 2023/02/27 1.9 (Carsten Heinz)
+
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count286
+\lst@gtempboxa=\box53
+\lst@token=\toks23
+\lst@length=\count287
+\lst@currlwidth=\dimen156
+\lst@column=\count288
+\lst@pos=\count289
+\lst@lostspace=\dimen157
+\lst@width=\dimen158
+\lst@newlines=\count290
+\lst@lineno=\count291
+\lst@maxwidth=\dimen159
+
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\lst@WFtoken=\toks24
+\lst@WF=\write3
+\c@lstnumber=\count292
+\lst@skipnumbers=\count293
+\lst@framebox=\box54
+)
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count294
+\FV@InFile=\read2
+\FV@TabBox=\box55
+\c@FancyVerbLine=\count295
+\FV@StepNumber=\count296
+\FV@OutFile=\write4
+)
+
+C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstdoc.sty:29: 
+LaTeX Error: Option clash for package hyperref.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...\RequirePackage[colorlinks]{hyperref}\else
+                                                  
+The package hyperref has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [colorlinks]
+Adding the global options:
+  ,colorlinks
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+)
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmic.
+sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+ (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@ALC@unique=\count297
+\c@ALC@line=\count298
+\c@ALC@rem=\count299
+\c@ALC@depth=\count300
+\ALC@tlm=\skip57
+\algorithmicindent=\skip58
+)
+\c@argcount=\count301
+\lst@samplebox=\box56
+)
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count286
-\l__pdf_internal_box=\box53
+\l__color_backend_stack_int=\count302
+\l__pdf_internal_box=\box57
 ) (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.aux)
 \openout1 = `PenAndPapAR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count287
-\scratchdimen=\dimen156
-\scratchbox=\box54
-\nofMPsegments=\count288
-\nofMParguments=\count289
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count290
-\MPscratchDim=\dimen157
-\MPnumerator=\count291
-\makeMPintoPDFobject=\count292
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count303
+\scratchdimen=\dimen160
+\scratchbox=\box58
+\nofMPsegments=\count304
+\nofMParguments=\count305
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count306
+\MPscratchDim=\dimen161
+\MPnumerator=\count307
+\makeMPintoPDFobject=\count308
+\everyMPtoPDFconversion=\toks26
 )
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -320,12 +402,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 16.
-\@outlinefile=\write3
-\openout3 = `PenAndPapAR.out'.
+Package hyperref Info: Link coloring OFF on input line 17.
+ (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.out)
+(E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.out)
+\@outlinefile=\write5
+\openout5 = `PenAndPapAR.out'.
 
+\c@lstlisting=\count309
 
-Overfull \hbox (57.60277pt too wide) in paragraph at lines 22--22
+Overfull \hbox (57.60277pt too wide) in paragraph at lines 23--23
  [] 
  []
 
@@ -333,16 +418,17 @@ Overfull \hbox (57.60277pt too wide) in paragraph at lines 22--22
 
 {C:/Users/maddi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.toc)
-\tf@toc=\write4
-\openout4 = `PenAndPapAR.toc'.
+\tf@toc=\write6
+\openout6 = `PenAndPapAR.toc'.
 
- [2] (idee.tex
+ [2] (entwicklung.tex
+[3] [4] [5]) (idee.tex
 Overfull \hbox (5.76587pt too wide) in paragraph at lines 8--16
 \OT1/cmr/m/n/10.95 beizube-hal-ten. Genauso wichtig ist es den Spiel-ern nichts
  Dig-i-tales aufzuzwin-
  []
 
-[3]
+[6]
 idee.tex:56: Undefined control sequence.
 l.56 ...mente des Pen\&Papers zu digitalisieren.\n
                                                   
@@ -352,23 +438,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) (gameplay.tex [4]
+) [7] (gameplay.tex
 Overfull \hbox (13.63878pt too wide) in paragraph at lines 17--20
 \OT1/cmr/m/n/10.95 eingef^^?ugt wer-den oder unter No-ti-zen notiert wer-den, d
 a ak-tuell keine Oberfl^^?ache
  []
 
-[5]) (entwicklung.tex [6]
-entwicklung.tex:32: Undefined control sequence.
-l.32 \subsec
-            {Das MVP}\label{subsec:mvp}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) [7] [8] (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.aux)
+[8] [9]) [10] [11] (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
@@ -383,20 +459,56 @@ Package rerunfilecheck Warning: File `PenAndPapAR.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `PenAndPapAR.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  58812222282014B4399FF71E4156D300;3008.
+(rerunfilecheck)             Before: 58812222282014B4399FF71E4156D300;3008
+(rerunfilecheck)             After:  433102BE858BE9435709195252ED65B8;2899.
  ) 
 Here is how much of TeX's memory you used:
- 9173 strings out of 474462
- 142607 string characters out of 5742883
+ 11372 strings out of 474462
+ 175845 string characters out of 5742883
  1933998 words of memory out of 5000000
- 31348 multiletter control sequences out of 15000+600000
+ 33502 multiletter control sequences out of 15000+600000
  564825 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,239b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,267b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-pdfTeX warning (dest): name{\(} has been referenced but does not exist, replace
-d by a fixed one
+pdfTeX warning (dest): name{section.8} has been referenced but does not exist, 
+replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.9} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.8} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.7} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.6} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.5} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.4} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.1} has been referenced but does not ex
+ist, replaced by a fixed one
 
  <C:\Users\maddi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm10
 95.pk><C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
@@ -406,10 +518,10 @@ e1/public/amsfonts/cm/cmr10.pfb><C:/Users/maddi/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maddi/AppData/Local/Programs/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/maddi/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on E:/IdeaProjects\PenAndPapARGDD\out\PenAndPapAR.pdf (8 pages, 
-126496 bytes).
+Output written on E:/IdeaProjects\PenAndPapARGDD\out\PenAndPapAR.pdf (11 pages,
+ 139185 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
