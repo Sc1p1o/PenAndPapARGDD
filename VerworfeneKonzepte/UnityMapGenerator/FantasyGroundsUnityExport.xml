@@ -1,0 +1,2122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.1" dataversion="20210708">
+  <gridsize>300,300</gridsize>
+  <occluders>
+    <occluder>
+      <id>0</id>
+      <points>-6144,-4608,-5529,-4608</points>
+    </occluder>
+    <occluder>
+      <id>1</id>
+      <points>-5529,-4608,-4914,-4608</points>
+    </occluder>
+    <occluder>
+      <id>2</id>
+      <points>-6144,-4608,-6144,-3378</points>
+    </occluder>
+    <occluder>
+      <id>3</id>
+      <points>-4914,-3378,-4914,-4302</points>
+    </occluder>
+    <occluder>
+      <id>4</id>
+      <points>-4914,-4302,-4914,-4608</points>
+    </occluder>
+    <occluder>
+      <id>5</id>
+      <points>-5223,-3378,-6144,-3378</points>
+    </occluder>
+    <occluder>
+      <id>6</id>
+      <points>-5223,-3378,-4914,-3378</points>
+    </occluder>
+    <occluder>
+      <id>7</id>
+      <points>4914,-4608,5529,-4608</points>
+    </occluder>
+    <occluder>
+      <id>8</id>
+      <points>5529,-4608,6144,-4608</points>
+    </occluder>
+    <occluder>
+      <id>9</id>
+      <points>4914,-4608,4914,-3378</points>
+    </occluder>
+    <occluder>
+      <id>10</id>
+      <points>6144,-3378,6144,-4302</points>
+    </occluder>
+    <occluder>
+      <id>11</id>
+      <points>6144,-4302,6144,-4608</points>
+    </occluder>
+    <occluder>
+      <id>12</id>
+      <points>5838,-3378,4914,-3378</points>
+    </occluder>
+    <occluder>
+      <id>13</id>
+      <points>5838,-3378,6144,-3378</points>
+    </occluder>
+    <occluder>
+      <id>14</id>
+      <points>-3378,921,-3378,-306</points>
+    </occluder>
+    <occluder>
+      <id>15</id>
+      <points>-3378,921,-2151,921</points>
+    </occluder>
+    <occluder>
+      <id>16</id>
+      <points>-3378,-306,-2151,-306</points>
+    </occluder>
+    <occluder>
+      <id>17</id>
+      <points>-2151,-306,-2151,921</points>
+    </occluder>
+    <occluder>
+      <id>18</id>
+      <points>-7680,-2151,-6450,-2151</points>
+    </occluder>
+    <occluder>
+      <id>19</id>
+      <points>-7680,-2151,-7680,-1230</points>
+    </occluder>
+    <occluder>
+      <id>20</id>
+      <points>-6450,-2151,-6450,-921</points>
+    </occluder>
+    <occluder>
+      <id>21</id>
+      <points>-6450,-921,-7680,-921</points>
+    </occluder>
+    <occluder>
+      <id>22</id>
+      <points>-7680,-1230,-7680,-921</points>
+    </occluder>
+    <occluder>
+      <id>23</id>
+      <points>-615,-4608,615,-4608</points>
+    </occluder>
+    <occluder>
+      <id>24</id>
+      <points>-615,-4608,-615,-3687</points>
+    </occluder>
+    <occluder>
+      <id>25</id>
+      <points>615,-4608,615,-3378</points>
+    </occluder>
+    <occluder>
+      <id>26</id>
+      <points>615,-3378,-615,-3378</points>
+    </occluder>
+    <occluder>
+      <id>27</id>
+      <points>-615,-3687,-615,-3378</points>
+    </occluder>
+    <occluder>
+      <id>28</id>
+      <points>6450,-2151,7680,-2151</points>
+    </occluder>
+    <occluder>
+      <id>29</id>
+      <points>6450,-2151,6450,-1230</points>
+    </occluder>
+    <occluder>
+      <id>30</id>
+      <points>7680,-2151,7680,-921</points>
+    </occluder>
+    <occluder>
+      <id>31</id>
+      <points>7680,-921,6450,-921</points>
+    </occluder>
+    <occluder>
+      <id>32</id>
+      <points>6450,-1230,6450,-921</points>
+    </occluder>
+    <occluder>
+      <id>33</id>
+      <points>-2040,-582,-3207,-582</points>
+    </occluder>
+    <occluder>
+      <id>34</id>
+      <points>-5832,-2916,-4665,-2916</points>
+    </occluder>
+    <occluder>
+      <id>35</id>
+      <points>582,-2916,-582,-2916</points>
+    </occluder>
+    <occluder>
+      <id>36</id>
+      <points>4665,-2916,5832,-2916</points>
+    </occluder>
+    <occluder>
+      <id>37</id>
+      <points>-4959,-582,-5541,-582</points>
+    </occluder>
+    <occluder>
+      <id>38</id>
+      <points>-4374,-582,-4665,-582</points>
+    </occluder>
+    <occluder>
+      <id>39</id>
+      <points>-3501,-291,-3501,291</points>
+    </occluder>
+    <occluder>
+      <id>40</id>
+      <points>-4083,291,-3501,291</points>
+    </occluder>
+    <occluder>
+      <id>41</id>
+      <points>-4374,291,-4665,291</points>
+    </occluder>
+    <occluder>
+      <id>42</id>
+      <points>-6417,291,-5250,291</points>
+    </occluder>
+    <occluder>
+      <id>43</id>
+      <points>-4374,-3792,-3792,-3792</points>
+    </occluder>
+    <occluder>
+      <id>44</id>
+      <points>-4374,-3792,-4374,-3207</points>
+    </occluder>
+    <occluder>
+      <id>45</id>
+      <points>-3501,-2916,-3501,-2334</points>
+    </occluder>
+    <occluder>
+      <id>46</id>
+      <points>-3501,-2040,-3501,-1458</points>
+    </occluder>
+    <occluder>
+      <id>47</id>
+      <points>-3501,-1167,-3501,-582</points>
+    </occluder>
+    <occluder>
+      <id>48</id>
+      <points>-4374,-582,-4374,-1167</points>
+    </occluder>
+    <occluder>
+      <id>49</id>
+      <points>-4374,-1458,-4374,-2040</points>
+    </occluder>
+    <occluder>
+      <id>50</id>
+      <points>-4374,-2334,-4374,-2916</points>
+    </occluder>
+    <occluder>
+      <id>51</id>
+      <points>-3501,-3792,-2916,-3792</points>
+    </occluder>
+    <occluder>
+      <id>52</id>
+      <points>-2334,-3792,-1749,-3792</points>
+    </occluder>
+    <occluder>
+      <id>53</id>
+      <points>-1458,-3792,-876,-3792</points>
+    </occluder>
+    <occluder>
+      <id>54</id>
+      <points>-876,-3501,-876,-3792</points>
+    </occluder>
+    <occluder>
+      <id>55</id>
+      <points>-876,-3207,-876,-2334</points>
+    </occluder>
+    <occluder>
+      <id>56</id>
+      <points>-2040,-2916,-1749,-2916</points>
+    </occluder>
+    <occluder>
+      <id>57</id>
+      <points>-2334,-2916,-2916,-2916</points>
+    </occluder>
+    <occluder>
+      <id>58</id>
+      <points>-3501,-2916,-3207,-2916</points>
+    </occluder>
+    <occluder>
+      <id>59</id>
+      <points>-1749,-2916,-1749,-2334</points>
+    </occluder>
+    <occluder>
+      <id>60</id>
+      <points>-876,-2040,-876,-1167</points>
+    </occluder>
+    <occluder>
+      <id>61</id>
+      <points>-876,-582,-876,-876</points>
+    </occluder>
+    <occluder>
+      <id>62</id>
+      <points>-1749,291,-1167,291</points>
+    </occluder>
+    <occluder>
+      <id>63</id>
+      <points>-1749,291,-1749,-291</points>
+    </occluder>
+    <occluder>
+      <id>64</id>
+      <points>-1749,-582,-1749,-1167</points>
+    </occluder>
+    <occluder>
+      <id>65</id>
+      <points>-1749,-1458,-1749,-2040</points>
+    </occluder>
+    <occluder>
+      <id>66</id>
+      <points>-582,-582,-876,-582</points>
+    </occluder>
+    <occluder>
+      <id>67</id>
+      <points>291,-582,-291,-582</points>
+    </occluder>
+    <occluder>
+      <id>68</id>
+      <points>876,-582,582,-582</points>
+    </occluder>
+    <occluder>
+      <id>69</id>
+      <points>1749,-291,1749,291</points>
+    </occluder>
+    <occluder>
+      <id>70</id>
+      <points>1167,291,1749,291</points>
+    </occluder>
+    <occluder>
+      <id>71</id>
+      <points>291,291,582,291</points>
+    </occluder>
+    <occluder>
+      <id>72</id>
+      <points>-876,291,-291,291</points>
+    </occluder>
+    <occluder>
+      <id>73</id>
+      <points>876,-3792,1458,-3792</points>
+    </occluder>
+    <occluder>
+      <id>74</id>
+      <points>876,-3792,876,-3501</points>
+    </occluder>
+    <occluder>
+      <id>75</id>
+      <points>1749,-2916,1749,-2334</points>
+    </occluder>
+    <occluder>
+      <id>76</id>
+      <points>1749,-2040,1749,-1458</points>
+    </occluder>
+    <occluder>
+      <id>77</id>
+      <points>1749,-1167,1749,-582</points>
+    </occluder>
+    <occluder>
+      <id>78</id>
+      <points>876,-582,876,-1167</points>
+    </occluder>
+    <occluder>
+      <id>79</id>
+      <points>876,-1458,876,-2040</points>
+    </occluder>
+    <occluder>
+      <id>80</id>
+      <points>876,-2334,876,-3207</points>
+    </occluder>
+    <occluder>
+      <id>81</id>
+      <points>1749,-3792,2334,-3792</points>
+    </occluder>
+    <occluder>
+      <id>82</id>
+      <points>2916,-3792,3501,-3792</points>
+    </occluder>
+    <occluder>
+      <id>83</id>
+      <points>3792,-3792,4374,-3792</points>
+    </occluder>
+    <occluder>
+      <id>84</id>
+      <points>4374,-3792,4374,-3207</points>
+    </occluder>
+    <occluder>
+      <id>85</id>
+      <points>3207,-2916,3501,-2916</points>
+    </occluder>
+    <occluder>
+      <id>86</id>
+      <points>2916,-2916,2334,-2916</points>
+    </occluder>
+    <occluder>
+      <id>87</id>
+      <points>1749,-2916,2040,-2916</points>
+    </occluder>
+    <occluder>
+      <id>88</id>
+      <points>3501,-2916,3501,-2334</points>
+    </occluder>
+    <occluder>
+      <id>89</id>
+      <points>4374,-2916,4374,-2334</points>
+    </occluder>
+    <occluder>
+      <id>90</id>
+      <points>4374,-2040,4374,-1458</points>
+    </occluder>
+    <occluder>
+      <id>91</id>
+      <points>4374,-1167,4374,-582</points>
+    </occluder>
+    <occluder>
+      <id>92</id>
+      <points>3501,291,4083,291</points>
+    </occluder>
+    <occluder>
+      <id>93</id>
+      <points>3501,291,3501,-291</points>
+    </occluder>
+    <occluder>
+      <id>94</id>
+      <points>3501,-582,3501,-1167</points>
+    </occluder>
+    <occluder>
+      <id>95</id>
+      <points>3501,-1458,3501,-2040</points>
+    </occluder>
+    <occluder>
+      <id>96</id>
+      <points>4665,-582,4374,-582</points>
+    </occluder>
+    <occluder>
+      <id>97</id>
+      <points>5541,-582,4959,-582</points>
+    </occluder>
+    <occluder>
+      <id>98</id>
+      <points>6123,291,5250,291</points>
+    </occluder>
+    <occluder>
+      <id>99</id>
+      <points>4374,291,4665,291</points>
+    </occluder>
+    <occluder>
+      <id>100</id>
+      <points>6417,-582,5832,-582</points>
+    </occluder>
+    <occluder>
+      <id>101</id>
+      <points>6123,291,6417,291</points>
+    </occluder>
+    <occluder>
+      <id>102</id>
+      <points>-5832,-582,-6417,-582</points>
+    </occluder>
+    <occluder>
+      <id>103</id>
+      <points>3207,-876,2625,-876</points>
+    </occluder>
+    <occluder>
+      <id>104</id>
+      <points>2625,-876,2040,-876</points>
+    </occluder>
+    <occluder>
+      <id>105</id>
+      <points>2151,-615,3378,-615</points>
+    </occluder>
+    <occluder>
+      <id>106</id>
+      <points>2151,-615,2151,306</points>
+    </occluder>
+    <occluder>
+      <id>107</id>
+      <points>3378,-615,3378,615</points>
+    </occluder>
+    <occluder>
+      <id>108</id>
+      <points>2151,615,3378,615</points>
+    </occluder>
+    <occluder>
+      <id>109</id>
+      <points>2151,306,2151,615</points>
+    </occluder>
+    <occluder>
+      <id>110</id>
+      <points>-6450,615,-7680,615</points>
+    </occluder>
+    <occluder>
+      <id>111</id>
+      <points>-7680,615,-7680,1536</points>
+    </occluder>
+    <occluder>
+      <id>112</id>
+      <points>-6450,615,-6450,1842</points>
+    </occluder>
+    <occluder>
+      <id>113</id>
+      <points>-6450,1842,-7680,1842</points>
+    </occluder>
+    <occluder>
+      <id>114</id>
+      <points>-7680,1536,-7680,1842</points>
+    </occluder>
+    <occluder>
+      <id>115</id>
+      <points>7680,615,6450,615</points>
+    </occluder>
+    <occluder>
+      <id>116</id>
+      <points>6450,615,6450,1536</points>
+    </occluder>
+    <occluder>
+      <id>117</id>
+      <points>7680,615,7680,1842</points>
+    </occluder>
+    <occluder>
+      <id>118</id>
+      <points>7680,1842,6450,1842</points>
+    </occluder>
+    <occluder>
+      <id>119</id>
+      <points>6450,1536,6450,1842</points>
+    </occluder>
+    <occluder>
+      <id>120</id>
+      <points>3285,-3879,2979,-3879</points>
+    </occluder>
+    <occluder>
+      <id>121</id>
+      <points>4182,-3879,3873,-3879</points>
+    </occluder>
+    <occluder>
+      <id>122</id>
+      <points>2391,-3879,2085,-3879</points>
+    </occluder>
+    <occluder>
+      <id>123</id>
+      <points>1497,-3879,1188,-3879</points>
+    </occluder>
+    <occluder>
+      <id>124</id>
+      <points>1197,-3879,891,-3879</points>
+    </occluder>
+    <occluder>
+      <id>125</id>
+      <points>894,-3882,894,-3576</points>
+    </occluder>
+    <occluder>
+      <id>126</id>
+      <points>894,-3285,894,-2979</points>
+    </occluder>
+    <occluder>
+      <id>127</id>
+      <points>894,-3585,894,-3276</points>
+    </occluder>
+    <occluder>
+      <id>128</id>
+      <points>1794,-3879,1488,-3879</points>
+    </occluder>
+    <occluder>
+      <id>129</id>
+      <points>3882,-3879,3576,-3879</points>
+    </occluder>
+    <occluder>
+      <id>130</id>
+      <points>2391,-2982,2085,-2982</points>
+    </occluder>
+    <occluder>
+      <id>131</id>
+      <points>-2688,-597,-2382,-597</points>
+    </occluder>
+    <occluder>
+      <id>132</id>
+      <points>-2976,-597,-3285,-597</points>
+    </occluder>
+    <occluder>
+      <id>133</id>
+      <points>-2082,-597,-2391,-597</points>
+    </occluder>
+    <occluder>
+      <id>134</id>
+      <points>294,-2982,600,-2982</points>
+    </occluder>
+    <occluder>
+      <id>135</id>
+      <points>-5073,-2982,-4767,-2982</points>
+    </occluder>
+    <occluder>
+      <id>136</id>
+      <points>4767,-2982,5073,-2982</points>
+    </occluder>
+    <occluder>
+      <id>137</id>
+      <points>5064,-2982,5370,-2982</points>
+    </occluder>
+    <occluder>
+      <id>138</id>
+      <points>5661,-2982,5967,-2982</points>
+    </occluder>
+    <occluder>
+      <id>139</id>
+      <points>-303,-2982,3,-2982</points>
+    </occluder>
+    <occluder>
+      <id>140</id>
+      <points>-600,-2982,-294,-2982</points>
+    </occluder>
+    <occluder>
+      <id>141</id>
+      <points>-5670,-2982,-5361,-2982</points>
+    </occluder>
+    <occluder>
+      <id>142</id>
+      <points>-5967,-2982,-5661,-2982</points>
+    </occluder>
+    <occluder>
+      <id>143</id>
+      <points>4479,-3879,4173,-3879</points>
+    </occluder>
+    <occluder>
+      <id>144</id>
+      <points>4476,-3576,4476,-3882</points>
+    </occluder>
+    <occluder>
+      <id>145</id>
+      <points>4476,-3276,4476,-3585</points>
+    </occluder>
+    <occluder>
+      <id>146</id>
+      <points>894,-2688,894,-2382</points>
+    </occluder>
+    <occluder>
+      <id>147</id>
+      <points>894,-2391,894,-2085</points>
+    </occluder>
+    <occluder>
+      <id>148</id>
+      <points>894,-1794,894,-1488</points>
+    </occluder>
+    <occluder>
+      <id>149</id>
+      <points>894,-1497,894,-1188</points>
+    </occluder>
+    <occluder>
+      <id>150</id>
+      <points>894,-1197,894,-891</points>
+    </occluder>
+    <occluder>
+      <id>151</id>
+      <points>894,-900,894,-591</points>
+    </occluder>
+    <occluder>
+      <id>152</id>
+      <points>900,-597,591,-597</points>
+    </occluder>
+    <occluder>
+      <id>153</id>
+      <points>294,-597,600,-597</points>
+    </occluder>
+    <occluder>
+      <id>154</id>
+      <points>-3,-597,303,-597</points>
+    </occluder>
+    <occluder>
+      <id>155</id>
+      <points>-303,-597,3,-597</points>
+    </occluder>
+    <occluder>
+      <id>156</id>
+      <points>-600,-597,-294,-597</points>
+    </occluder>
+    <occluder>
+      <id>157</id>
+      <points>-591,-597,-900,-597</points>
+    </occluder>
+    <occluder>
+      <id>158</id>
+      <points>-894,-900,-894,-591</points>
+    </occluder>
+    <occluder>
+      <id>159</id>
+      <points>-894,-1197,-894,-891</points>
+    </occluder>
+    <occluder>
+      <id>160</id>
+      <points>-894,-1794,-894,-1488</points>
+    </occluder>
+    <occluder>
+      <id>161</id>
+      <points>-894,-2094,-894,-1785</points>
+    </occluder>
+    <occluder>
+      <id>162</id>
+      <points>-894,-2391,-894,-2085</points>
+    </occluder>
+    <occluder>
+      <id>163</id>
+      <points>-894,-2688,-894,-2382</points>
+    </occluder>
+    <occluder>
+      <id>164</id>
+      <points>-894,-3285,-894,-2979</points>
+    </occluder>
+    <occluder>
+      <id>165</id>
+      <points>-894,-3585,-894,-3276</points>
+    </occluder>
+    <occluder>
+      <id>166</id>
+      <points>-894,-3882,-894,-3576</points>
+    </occluder>
+    <occluder>
+      <id>167</id>
+      <points>-1197,-3879,-891,-3879</points>
+    </occluder>
+    <occluder>
+      <id>168</id>
+      <points>-1794,-3879,-1488,-3879</points>
+    </occluder>
+    <occluder>
+      <id>169</id>
+      <points>-2391,-3879,-2085,-3879</points>
+    </occluder>
+    <occluder>
+      <id>170</id>
+      <points>-3285,-3879,-2979,-3879</points>
+    </occluder>
+    <occluder>
+      <id>171</id>
+      <points>-3585,-3879,-3276,-3879</points>
+    </occluder>
+    <occluder>
+      <id>172</id>
+      <points>-3882,-3879,-3576,-3879</points>
+    </occluder>
+    <occluder>
+      <id>173</id>
+      <points>-4479,-3879,-4173,-3879</points>
+    </occluder>
+    <occluder>
+      <id>174</id>
+      <points>-4476,-3576,-4476,-3882</points>
+    </occluder>
+    <occluder>
+      <id>175</id>
+      <points>-4476,-2979,-4476,-3285</points>
+    </occluder>
+    <occluder>
+      <id>176</id>
+      <points>-4476,-2382,-4476,-2691</points>
+    </occluder>
+    <occluder>
+      <id>177</id>
+      <points>-4476,-2085,-4476,-2391</points>
+    </occluder>
+    <occluder>
+      <id>178</id>
+      <points>-4476,-1488,-4476,-1794</points>
+    </occluder>
+    <occluder>
+      <id>179</id>
+      <points>-4476,-1188,-4476,-1497</points>
+    </occluder>
+    <occluder>
+      <id>180</id>
+      <points>-4476,-891,-4476,-1197</points>
+    </occluder>
+    <occluder>
+      <id>181</id>
+      <points>-4476,-591,-4476,-900</points>
+    </occluder>
+    <occluder>
+      <id>182</id>
+      <points>-4470,-597,-4779,-597</points>
+    </occluder>
+    <occluder>
+      <id>183</id>
+      <points>-5076,-597,-4770,-597</points>
+    </occluder>
+    <occluder>
+      <id>184</id>
+      <points>-5373,-597,-5067,-597</points>
+    </occluder>
+    <occluder>
+      <id>185</id>
+      <points>-5673,-597,-5367,-597</points>
+    </occluder>
+    <occluder>
+      <id>186</id>
+      <points>-5970,-597,-5664,-597</points>
+    </occluder>
+    <occluder>
+      <id>187</id>
+      <points>-5961,-597,-6270,-597</points>
+    </occluder>
+    <occluder>
+      <id>188</id>
+      <points>-6567,-597,-6261,-597</points>
+    </occluder>
+    <occluder>
+      <id>189</id>
+      <points>-5970,297,-5664,297</points>
+    </occluder>
+    <occluder>
+      <id>190</id>
+      <points>-3579,303,-3579,-3</points>
+    </occluder>
+    <occluder>
+      <id>191</id>
+      <points>-3579,-294,-3579,-600</points>
+    </occluder>
+    <occluder>
+      <id>192</id>
+      <points>-3579,-591,-3579,-900</points>
+    </occluder>
+    <occluder>
+      <id>193</id>
+      <points>-3579,-891,-3579,-1197</points>
+    </occluder>
+    <occluder>
+      <id>194</id>
+      <points>-3579,-1188,-3579,-1497</points>
+    </occluder>
+    <occluder>
+      <id>195</id>
+      <points>-3579,-1785,-3579,-2094</points>
+    </occluder>
+    <occluder>
+      <id>196</id>
+      <points>-3579,-2085,-3579,-2391</points>
+    </occluder>
+    <occluder>
+      <id>197</id>
+      <points>-3579,-2382,-3579,-2691</points>
+    </occluder>
+    <occluder>
+      <id>198</id>
+      <points>-3579,-2682,-3579,-2988</points>
+    </occluder>
+    <occluder>
+      <id>199</id>
+      <points>-3585,-2982,-3276,-2982</points>
+    </occluder>
+    <occluder>
+      <id>200</id>
+      <points>-3285,-2982,-2979,-2982</points>
+    </occluder>
+    <occluder>
+      <id>201</id>
+      <points>-2688,-2982,-2382,-2982</points>
+    </occluder>
+    <occluder>
+      <id>202</id>
+      <points>-2988,-2982,-2682,-2982</points>
+    </occluder>
+    <occluder>
+      <id>203</id>
+      <points>-2094,-2982,-1785,-2982</points>
+    </occluder>
+    <occluder>
+      <id>204</id>
+      <points>-2391,-2982,-2085,-2982</points>
+    </occluder>
+    <occluder>
+      <id>205</id>
+      <points>-1791,-2988,-1791,-2682</points>
+    </occluder>
+    <occluder>
+      <id>206</id>
+      <points>-1791,-2391,-1791,-2085</points>
+    </occluder>
+    <occluder>
+      <id>207</id>
+      <points>-1791,-2094,-1791,-1785</points>
+    </occluder>
+    <occluder>
+      <id>208</id>
+      <points>-1791,-1794,-1791,-1488</points>
+    </occluder>
+    <occluder>
+      <id>209</id>
+      <points>-1791,-1497,-1791,-1188</points>
+    </occluder>
+    <occluder>
+      <id>210</id>
+      <points>-1791,-600,-1791,-294</points>
+    </occluder>
+    <occluder>
+      <id>211</id>
+      <points>-1791,-900,-1791,-591</points>
+    </occluder>
+    <occluder>
+      <id>212</id>
+      <points>-1791,-303,-1791,3</points>
+    </occluder>
+    <occluder>
+      <id>213</id>
+      <points>-1791,-3,-1791,303</points>
+    </occluder>
+    <occluder>
+      <id>214</id>
+      <points>-1794,297,-1488,297</points>
+    </occluder>
+    <occluder>
+      <id>215</id>
+      <points>-1188,297,-1497,297</points>
+    </occluder>
+    <occluder>
+      <id>216</id>
+      <points>-1197,297,-891,297</points>
+    </occluder>
+    <occluder>
+      <id>217</id>
+      <points>-600,297,-294,297</points>
+    </occluder>
+    <occluder>
+      <id>218</id>
+      <points>294,297,600,297</points>
+    </occluder>
+    <occluder>
+      <id>219</id>
+      <points>900,297,591,297</points>
+    </occluder>
+    <occluder>
+      <id>220</id>
+      <points>891,297,1197,297</points>
+    </occluder>
+    <occluder>
+      <id>221</id>
+      <points>1791,303,1791,-3</points>
+    </occluder>
+    <occluder>
+      <id>222</id>
+      <points>1791,-294,1791,-600</points>
+    </occluder>
+    <occluder>
+      <id>223</id>
+      <points>1791,-1188,1791,-1497</points>
+    </occluder>
+    <occluder>
+      <id>224</id>
+      <points>1791,-1488,1791,-1794</points>
+    </occluder>
+    <occluder>
+      <id>225</id>
+      <points>1791,-1785,1791,-2094</points>
+    </occluder>
+    <occluder>
+      <id>226</id>
+      <points>1791,-2085,1791,-2391</points>
+    </occluder>
+    <occluder>
+      <id>227</id>
+      <points>1791,-2682,1791,-2988</points>
+    </occluder>
+    <occluder>
+      <id>228</id>
+      <points>1785,-2982,2094,-2982</points>
+    </occluder>
+    <occluder>
+      <id>229</id>
+      <points>2382,-2982,2691,-2982</points>
+    </occluder>
+    <occluder>
+      <id>230</id>
+      <points>2682,-2982,2988,-2982</points>
+    </occluder>
+    <occluder>
+      <id>231</id>
+      <points>2979,-2982,3285,-2982</points>
+    </occluder>
+    <occluder>
+      <id>232</id>
+      <points>3276,-2982,3585,-2982</points>
+    </occluder>
+    <occluder>
+      <id>233</id>
+      <points>3579,-2988,3579,-2682</points>
+    </occluder>
+    <occluder>
+      <id>234</id>
+      <points>3579,-2391,3579,-2085</points>
+    </occluder>
+    <occluder>
+      <id>235</id>
+      <points>3579,-2094,3579,-1785</points>
+    </occluder>
+    <occluder>
+      <id>236</id>
+      <points>3579,-1497,3579,-1188</points>
+    </occluder>
+    <occluder>
+      <id>237</id>
+      <points>3579,-1197,3579,-891</points>
+    </occluder>
+    <occluder>
+      <id>238</id>
+      <points>3579,-600,3579,-294</points>
+    </occluder>
+    <occluder>
+      <id>239</id>
+      <points>3579,-303,3579,3</points>
+    </occluder>
+    <occluder>
+      <id>240</id>
+      <points>3579,-3,3579,303</points>
+    </occluder>
+    <occluder>
+      <id>241</id>
+      <points>3576,297,3882,297</points>
+    </occluder>
+    <occluder>
+      <id>242</id>
+      <points>5376,297,5067,297</points>
+    </occluder>
+    <occluder>
+      <id>243</id>
+      <points>5367,297,5673,297</points>
+    </occluder>
+    <occluder>
+      <id>244</id>
+      <points>5664,297,5970,297</points>
+    </occluder>
+    <occluder>
+      <id>245</id>
+      <points>6270,297,5961,297</points>
+    </occluder>
+    <occluder>
+      <id>246</id>
+      <points>6261,297,6567,297</points>
+    </occluder>
+    <occluder>
+      <id>247</id>
+      <points>6261,-597,6567,-597</points>
+    </occluder>
+    <occluder>
+      <id>248</id>
+      <points>6270,-597,5961,-597</points>
+    </occluder>
+    <occluder>
+      <id>249</id>
+      <points>5664,-597,5970,-597</points>
+    </occluder>
+    <occluder>
+      <id>250</id>
+      <points>5367,-597,5673,-597</points>
+    </occluder>
+    <occluder>
+      <id>251</id>
+      <points>5376,-597,5067,-597</points>
+    </occluder>
+    <occluder>
+      <id>252</id>
+      <points>4770,-597,5076,-597</points>
+    </occluder>
+    <occluder>
+      <id>253</id>
+      <points>4779,-597,4470,-597</points>
+    </occluder>
+    <occluder>
+      <id>254</id>
+      <points>4476,-591,4476,-900</points>
+    </occluder>
+    <occluder>
+      <id>255</id>
+      <points>4476,-891,4476,-1197</points>
+    </occluder>
+    <occluder>
+      <id>256</id>
+      <points>4476,-1188,4476,-1497</points>
+    </occluder>
+    <occluder>
+      <id>257</id>
+      <points>4476,-1785,4476,-2094</points>
+    </occluder>
+    <occluder>
+      <id>258</id>
+      <points>4476,-2682,4476,-2988</points>
+    </occluder>
+    <occluder>
+      <id>259</id>
+      <points>-6567,297,-6261,297</points>
+    </occluder>
+    <occluder>
+      <id>260</id>
+      <points>-5961,297,-6270,297</points>
+    </occluder>
+    <occluder>
+      <id>261</id>
+      <points>-5373,297,-5067,297</points>
+    </occluder>
+    <occluder>
+      <id>262</id>
+      <points>-5076,297,-4770,297</points>
+    </occluder>
+    <occluder>
+      <id>263</id>
+      <points>-4173,297,-4479,297</points>
+    </occluder>
+    <occluder>
+      <id>264</id>
+      <points>-4470,297,-4779,297</points>
+    </occluder>
+    <occluder>
+      <id>265</id>
+      <points>-2850,-3879,-3156,-3879</points>
+    </occluder>
+    <occluder>
+      <id>266</id>
+      <points>465,300,156,300</points>
+    </occluder>
+    <occluder>
+      <id>267</id>
+      <points>-465,300,-159,300</points>
+    </occluder>
+    <occluder>
+      <id>268</id>
+      <points>4476,-1332,4476,-1638</points>
+    </occluder>
+    <occluder>
+      <id>269</id>
+      <points>894,-2844,894,-2535</points>
+    </occluder>
+    <occluder>
+      <id>270</id>
+      <points>894,-1932,894,-2238</points>
+    </occluder>
+    <occluder>
+      <id>271</id>
+      <points>-897,-1044,-897,-1350</points>
+    </occluder>
+    <occluder>
+      <id>272</id>
+      <points>-894,-2835,-894,-3141</points>
+    </occluder>
+    <occluder>
+      <id>273</id>
+      <points>-1635,-3876,-1941,-3876</points>
+    </occluder>
+    <occluder>
+      <id>274</id>
+      <points>-3720,-3879,-4026,-3879</points>
+    </occluder>
+    <occluder>
+      <id>275</id>
+      <points>-4476,-3429,-4476,-3123</points>
+    </occluder>
+    <occluder>
+      <id>276</id>
+      <points>-4476,-2832,-4476,-3141</points>
+    </occluder>
+    <occluder>
+      <id>277</id>
+      <points>-4473,-2247,-4473,-1938</points>
+    </occluder>
+    <occluder>
+      <id>278</id>
+      <points>-3579,-450,-3579,-144</points>
+    </occluder>
+    <occluder>
+      <id>279</id>
+      <points>-3582,-1644,-3582,-1338</points>
+    </occluder>
+    <occluder>
+      <id>280</id>
+      <points>-1791,-2229,-1791,-2538</points>
+    </occluder>
+    <occluder>
+      <id>281</id>
+      <points>-1791,-1038,-1791,-1347</points>
+    </occluder>
+    <occluder>
+      <id>282</id>
+      <points>-744,297,-1053,297</points>
+    </occluder>
+    <occluder>
+      <id>283</id>
+      <points>1041,297,1347,297</points>
+    </occluder>
+    <occluder>
+      <id>284</id>
+      <points>1788,-144,1788,-453</points>
+    </occluder>
+    <occluder>
+      <id>285</id>
+      <points>1788,-1347,1788,-1041</points>
+    </occluder>
+    <occluder>
+      <id>286</id>
+      <points>1791,-2544,1791,-2235</points>
+    </occluder>
+    <occluder>
+      <id>287</id>
+      <points>3582,-2535,3582,-2229</points>
+    </occluder>
+    <occluder>
+      <id>288</id>
+      <points>3579,-1332,3579,-1638</points>
+    </occluder>
+    <occluder>
+      <id>289</id>
+      <points>3582,-747,3582,-441</points>
+    </occluder>
+    <occluder>
+      <id>290</id>
+      <points>4026,297,4332,297</points>
+    </occluder>
+    <occluder>
+      <id>291</id>
+      <points>1488,297,1794,297</points>
+    </occluder>
+    <occluder>
+      <id>292</id>
+      <points>1791,-591,1791,-900</points>
+    </occluder>
+    <occluder>
+      <id>293</id>
+      <points>3285,-894,2976,-894</points>
+    </occluder>
+    <occluder>
+      <id>294</id>
+      <points>2679,-894,2985,-894</points>
+    </occluder>
+    <occluder>
+      <id>295</id>
+      <points>2391,-894,2082,-894</points>
+    </occluder>
+    <occluder>
+      <id>296</id>
+      <points>4770,297,5076,297</points>
+    </occluder>
+    <occluder>
+      <id>297</id>
+      <points>-2223,-3879,-2529,-3879</points>
+    </occluder>
+    <occluder>
+      <id>298</id>
+      <points>-1347,-3879,-1653,-3879</points>
+    </occluder>
+    <occluder>
+      <id>299</id>
+      <points>3429,-3879,3738,-3879</points>
+    </occluder>
+    <occluder>
+      <id>300</id>
+      <points>2844,-3879,3150,-3879</points>
+    </occluder>
+    <occluder>
+      <id>301</id>
+      <points>2217,-3879,2523,-3879</points>
+    </occluder>
+    <occluder>
+      <id>302</id>
+      <points>1632,-3879,1941,-3879</points>
+    </occluder>
+    <occluder>
+      <id>303</id>
+      <points>4779,297,4470,297</points>
+    </occluder>
+    <occluder>
+      <id>304</id>
+      <points>4173,297,4479,297</points>
+    </occluder>
+    <occluder>
+      <id>305</id>
+      <points>4476,-2085,4476,-2391</points>
+    </occluder>
+    <occluder>
+      <id>306</id>
+      <points>4476,-2541,4476,-2235</points>
+    </occluder>
+    <occluder>
+      <id>307</id>
+      <points>4476,-2979,4476,-3285</points>
+    </occluder>
+    <occluder>
+      <id>308</id>
+      <points>-3882,297,-3576,297</points>
+    </occluder>
+    <occluder>
+      <id>309</id>
+      <points>-4023,297,-4329,297</points>
+    </occluder>
+    <occluder>
+      <id>310</id>
+      <points>-5673,297,-5367,297</points>
+    </occluder>
+    <occluder>
+      <id>311</id>
+      <points>1041,1887,861,1641</points>
+    </occluder>
+    <occluder>
+      <id>312</id>
+      <points>786,1584,564,1377</points>
+    </occluder>
+    <occluder>
+      <id>313</id>
+      <points>876,246,582,246,582,336,876,336</points>
+      <toggleable />
+      <closed />
+      <single_sided />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>314</id>
+      <points>-4848,-570,-4563,-570,-4665,-582,-4959,-582</points>
+      <toggleable />
+      <closed />
+      <single_sided />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>315</id>
+      <points>-2916,-2916,-3207,-2916,-3135,-2850,-2850,-2850</points>
+      <toggleable />
+      <closed />
+      <single_sided />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>316</id>
+      <points>-582,-537,-291,-537,-291,-627,-582,-627</points>
+      <toggleable />
+      <closed />
+      <single_sided />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>317</id>
+      <points>2334,-2916,2040,-2916,1995,-2850,2280,-2850</points>
+      <toggleable />
+      <closed />
+      <single_sided />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>318</id>
+      <points>4563,-570,4848,-570,4959,-582,4665,-582</points>
+      <toggleable />
+      <closed />
+      <single_sided />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>319</id>
+      <points>-5472,2433,-5169,2433,-5100,2400,-5400,2400</points>
+      <toggleable />
+      <closed />
+      <single_sided />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>320</id>
+      <points>-2736,2433,-2433,2433,-2400,2400,-2700,2400</points>
+      <toggleable />
+      <closed />
+      <single_sided />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>321</id>
+      <points>-3501,-582,-3501,-291,-3423,-285,-3423,-570</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>322</id>
+      <points>-3993,285,-4278,285,-4374,291,-4083,291</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>323</id>
+      <points>-3708,-3708,-3423,-3708,-3501,-3792,-3792,-3792</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>324</id>
+      <points>-3501,-2334,-3501,-2040,-3423,-1995,-3423,-2280</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>325</id>
+      <points>-3501,-1458,-3501,-1167,-3423,-1140,-3423,-1425</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>326</id>
+      <points>-4278,-1140,-4278,-1425,-4374,-1458,-4374,-1167</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>327</id>
+      <points>-4278,-1995,-4278,-2280,-4374,-2334,-4374,-2040</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>328</id>
+      <points>-4278,-2850,-4278,-3135,-4374,-3207,-4374,-2916</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>329</id>
+      <points>-2334,-3792,-2916,-3792,-2850,-3708,-2280,-3708</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>330</id>
+      <points>-1710,-3708,-1425,-3708,-1458,-3792,-1749,-3792</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>331</id>
+      <points>-876,-3501,-876,-3207,-855,-3135,-855,-3423</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>332</id>
+      <points>-876,-2334,-876,-2040,-855,-1995,-855,-2280</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>333</id>
+      <points>-921,-1167,-921,-876,-831,-876,-831,-1167</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>334</id>
+      <points>-876,246,-1167,246,-1167,336,-876,336</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>335</id>
+      <points>-1710,-285,-1710,-570,-1749,-582,-1749,-291</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>336</id>
+      <points>-1710,-1140,-1710,-1425,-1749,-1458,-1749,-1167</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>337</id>
+      <points>-1710,-1995,-1710,-2280,-1749,-2334,-1749,-2040</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>338</id>
+      <points>1710,-570,1710,-285,1749,-291,1749,-582</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>339</id>
+      <points>1167,246,876,246,876,336,1167,336</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>340</id>
+      <points>-291,336,291,336,291,246,-291,246</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>341</id>
+      <points>876,-3207,876,-3501,855,-3423,855,-3135</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>342</id>
+      <points>1425,-3708,1710,-3708,1749,-3792,1458,-3792</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>343</id>
+      <points>1710,-2280,1710,-1995,1749,-2040,1749,-2334</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>344</id>
+      <points>1710,-1425,1710,-1140,1749,-1167,1749,-1458</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>345</id>
+      <points>876,-1167,876,-1458,855,-1425,855,-1140</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>346</id>
+      <points>876,-2040,876,-2334,855,-2280,855,-1995</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>347</id>
+      <points>2916,-3792,2334,-3792,2280,-3708,2850,-3708</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>348</id>
+      <points>3423,-3708,3708,-3708,3792,-3792,3501,-3792</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>349</id>
+      <points>4278,-3135,4278,-2850,4374,-2916,4374,-3207</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>350</id>
+      <points>4278,-2280,4278,-1995,4374,-2040,4374,-2334</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>351</id>
+      <points>4278,-1425,4278,-1140,4374,-1167,4374,-1458</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>352</id>
+      <points>4278,285,3993,285,4083,291,4374,291</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>353</id>
+      <points>3501,-291,3501,-582,3423,-570,3423,-285</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>354</id>
+      <points>3501,-1167,3501,-1458,3423,-1425,3423,-1140</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>355</id>
+      <points>3501,-2040,3501,-2334,3423,-2280,3423,-1995</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>356</id>
+      <points>-5703,-570,-5418,-570,-5541,-582,-5832,-582</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>357</id>
+      <points>-2040,-2916,-2334,-2916,-2280,-2850,-1995,-2850</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>358</id>
+      <points>291,-537,582,-537,582,-627,291,-627</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>359</id>
+      <points>3207,-2916,2916,-2916,2850,-2850,3135,-2850</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>360</id>
+      <points>5418,-570,5703,-570,5832,-582,5541,-582</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>361</id>
+      <points>-1521,654,1521,654,1521,564,-1521,564</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>362</id>
+      <points>1869,3951,1869,912,1779,912,1779,3951</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>363</id>
+      <points>-1779,1824,-1779,912,-1869,912,-1869,1824</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>364</id>
+      <points>-1800,2400,-1800,1800,-1824,1824,-1824,2433</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>365</id>
+      <points>-1800,3000,-1800,2400,-1824,2433,-1824,3039</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>366</id>
+      <points>-1800,3600,-1800,3000,-1824,3039,-1824,3648</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>367</id>
+      <points>-1824,3648,-1824,3951,-1800,3900,-1800,3600</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>368</id>
+      <points>-1521,4257,1521,4257,1500,4200,-1500,4200</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>369</id>
+      <points>5700,2400,5658,2712,5733,2748,5775,2433</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>370</id>
+      <points>5658,2712,5538,3000,5613,3039,5733,2748</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>371</id>
+      <points>5538,3000,5349,3249,5421,3291,5613,3039</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>372</id>
+      <points>5349,3249,5100,3438,5169,3486,5421,3291</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>373</id>
+      <points>5100,3438,4812,3558,4875,3606,5169,3486</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>374</id>
+      <points>4812,3558,4500,3600,4560,3648,4875,3606</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>375</id>
+      <points>4500,3600,4188,3558,4245,3606,4560,3648</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>376</id>
+      <points>4188,3558,3900,3438,3951,3486,4245,3606</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>377</id>
+      <points>3900,3438,3651,3249,3699,3291,3951,3486</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>378</id>
+      <points>3699,3291,3507,3039,3462,3000,3651,3249</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>379</id>
+      <points>3507,3039,3384,2748,3342,2712,3462,3000</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>380</id>
+      <points>3384,2748,3345,2433,3300,2400,3342,2712</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>381</id>
+      <points>-5400,2400,-6000,2400,-6081,2433,-5472,2433</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>382</id>
+      <points>-6000,3600,-6000,2400,-6081,2433,-6081,3648</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>383</id>
+      <points>-4500,2400,-5100,2400,-5169,2433,-4560,2433</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>384</id>
+      <points>-3300,2400,-4500,2400,-4560,2433,-3345,2433</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>385</id>
+      <points>-3345,2433,-2736,2433,-2700,2400,-3300,2400</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>386</id>
+      <points>-6081,3648,-1824,3648,-1800,3600,-6000,3600</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>387</id>
+      <points>3345,2433,3384,2118,3342,2088,3300,2400</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>388</id>
+      <points>3384,2118,3507,1824,3462,1800,3342,2088</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>389</id>
+      <points>3507,1824,3699,1572,3651,1551,3462,1800</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>390</id>
+      <points>3699,1572,3951,1380,3900,1362,3651,1551</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>391</id>
+      <points>3951,1380,4245,1257,4188,1242,3900,1362</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>392</id>
+      <points>4812,1242,5100,1362,5169,1380,4875,1257</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>393</id>
+      <points>5100,1362,5349,1551,5421,1572,5169,1380</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>394</id>
+      <points>5349,1551,5538,1800,5613,1824,5421,1572</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>395</id>
+      <points>5538,1800,5658,2088,5733,2118,5613,1824</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>396</id>
+      <points>5658,2088,5700,2400,5775,2433,5733,2118</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+    <occluder>
+      <id>397</id>
+      <points>-1800,2400,-2400,2400,-2433,2433,-1824,2433</points>
+      <toggleable />
+      <closed />
+      <allow_vision />
+      <counterclockwise />
+    </occluder>
+  </occluders>
+  <lights>
+    <light>
+      <id>0</id>
+      <position>-5249,-1257</position>
+      <color>#FFFFEBCF</color>
+      <range>4,2,0,7142857,7,8,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>1</id>
+      <position>-4988,-2750</position>
+      <color>#FFFFEBCF</color>
+      <range>4,2,0,7142857,7,8,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>2</id>
+      <position>-4669,-946</position>
+      <color>#FFFFEBCF</color>
+      <range>4,2,0,7142857,7,8,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>3</id>
+      <position>-2586,-2229</position>
+      <color>#FFFFEBCF</color>
+      <range>4,2,0,7142857,7,8,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>4</id>
+      <position>-2098,-935</position>
+      <color>#FFFFEBCF</color>
+      <range>4,2,0,7142857,7,8,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>5</id>
+      <position>-3193,-2659</position>
+      <color>#FFFFEBCF</color>
+      <range>4,2,0,7142857,7,8,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>6</id>
+      <position>-570,-863</position>
+      <color>#FFFFEBCF</color>
+      <range>4,2,0,7142857,7,8,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>7</id>
+      <position>4668,-851</position>
+      <color>#FFFFEBCF</color>
+      <range>4,2,0,7142857,7,8,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>8</id>
+      <position>2,-1261</position>
+      <color>#FFFFEBCF</color>
+      <range>4,2,0,7142857,7,8,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>9</id>
+      <position>5246,-1265</position>
+      <color>#FFFFEBCF</color>
+      <range>4,2,0,7142857,7,8,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>10</id>
+      <position>-2668,-815</position>
+      <color>#FFFFEBCF</color>
+      <range>4,2,0,7142857,7,8,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>11</id>
+      <position>-519,-2406</position>
+      <color>#FFFFEBCF</color>
+      <range>4,2,0,7142857,7,8,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>12</id>
+      <position>4709,-2518</position>
+      <color>#FFFFEBCF</color>
+      <range>4,2,0,7142857,7,8,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>13</id>
+      <position>718,1684</position>
+      <color>#FFFFEBBF</color>
+      <range>16,82199,0,7142857,31,24084,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>14</id>
+      <position>-563,2670</position>
+      <color>#FFFFEBBF</color>
+      <range>14,0,7142857,26,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>15</id>
+      <position>-394,1780</position>
+      <color>#FFFFEBBF</color>
+      <range>14,0,7142857,26,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>16</id>
+      <position>250,2469</position>
+      <color>#FFFFEBBF</color>
+      <range>14,0,7142857,26,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>17</id>
+      <position>-2712,591</position>
+      <color>#FFFFEBCF</color>
+      <range>3,24712,0,7142857,6,030366,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>18</id>
+      <position>-7437,1716</position>
+      <color>#FFFFEBCF</color>
+      <range>3,24712,0,7142857,6,030366,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>19</id>
+      <position>-7469,-1409</position>
+      <color>#FFFFEBCF</color>
+      <range>3,24712,0,7142857,6,030366,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>20</id>
+      <position>-6065,-4039</position>
+      <color>#FFFFEBCF</color>
+      <range>3,24712,0,7142857,6,030366,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>21</id>
+      <position>-562,-4221</position>
+      <color>#FFFFEBCF</color>
+      <range>3,24712,0,7142857,6,030366,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>22</id>
+      <position>2724,38</position>
+      <color>#FFFFEBCF</color>
+      <range>3,24712,0,7142857,6,030366,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>23</id>
+      <position>7113,1504</position>
+      <color>#FFFFEBCF</color>
+      <range>3,24712,0,7142857,6,030366,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>24</id>
+      <position>5759,-3885</position>
+      <color>#FFFFEBCF</color>
+      <range>3,24712,0,7142857,6,030366,0,7692308</range>
+      <on />
+    </light>
+    <light>
+      <id>25</id>
+      <position>6431,-1819</position>
+      <color>#FFFFEBCF</color>
+      <range>3,24712,0,7142857,6,030366,0,7692308</range>
+      <on />
+    </light>
+  </lights>
+</root>

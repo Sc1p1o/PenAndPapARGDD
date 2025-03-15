@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="4.1" dataversion="20210708">
+  <gridsize>300,300</gridsize>
+  <occluders />
+  <lights />
+</root>
