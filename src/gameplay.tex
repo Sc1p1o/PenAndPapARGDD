@@ -1,35 +1,36 @@
 \subsection{Core Game Loop}\label{subsec:chapter_gameloop}
 
-Beim Start lädt das Spiel automatisch den Character aus der Datenbank und füllt die verschiedenen Charaktereigenschaften
-mit den entsprechenden Informationen aus.\ Dann können die Spieler auch bereits loslegen und sind spielbereit.\ Durch
-Antippen der einzelnen Menüs können sie die kleinen Icons erweitern, um ausführlichere Charaktereigenschaften zu erhalten
-und abhängig davon in welchem Layer sie sich befinden, können sie dann auch mehr Eigenschaften bearbeiten.
+Beim Start lädt das Spiel automatisch den Character aus der Datenbank und füllt die verschiedenen
+Charaktereigenschaften mit den entsprechenden Informationen aus.\ Dann können die Spieler auch bereits loslegen und
+sind spielbereit.\ Durch Antippen der einzelnen Menüs können sie die kleinen Icons erweitern, um ausführlichere
+Charaktereigenschaften zu erhalten und abhängig davon in welchem Layer sie sich befinden, können sie dann auch mehr
+Eigenschaften bearbeiten.
 Auch können sie ihr Inventar verwalten und sich eigene Notizen machen, indem sie auf die jeweils anderen dazugehörigen
 Menüs tippen.\ Wenn die Spieler ihre Menüs erstmal aus dem Weg haben wollen, können sie diese durch gedrückt halten auf
-das Icon im ersten Layer in 3D Objekte verwandeln und dann im Raum abstellen, der ihnen besser passt.
+das Icon im ersten Layer in 3D Objekte verwandeln und dann im Raum abstellen, der ihnen besser passt.\newblock
 
-Auch können sie mit einer eigenen API ihren \textit{DnD-Beyond} Charakter verwenden.\ Da \textit{DnD-Beyond} nach unserem
-Wissensstand aktuell allerdings keine eigene öffentlich zugängliche API zur Verfügung stellt, muss der Charakter auf
-\textit{DnD-Beyond} öffentlich einsehbar sein.\ Die Datenbank erlaubt dabei auch das Speichern mehrerer Charaktere, da
-diese automatisch mit einer ID versehen werden.\ Der Index reicht für 9.999 Charaktere pro Spieler.
+Auch können sie mit einer eigenen API ihren \textit{DnD-Beyond} Charakter verwenden.\ Da \textit{DnD-Beyond} nach
+unserem Wissensstand aktuell allerdings keine eigene öffentlich zugängliche API zur Verfügung stellt, muss der
+Charakter auf \textit{DnD-Beyond} öffentlich einsehbar sein.\ Die Datenbank erlaubt dabei auch das Speichern mehrerer
+Charaktere, da diese automatisch mit einer ID versehen werden.\ Der Index reicht für 9.999 Charaktere pro Spieler.
 
-Aktionen, Zauber und Feats müssen aktuell allerdings noch in das Feld eingefügt werden oder unter Notizen notiert werden,
-da aktuell keine Oberfläche dafür implementiert ist.\ Dies sollte noch implementiert werden, so wie auch die 3D Map
-und der die Spielleiter Ansicht.
+Aktionen, Zauber und Feats müssen aktuell allerdings noch in das Feld eingefügt werden oder unter Notizen notiert
+werden, da aktuell keine Oberfläche dafür implementiert ist.\ Dies sollte noch implementiert werden, so wie auch die 3D
+Map und der die Spielleiter Ansicht.\newblock
 
 Da diese Dinge allerdings erstmal auch eine Multiplayer Verbindung bedingen, um ihre Sinnhaftigkeit zu erfüllen wurden
-diese Dinge noch nicht implementiert, allerdings ist ihre Konzeption zumindest in Teilen bereits vollzogen.
+diese Dinge noch nicht implementiert, allerdings ist ihre Konzeption zumindest in Teilen bereits vollzogen.\newblock
 
 \subsection{Steuerung}\label{subsec:gameplay_controls}
 
 \subsubsection{Allgemeine Steuerung}
 Im Idealfall ist das Spiel vollständig mit Handbewegung steuerbar und bedarf lediglich die HoloLens.
-Das gedrückt halten eines Menüs verwandelt es in ein 3D Item, das durch den Raum gezogen werden und abgelegt werden kann
- und dann beim Antippen alle informationen anzeigt.
+Das gedrückt halten eines Menüs verwandelt es in ein 3D Item, das durch den Raum gezogen werden und abgelegt werden
+kann und dann beim Antippen alle informationen anzeigt.
 Erneutes Doppeltippen des 3D Objekts soll dieses dann wieder verschwinden lassen und stattdessen wieder das vorherige
-HUD-Menü erscheinen lassen.
+HUD-Menü erscheinen lassen.\newline
 Die Booleschen und Zahlen werte sollen mit der Hand manipuliert werden.\ Die Manipulation von Textwerten soll durch
-Laden aus der \textit{DnD-Beyond} API oder durch Einlesen des Textes über die Kamera der HoloLens passieren.
+Laden aus der \textit{DnD-Beyond} API oder durch Einlesen des Textes über die Kamera der HoloLens passieren.\newblock
 
 \subsubsection{Kartensteuerung}
 Die generierte Karte soll durch auseinander ziehen und zusammen ziehen von Daumen und Zeigefinger vergrößert oder
@@ -38,12 +39,12 @@ Durch langes Antippen kann die Map dann verschoben werden und mit der zweiten Ha
 wenn die Karte deaktiviert werden soll, kann der Spielleiter die Karte gedrückt halten und nach oben wischen.
 Durch Antippen und links und rechts wischen wird die nächste Map in der Rotation geladen und generiert.
 Durch Antippen eines Quadrats wird es dann möglich sein, auch seine eigenen Figuren zu platzieren und über die Karte zu
-bewegen.
+bewegen.\newblock
 
 \subsubsection{PC Steuerung}
-Für das einfachere Debuggen und weil auch nicht jeder eine HoloLens zur Verfügung hat, sollte das Spiel so konzipiert sein,
-das das Menü und die Map auch mit Maus und Tastatur anzeigbar ist.\ Dabei simuliert der Mausklick ein Antippen mit dem Finger.
-Das Mausrad wird dann für eventuelle Drehbewegungen und Zooms verwendet.
+Für das einfachere Debuggen und weil auch nicht jeder eine HoloLens zur Verfügung hat, sollte das Spiel so konzipiert
+sein, das das Menü und die Map auch mit Maus und Tastatur anzeigbar ist.\ Dabei simuliert der Mausklick ein Antippen
+mit dem Finger.\ Das Mausrad wird dann für eventuelle Drehbewegungen und Zooms verwendet.\newblock
 
 \subsection{Der Spieler}\label{subsec:gameplay_player}
 Die Spieler können ihre Charaktere entweder aus \textit{DnD-Beyond} importieren, ihren auf Papier geschriebenen Charakter
@@ -52,12 +53,12 @@ Der Spieler kann mit anderen Spielern in eine Session gehen und so eine Party st
 Dabei soll dann einer der Spieler den Spielleiter übernehmen und ein erweitertes HUD haben, mit dem er weitere Optionen
 hat für die Session um ein vorher importiertes Kartenset zu laden und NPCs auf diesen zu platzieren.
 Innerhalb dieser Session hat der Spielleiter als eine Art Admin auch eingeschränkte Rechte die Charaktere der anderen
-Spieler zu beeinflussen durch das Zuweisen von Status Effekten zum Beispiel.
+Spieler zu beeinflussen durch das Zuweisen von Status Effekten zum Beispiel.\newblock
 
 \subsubsection{Der Mitspieler}
 Jeder Spieler hat Zugriff auf das Standard HUD mit der Ansicht über einen Character.\ Auch der Spielleiter hat diese
 Ansicht, weil es grade bei kleinen Gruppen auch dazu führen kann, das der Spielleiter auch gleichzeitig einen Charakter
 mitspielt.
 Die Ansicht enthält Informationen über den Charakter, das Inventar, Notizen und ein Menü für Aktionen und Zauber des
-Characters.
+Charakters.\ Diese Informationen
 \newblock

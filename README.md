@@ -1,8 +1,8 @@
 # Pen&PapAR
 
-Das Projekt Pen&PapAR wird in Unity programmiert. Dennoch wird dieses Repo verwendet, um grobe Planungsstrukturen zu
-erstellen und organisatorische Sachen zu klären so wie eine Übersicht über offene und erledigte Aufgaben zu halten.
-Das Projekt selbst wird mit Unity Version Control verwaltet und intern geteilt.
+Das Projekt Pen&PapAR wird in Unity programmiert. Das ganze Projekt ist in zwei Repos geteilt.
+Dieses Repo enthält das GDD und die organisatorischen Dinge.
+Die Implementierung der Datenbank und des Backends mit DjangoDB findet sich [hier](https://github.com/Sc1p1o/PenAndPapARDB)
 
 ## Mitarbeiter
 
@@ -83,7 +83,7 @@ public class ExampleClass : MonoBehavior
   
     private bool _isOnline;
     private int _yawnCounter = 100;
-    
+  
     public void DoSomething()
     {
         bool isLocaleVaraible = true;
@@ -103,7 +103,7 @@ public enum BitwiseEnum
     Action = 1,
     AnotherAction = 2,
     DifferentAction = 4,
-    
+  
     ActionAndDifferentAction = Action | DifferentAction // = 3
 }
 
