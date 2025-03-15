@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  15 MAR 2025 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  15 MAR 2025 19:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -421,15 +421,15 @@ Overfull \hbox (57.60277pt too wide) in paragraph at lines 23--23
 \tf@toc=\write6
 \openout6 = `PenAndPapAR.toc'.
 
- [2] (entwicklung.tex
-[3] [4] [5]) (idee.tex
+ [2]
+(Inhalt/entwicklung.tex [3] [4] [5]) (Inhalt/idee.tex
 Overfull \hbox (5.76587pt too wide) in paragraph at lines 8--16
 \OT1/cmr/m/n/10.95 beizube-hal-ten. Genauso wichtig ist es den Spiel-ern nichts
  Dig-i-tales aufzuzwin-
  []
 
 [6]
-idee.tex:56: Undefined control sequence.
+Inhalt/idee.tex:56: Undefined control sequence.
 l.56 ...mente des Pen\&Papers zu digitalisieren.\n
                                                   
 The control sequence at the end of the top line
@@ -438,36 +438,26 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [7] (gameplay.tex
+) [7] (Inhalt/gameplay.tex
 Overfull \hbox (13.63878pt too wide) in paragraph at lines 17--20
 \OT1/cmr/m/n/10.95 eingef^^?ugt wer-den oder unter No-ti-zen notiert wer-den, d
 a ak-tuell keine Oberfl^^?ache
  []
 
-[8] [9]) (systems.tex) [10] [11]
+[8] [9]) (Inhalt/systems.tex) [10] [11]
 (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `PenAndPapAR.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `PenAndPapAR.out':
-(rerunfilecheck)             Before: 433102BE858BE9435709195252ED65B8;2899
-(rerunfilecheck)             After:  F9FB0F2B9CE0F4616B7C2EB92FFD6D15;3411.
+Package rerunfilecheck Info: File `PenAndPapAR.out' has not changed.
+(rerunfilecheck)             Checksum: F9FB0F2B9CE0F4616B7C2EB92FFD6D15;3411.
  ) 
 Here is how much of TeX's memory you used:
- 11377 strings out of 474462
- 175983 string characters out of 5742883
- 1933998 words of memory out of 5000000
- 33509 multiletter control sequences out of 15000+600000
+ 11383 strings out of 474462
+ 176416 string characters out of 5742883
+ 1934998 words of memory out of 5000000
+ 33513 multiletter control sequences out of 15000+600000
  564825 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,266b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -479,10 +469,10 @@ ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/maddi/AppData/Local/Programs/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maddi/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/maddi/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on E:/IdeaProjects\PenAndPapARGDD\out\PenAndPapAR.pdf (11 pages,
- 140264 bytes).
+Output written on E:/IdeaProjects\PenAndPapARGDD\GameDesignDocument\PenAndPapAR
+.pdf (11 pages, 142710 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
+ 241 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
