@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  15 MAR 2025 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  15 MAR 2025 17:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**./PenAndPapAR.tex
-(PenAndPapAR.tex
+**./zin_iden_naser_report.tex
+(zin_iden_naser_report.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -24,6 +24,49 @@ File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+)
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2023/05/13 v2.17o AMS math features
 \@mathmargin=\skip50
@@ -34,7 +77,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks17
+\@emptytoks=\toks19
 \ex@=\dimen141
 ))
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
@@ -74,36 +117,33 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \dotsspace@=\muskip16
 \c@parentequation=\count269
 \dspbrk@lvl=\count270
-\tag@help=\toks18
+\tag@help=\toks20
 \row@=\count271
 \column@=\count272
 \maxfields@=\count273
-\andhelp@=\toks19
+\andhelp@=\toks21
 \eqnshift@=\dimen144
 \alignsep@=\dimen145
 \tagshift@=\dimen146
 \tagwidth@=\dimen147
 \totwidth@=\dimen148
 \lineht@=\dimen149
-\@envbody=\toks20
+\@envbody=\toks22
 \multlinegap=\skip51
 \multlinetaggap=\skip52
-\mathdisplay@stack=\toks21
+\mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/titling\titling.sty
-Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip53
-\thanksmargin=\skip54
-\droptitle=\skip55
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks22
+\KV@toks@=\toks24
 )
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
@@ -266,131 +306,64 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip56
+\Hy@SectionHShift=\skip53
 )
-(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstdoc.sty
-Package: lstdoc 2023/02/27 1.9 (Carsten Heinz)
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip54
+\enit@outerparindent=\dimen156
+\enit@toks=\toks25
+\enit@inbox=\box53
+\enit@count@id=\count286
+\enitdp@description=\count287
+)
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 19
+.
 
-(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count286
-\lst@gtempboxa=\box53
-\lst@token=\toks23
-\lst@length=\count287
-\lst@currlwidth=\dimen156
-\lst@column=\count288
-\lst@pos=\count289
-\lst@lostspace=\dimen157
-\lst@width=\dimen158
-\lst@newlines=\count290
-\lst@lineno=\count291
-\lst@maxwidth=\dimen159
-
-(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\lst@WFtoken=\toks24
-\lst@WF=\write3
-\c@lstnumber=\count292
-\lst@skipnumbers=\count293
-\lst@framebox=\box54
-)
-(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2023/02/27 1.9 listings configuration
-))
-Package: listings 2023/02/27 1.9 (Carsten Heinz)
-(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
-Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
-\FV@CodeLineNo=\count294
-\FV@InFile=\read2
-\FV@TabBox=\box55
-\c@FancyVerbLine=\count295
-\FV@StepNumber=\count296
-\FV@OutFile=\write4
-)
-
-C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstdoc.sty:29: 
-LaTeX Error: Option clash for package hyperref.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 ...\RequirePackage[colorlinks]{hyperref}\else
-                                                  
-The package hyperref has already been loaded with options:
-  []
-There has now been an attempt to load it with options
-  [colorlinks]
-Adding the global options:
-  ,colorlinks
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
-(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
-Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
-
-(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 149.
-(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-)
-(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/algorithms\algorithmic.
-sty
-Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
- (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
-)
-\c@ALC@unique=\count297
-\c@ALC@line=\count298
-\c@ALC@rem=\count299
-\c@ALC@depth=\count300
-\ALC@tlm=\skip57
-\algorithmicindent=\skip58
-)
-\c@argcount=\count301
-\lst@samplebox=\box56
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count302
-\l__pdf_internal_box=\box57
-) (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.aux)
-\openout1 = `PenAndPapAR.aux'.
+\l__color_backend_stack_int=\count288
+\l__pdf_internal_box=\box54
+) (E:/IdeaProjects\PenAndPapARGDD\auxil\zin_iden_naser_report.aux)
+\openout1 = `zin_iden_naser_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count303
-\scratchdimen=\dimen160
-\scratchbox=\box58
-\nofMPsegments=\count304
-\nofMParguments=\count305
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count306
-\MPscratchDim=\dimen161
-\MPnumerator=\count307
-\makeMPintoPDFobject=\count308
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count289
+\scratchdimen=\dimen157
+\scratchbox=\box55
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen158
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks27
 )
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -402,87 +375,99 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 17.
- (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.out)
-(E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.out)
-\@outlinefile=\write5
-\openout5 = `PenAndPapAR.out'.
+Package hyperref Info: Link coloring OFF on input line 19.
+ (E:/IdeaProjects\PenAndPapARGDD\auxil\zin_iden_naser_report.out)
+(E:/IdeaProjects\PenAndPapARGDD\auxil\zin_iden_naser_report.out)
+\@outlinefile=\write3
+\openout3 = `zin_iden_naser_report.out'.
 
-\c@lstlisting=\count309
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+1.
 
-Overfull \hbox (57.60277pt too wide) in paragraph at lines 23--23
- [] 
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+1.
+
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+21.
+
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+21.
+
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 21.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 21.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 21.
+
+Overfull \hbox (16.31429pt too wide) in paragraph at lines 23--24
+\T1/lmr/m/n/10.95 Regel-bücher, Charak-ter-bö-gen und weit-ere Spiel-ma-te-ri-a
+lien virtuell darzustellen.
+ []
+
+
+Overfull \hbox (1.25851pt too wide) in paragraph at lines 23--24
+\T1/lmr/m/n/10.95 Dadurch wird der ph-ysis-che Spieltisch ent-lastet, so-dass m
+ehr Platz für Minia-
+ []
+
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+8.
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Overfull \hbox (22.79338pt too wide) in paragraph at lines 30--31
+[]\T1/lmr/m/n/10.95 Integration von AR/VR-Interaktionen, so-dass Nutzer mithilf
+e der HoloLens
  []
 
 [1
 
-{C:/Users/maddi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.toc)
-\tf@toc=\write6
-\openout6 = `PenAndPapAR.toc'.
-
- [2] (entwicklung.tex
-[3] [4] [5]) (idee.tex
-Overfull \hbox (5.76587pt too wide) in paragraph at lines 8--16
-\OT1/cmr/m/n/10.95 beizube-hal-ten. Genauso wichtig ist es den Spiel-ern nichts
- Dig-i-tales aufzuzwin-
+{C:/Users/maddi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/madd
+i/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/maddi/Ap
+pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [2]
+Overfull \hbox (37.24039pt too wide) in paragraph at lines 54--55
+\T1/lmr/m/n/10.95 Near-In-ter-ac-tion-Touch-able, war hi-er-bei entschei-dend, 
+um die HoloLens-Interaktionen
  []
 
-[6]
-idee.tex:56: Undefined control sequence.
-l.56 ...mente des Pen\&Papers zu digitalisieren.\n
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) [7] (gameplay.tex
-Overfull \hbox (13.63878pt too wide) in paragraph at lines 17--20
-\OT1/cmr/m/n/10.95 eingef^^?ugt wer-den oder unter No-ti-zen notiert wer-den, d
-a ak-tuell keine Oberfl^^?ache
- []
-
-[8] [9]) (systems.tex) [10] [11]
-(E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.aux)
+[3] [4] (E:/IdeaProjects\PenAndPapARGDD\auxil\zin_iden_naser_report.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `PenAndPapAR.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `PenAndPapAR.out':
-(rerunfilecheck)             Before: 433102BE858BE9435709195252ED65B8;2899
-(rerunfilecheck)             After:  F9FB0F2B9CE0F4616B7C2EB92FFD6D15;3411.
+Package rerunfilecheck Info: File `zin_iden_naser_report.out' has not changed.
+(rerunfilecheck)             Checksum: F41687A3366EC511F5EE6B34F2BDEB77;1884.
  ) 
 Here is how much of TeX's memory you used:
- 11377 strings out of 474462
- 175983 string characters out of 5742883
+ 9793 strings out of 474462
+ 153700 string characters out of 5742883
  1933998 words of memory out of 5000000
- 33509 multiletter control sequences out of 15000+600000
- 564825 words of font info for 59 fonts, out of 8000000 for 9000
+ 31961 multiletter control sequences out of 15000+600000
+ 592790 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,266b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\maddi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1095.pk><C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/maddi/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maddi/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/maddi/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on E:/IdeaProjects\PenAndPapARGDD\out\PenAndPapAR.pdf (11 pages,
- 140264 bytes).
+ 75i,6n,79p,841b,441s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
+b><C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb
+><C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
+<C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><
+C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb>
+Output written on E:/IdeaProjects\PenAndPapARGDD\out\zin_iden_naser_report.pdf 
+(4 pages, 145152 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 97 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -18,6 +18,11 @@
 \contentsline {subsection}{\numberline {3.3}Der Spieler}{9}{subsection.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1}Der Mitspieler}{10}{subsubsection.3.3.1}%
 \contentsline {section}{\numberline {4}Systems}{10}{section.4}%
-\contentsline {section}{\numberline {5}UI und HUD}{10}{section.5}%
-\contentsline {section}{\numberline {6}Graphics/Visuals}{10}{section.6}%
-\contentsline {section}{\numberline {7}Soundeffects}{11}{section.7}%
+\contentsline {subsection}{\numberline {4.1}Hardware und Technik}{10}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}}{11}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Zielgruppe}{11}{section.5}%
+\contentsline {section}{\numberline {6}UI und HUD}{11}{section.6}%
+\contentsline {section}{\numberline {7}Graphics/Visuals}{11}{section.7}%
+\contentsline {section}{\numberline {8}Soundeffects}{11}{section.8}%
+\contentsline {section}{\numberline {9}Finanzierung}{11}{section.9}%
+\contentsline {section}{\numberline {10}Schlusswort}{11}{section.10}%
