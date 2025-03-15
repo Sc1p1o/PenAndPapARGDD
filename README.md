@@ -11,8 +11,8 @@ Die Implementierung der Datenbank und des Backends mit DjangoDB findet sich [hie
 1. [Mitarbeiter](#mitarbeiter)
 2. [Projektziele](#projektziele)
 3. [Technologien](#technologien)
-4. [How To Start Up](#how-to-start-up)
-5. [Verwendung](#how-to-start-up)
+4. [Voraussetzungen](#voraussetzungen)
+5. [How To Start Up](#how-to-start-up)
 6. [Contribution Guidelines](#contribution-guidelines)
 7. [Code Standards](#code-standards)
 8. [Game Design Document](#game-design-document)
@@ -49,11 +49,52 @@ Das Projekt wurde mit folgenden Technologien entwickelt:
 
 ---
 
+## Voraussetzungen
+
+### Hardware
+
+* AR/VR-Gerät
+* PC/Laptop:
+* Stabile Netzwerk verbindung
+
+### Sofware
+
+Operating System: Windows
+Unity Editor Version: 6000.0.32f1
+Python: 3.10 or later (used for Python Server)
+Git: Latest version installed
+
 ## How To Start Up
 
 Mit der folgenden Anleitung unten startet man das Projekt auf der HoloLens und den Local Host auf einem PC.
 
-[coming soon]
+1. **Clone Ropos**
+
+   ```bash
+   Via HTTPS
+   git clone https://github.com/Sc1p1o/PenAndPapARDB.git
+   git clone https://github.com/Sc1p1o/PenAndPapARGDD.git
+
+   via SSH
+   git clone git@github.com:Sc1p1o/PenAndPapARDB.git
+   git clone git@github.com:Sc1p1o/PenAndPapARGDD.git
+
+2. **Unity Project Setup**
+
+* öffne [Unity Hub](https://unity.com/de/unity-hub).  
+* Klicke auf die Schaltfläche "Hinzufügen".
+* Navigiere zum geklonten Projektverzeichnis, beginnend vom Stammverzeichnis:
+PenAndPapARGDD/Unity_Projekt/
+* Bestätige den Ordner und füge das Projekt zum Unity Hub hinzu.
+
+3. **Start Database Server**
+
+   ```bash
+   cd PenAndPapARDB
+   py -m pip install -r requirements.txt
+   python manage.py makemigrations
+   python manage.py migrate
+   python manage.py runserver
 
 ## Contribution Guidelines
 
