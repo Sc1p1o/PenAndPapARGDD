@@ -4,12 +4,56 @@ Das Projekt Pen&PapAR wird in Unity programmiert. Das ganze Projekt ist in zwei 
 Dieses Repo enthält das GDD und die organisatorischen Dinge.
 Die Implementierung der Datenbank und des Backends mit DjangoDB findet sich [hier](https://github.com/Sc1p1o/PenAndPapARDB)
 
+---
+
+## Inhaltsverzeichnis
+
+1. [Mitarbeiter](#mitarbeiter)
+2. [Projektziele](#projektziele)
+3. [Technologien](#technologien)
+4. [How To Start Up](#how-to-start-up)
+5. [Verwendung](#how-to-start-up)
+6. [Contribution Guidelines](#contribution-guidelines)
+7. [Code Standards](#code-standards)
+8. [Game Design Document](#game-design-document)
+
+---
+
 ## Mitarbeiter
 
 * Jannis Kerz (Deschnische Leidung)
 * Martin Miller (Teamleidung, Issues)
 * Nana Lenk (Design Leidung)
 * Salem Zin (Deschnische Leidung, Merge Requests)
+
+## Projektziele
+
+Das Hauptziel von Pen&PapAR ist es, die traditionelle Nutzung von Papier-Charakterbögen in DND-Sessions durch digitale Lösungen zu ersetzen. Die spezifischen Ziele sind:
+
+* Entwicklung einer AR-Anwendung zur Echtzeit-Anzeige und Bearbeitung von Charakterbögen.
+* Integration von VR-Elementen für eine immersive Spielerfahrung.
+* Bereitstellung einer benutzerfreundlichen Schnittstelle für schnelle und einfache Änderungen.
+
+---
+
+## Technologien
+
+Das Projekt wurde mit folgenden Technologien entwickelt:
+
+* **Unity3D**: Für die Entwicklung der VR- und AR-Umgebung.
+* **ARKit und ARCore**: Für die AR-Funktionalität.
+* **Blender**: Für die Erstellung von 3D-Modellen.
+* **JSON**: Für die Datenverarbeitung von Charakterbögen.
+* **GitHub**: Für die Versionskontrolle und Zusammenarbeit.
+* **LaTeX**: Für die Dokumentation.
+
+---
+
+## How To Start Up
+
+Mit der folgenden Anleitung unten startet man das Projekt auf der HoloLens und den Local Host auf einem PC.
+
+[coming soon]
 
 ## Contribution Guidelines
 
@@ -29,7 +73,7 @@ Bei Nichteinhaltung dieser Standards wird eine dringende Änderung erbeten und d
 * MRs erst Stellen, wenn Feature fertig zum mergen
 * MRs sind stets von mindestens einer Person zu approven, die nicht an dem Branch gearbeitet hat
 
-## Code Standard
+## Code Standards
 
 Zusätzlich zu den eben besprochenen Contribution Guidelines ist es auch wichtig den Code einheitlich zu gestalten und
 gewisse Standards und Conventions einzuhalten. Dazu sind hier jene besagten Standards und Conventions nochmals
@@ -41,7 +85,6 @@ Bei Nichteinhaltung wird eine Erklärung gefordert, sollte diese nicht ausreiche
 diese Standards zu ignorieren, wird die Merge Request abgelehnt bis die Standards wieder eingehalten werden.
 
 ### Unity Standards
-
 
 | Objekt              | Schreibweise | Anmerkung                                                                                                |
 | ------------------- | ------------ | -------------------------------------------------------------------------------------------------------- |
@@ -115,12 +158,4 @@ public interface ISleepless
 
 ## Game Design Document
 
-## How To Start Up
-
-Mit der folgenden Anleitung unten startet man das Projekt auf der HoloLens und den Local Host auf einem PC.
-
-[coming soon]
-
-## Ziel des Projektes
-
-[coming soon]
+Das vollständige Game Design Document (GDD) für Pen&PapAR kann [hier](out\PenAndPapAR.pdf) eingesehen werden.
