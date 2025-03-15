@@ -5,23 +5,28 @@
 \contentsline {subsection}{\numberline {1.4}Persistierung und Importierung}{5}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Der Mitspieler}{5}{subsection.1.5}%
 \contentsline {subsection}{\numberline {1.6}Der Spielleiter}{6}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Die Gefährten}{6}{subsection.1.7}%
-\contentsline {subsection}{\numberline {1.8}Ein Held kommt selten allein}{6}{subsection.1.8}%
-\contentsline {subsection}{\numberline {1.9}Weltenbummler}{6}{subsection.1.9}%
-\contentsline {section}{\numberline {2}Idee}{6}{section.2}%
-\contentsline {section}{\numberline {3}Gameplay}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Core Game Loop}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Steuerung}{9}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Allgemeine Steuerung}{9}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Kartensteuerung}{9}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3.2.3}PC Steuerung}{9}{subsubsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.3}Der Spieler}{9}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {3.3.1}Der Mitspieler}{10}{subsubsection.3.3.1}%
-\contentsline {section}{\numberline {4}System}{10}{section.4}%
-\contentsline {section}{\numberline {5}Zielgruppe}{11}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Spaß für Jung und Alt}{11}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Wer sind unsere Spieler?}{11}{subsection.5.2}%
-\contentsline {section}{\numberline {6}Grafik und Sound}{12}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Grafiken für Spielzustände (Conditions)}{12}{subsection.6.1}%
-\contentsline {section}{\numberline {7}Finanzierung}{14}{section.7}%
-\contentsline {section}{\numberline {8}Schlusswort}{15}{section.8}%
+\contentsline {subsection}{\numberline {1.7}Die Gefährten}{7}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Ein Held kommt selten allein}{7}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Leben auf der flachen Erde}{7}{subsection.1.9}%
+\contentsline {subsection}{\numberline {1.10}\enquote {Und sie ist trotzdem rund...}}{8}{subsection.1.10}%
+\contentsline {section}{\numberline {2}Idee}{8}{section.2}%
+\contentsline {section}{\numberline {3}Gameplay}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Core Game Loop}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Steuerung}{10}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Allgemeine Steuerung}{10}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Kartensteuerung}{10}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}PC Steuerung}{11}{subsubsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.3}Der Spieler}{11}{subsection.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}Der Mitspieler}{11}{subsubsection.3.3.1}%
+\contentsline {section}{\numberline {4}System}{11}{section.4}%
+\contentsline {section}{\numberline {5}Zielgruppe}{12}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Spaß für Jung und Alt}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Wer sind unsere Spieler?}{13}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Grafik und Sound}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Attribute}{13}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Grafiken für Spielzustände (Conditions)}{14}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Weitere Icons}{17}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Finanzierung}{17}{section.7}%
+\contentsline {section}{\numberline {8}Schlusswort}{18}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Der aktuelle Stand des Projekts}{18}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Die Zukunft}{18}{subsection.8.2}%

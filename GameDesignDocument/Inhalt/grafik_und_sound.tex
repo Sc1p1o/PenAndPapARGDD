@@ -1,107 +1,155 @@
 In diesem Abschnitt werden die zentralen Grafiken vorgestellt, die im Spiel verwendet werden, sowie ihre Bedeutung
 und Platzierung im Design.
 
-\subsection{Grafiken für Spielzustände (Conditions)}
-Die folgenden Grafiken stellen verschiedene Bedingungen oder Zustände dar, die auf Charaktere im Spiel angewandt werden
-können.\ Jeder Zustand wird durch eine Grafik illustriert, um die Benutzerfreundlichkeit und Verständlichkeit zu erhöhen.
-
-Dieser Abschnitt bietet eine Übersicht über wichtige Grafiken, die im Spiel verwendet werden.
-Für jede Grafik wird das entsprechende Bild angezeigt, zusammen mit einer kurzen Beschreibung.
-
-Die folgenden Tabellen zeigen die einzelnen Spielzustände, illustriert durch ihre jeweilige Grafik und eine Beschreibung:
+\subsection{Attribute}\label{subsec:atribute_graphics}
+Zu aller erst werden die einzelnen Attribute eines Charakters grafisch angezeigt durch ein dazu passendes Icon.
+Diese Attribute beeinflussen einen Charakter und seine einzelnen Skills direkt oder indirekt durch Rettungswürfe oder
+Rollenspielaspekte.
 \newline
 \newline
-\renewcommand{\arraystretch}{1.5} % Zeilenabstand in der Tabelle erhöhen
-\begin{longtable}{|p{4cm}|p{10cm}|}
-\hline
 
-\includegraphics[width=2cm]{../images/Conditions/blinded.png} &
-\textbf{Blinded:} Der Zustand eines geblendeten Charakters, wodurch dessen Sicht stark eingeschränkt wird.
-Dies kann Einfluss auf die Aktionen und Wahrnehmung haben.
-\hline
+\renewcommand{\arraystretch}{1.5}
+\begin{longtable}
+    \includegraphics[width=2cm]{../images/Icon/strength} &
+    \textbf{Stärke:} Stärke steht für physische Kraft und beeinflusst die Traglast, Nahkampfangriffe und andere
+    physische Aktionen.
 
-\includegraphics[width=2cm]{../images/Conditions/poisoned.png} &
-\textbf{Poisoned:} Dieser Zustand stellt einen vergifteten Charakter dar.
-Der Charakter erleidet schrittweise Schaden oder wird in seinen Werten geschwächt.
-\hline
+    \hline
 
-\includegraphics[width=2cm]{../images/Conditions/restrained.png} &
-\textbf{Restrained:} Zeigt einen Zustand begrenzter Bewegung, in dem der Charakter gefesselt oder anderweitig
-unbeweglich gemacht wurde.\ Angriffe gegen ihn haben häufig Vorteile.
-\hline
+    \includegraphics[width=2cm]{../images/Icon/dexterity} &
+    \textbf{Geschicklichkeit:} Die Geschicklichkeit bestimmt die Beweglichkeit und Reflexe eines Charakters.
+    Sie beeinflusst die Charakterinitiative und viele Fähigkeiten die zur Bewegung notwendig sind.
+    \hline
 
-\includegraphics[width=2cm]{../images/Conditions/exhaustion.png} &
-\textbf{Exhaustion:} Die Erschöpfung eines Charakters, der durch Beeinträchtigung mehrerer Werte schrittweise
-geschwächt wird (z.B.\ Geschwindigkeit oder Lebenspunkte, Attribute, Skills).
-\hline
+    \includegraphics[width=2cm]{../images/Icon/constitution} &
+    \textbf{Konstitution:} Die Konstitution steht für die Gesundheit eines Charakters und bestimmt essenziel mit wie gut
+    man Giften und einflüssen wie Kälte und Hitze widerstehen kann.
+    Auch beeinflusst sie die Lebenspunkte eines Charakters.
+    \hline
 
-\includegraphics[width=2cm]{../images/Conditions/frightened.png} & \textbf{Frightened:} Dieser Zustand symbolisiert die Angst eines Charakters, wodurch seine Bewegungsfreiheit und
-sein Verhalten eingeschränkt werden können.
+    \includegraphics[width=2cm]{../images/Icon/intelligence} &
+    \textbf{Intelligenz:} Die Intelligenz repräsentiert den Wissensstand und das logische Denken eines Charakters.
+    Sie beeinflusst lern bezogene Fähigkeiten und Zauber-Fähigkeiten bestimmter Klassen.
+    \hline
 
+    \includegraphics[width=2cm]{../images/Icon/wisdom} &
+    \textbf{Weisheit:} Die Weisheit repräsentiert Wahrnehmung und Intuition.\ Sie beeinflusst Fähigkeiten wie Medizin,
+    Überleben und bestimmte Zauber.
+    \hline
 
-\includegraphics[width=2cm]{../images/Conditions/grappled.png} &
-\textbf{Grappled:} Der Zustand zeigt einen festgehaltenen Charakter, der sich nicht frei bewegen kann, bis er sich
-befreit. \\
-\hline
-
-\includegraphics[width=2cm]{../images/Conditions/charmed.png} &
-\textbf{Charmed:} Zustände unter dem Einfluss äußerer Kräfte (z.B.\ Verzauberung), wobei der Charakter möglicherweise
-nicht frei agieren kann. \\
-\hline
-
-\includegraphics[width=2cm]{../images/Conditions/paralyzed.png} &
-\textbf{Paralyzed:} Vollkommene Bewegungsunfähigkeit, wobei der Charakter keinen Widerstand leisten kann.
-\hline
-
-\includegraphics[width=2cm]{../images/Conditions/invisible.png} &
-\textbf{Invisible:} Dieser Zustand macht den Charakter für Gegner unsichtbar, wodurch Nah- oder Fernangriffe erschwert
-werden.
-\hline
-
-\includegraphics[width=2cm]{../images/Conditions/deafened.png} &
-\textbf{Deafened:} Darstellung der Taubheit eines Charakters, die es schwierig macht, akustische Signale wahrzunehmen.
-\hline
-
-\includegraphics[width=2cm]{../images/Conditions/unconscious.png} &
-\textbf{Unconscious:} Ein bewusstloser Charakter ist kampfunfähig und anfällig für Angriffe.
-\hline
-
-\includegraphics[width=2cm]{../images/Conditions/incapacitated.png} &
-\textbf{Incapacitated:} Zeigt einen Zustand der völligen Handlungsfähigkeit, bei dem keine Aktionen ausgeführt werden
-können.
-
-\includegraphics[width=2cm]{../images/Conditions/prone.png} &
-\textbf{Prone:} Der liegende Zustand eines Charakters, der seine Manövrierfähigkeit und seinen Verteidigungswert
-verringert.
-\hline
-
-\includegraphics[width=2cm]{../images/Conditions/stunned.png} &
-\textbf{Stunned:} Ein betäubter Charakter ist nicht in der Lage, sich zu bewegen oder auf Aktionen anderer zu reagieren.
-\hline
-
-\includegraphics[width=2cm]{../images/Conditions/initiative.png} &
-\textbf{Initiative:} Zeigt die Reihenfolge und Reaktionszeit von Akteuren im Spiel an.
-\hline
+    \includegraphics[width=2cm]{../images/Icon/charisma} &
+    \textbf{Charisma:} Dieses Attribut repräsentiert die Ausstrahlung und Überzeugungskraft eines Charakters.
+    Es beeinflusst soziale Interaktionen und bestimmte Fähigkeiten wie Verhandeln oder Täuschen.
+    \hline
 
 \end{longtable}
 
 
+\subsection{Grafiken für Spielzustände (Conditions)}\label{subsec:condition_graphics}
+Die folgenden Grafiken stellen verschiedene Bedingungen oder Zustände dar, die auf Charaktere im Spiel angewandt
+werden können.\ Jeder Zustand wird durch eine Grafik illustriert, um die Benutzerfreundlichkeit und Verständlichkeit zu
+erhöhen.
+
+Dabei gibt es im Spiel folgende Zustände die ein Spieler erhalten kann:
+
+\newline
+\newline
+\renewcommand{\arraystretch}{1.5}
+\begin{longtable}
+    \hline
+
+    \includegraphics[width=2cm]{../images/Conditions/blinded} &
+    \textbf{Blinded:} Der Zustand eines geblendeten Charakters, wodurch dessen Sicht stark eingeschränkt wird.
+    Dies kann Einfluss auf die Aktionen und Wahrnehmung haben.
+    \hline
+
+    \includegraphics[width=2cm]{../images/Conditions/poisoned} &
+    \textbf{Poisoned:} Dieser Zustand stellt einen vergifteten Charakter dar.
+    Der Charakter erleidet schrittweise Schaden oder wird in seinen Werten geschwächt.
+    \hline
+
+    \includegraphics[width=2cm]{../images/Conditions/restrained} &
+    \textbf{Restrained:} Zeigt einen Zustand begrenzter Bewegung, in dem der Charakter gefesselt oder anderweitig
+    unbeweglich gemacht wurde.\ Angriffe gegen ihn haben häufig Vorteile.
+    \hline
+
+    \includegraphics[width=2cm]{../images/Conditions/exhaustion} &
+    \textbf{Exhaustion:} Die Erschöpfung eines Charakters, der durch Beeinträchtigung mehrerer Werte schrittweise
+    geschwächt wird (z.B.\ Geschwindigkeit oder Lebenspunkte, Attribute, Skills).
+    \hline
+
+    \includegraphics[width=2cm]{../images/Conditions/frightened} & \textbf{Frightened:} Dieser Zustand symbolisiert
+    die Angst eines Charakters, wodurch seine Bewegungsfreiheit und sein Verhalten eingeschränkt werden können.
 
 
-%    Spieler ansicht:
-%    - Herz, welches die aktuellen HP anzeigt
-%    - XP Balken
-%    - Schild, das den aktuellen Verteidigungswert anzeigt
-%    - aufzählung der jeweiligen Stärke, Intelligenz, Konstitution, Weisheit, Charisma
-%    - evtl Minibild von kontrollierten NPCs
-%    - kurzbild von Statuseffekten
-%
-%    Detaillierte Ansicht:
-%    - genaue Charaktere Statistiken; Charaktersheet
-%    - Informationen über Inventar (Inhalt, Platz, usw.)
-%    - detaillierte Statuseffekte
-%    - kontrollierte NPCs in Namensliste
-%
-%    \section{Soundeffects}\label{sec:soundeffects}
-%    - Link zu Spotify/Youtube um Musik für Atmosphäre zu steuern
-%    - evtl Soundeffekte für bestimmte Spiel Events, Explosionen, Angriffe
+    \includegraphics[width=2cm]{../images/Conditions/grappled} &
+    \textbf{Grappled:} Der Zustand zeigt einen festgehaltenen Charakter, der sich nicht frei bewegen kann, bis er sich
+    befreit. \\
+    \hline
+
+    \includegraphics[width=2cm]{../images/Conditions/charmed} &
+    \textbf{Charmed:} Zustände unter dem Einfluss äußerer Kräfte (z.B.\ Verzauberung), wobei der Charakter möglicherweise
+    nicht frei agieren kann. \\
+    \hline
+
+    \includegraphics[width=2cm]{../images/Conditions/paralyzed} &
+    \textbf{Paralyzed:} Vollkommene Bewegungsunfähigkeit, wobei der Charakter keinen Widerstand leisten kann.
+    \hline
+
+    \includegraphics[width=2cm]{../images/Conditions/invisible} &
+    \textbf{Invisible:} Dieser Zustand macht den Charakter für Gegner unsichtbar, wodurch Nah- oder Fernangriffe erschwert
+    werden.
+    \hline
+
+    \includegraphics[width=2cm]{../images/Conditions/deafened} &
+    \textbf{Deafened:} Darstellung der Taubheit eines Charakters, die es schwierig macht, akustische Signale wahrzunehmen.
+    \hline
+
+    \includegraphics[width=2cm]{../images/Conditions/unconscious} &
+    \textbf{Unconscious:} Ein bewusstloser Charakter ist kampfunfähig und anfällig für Angriffe.
+    \hline
+
+    \includegraphics[width=2cm]{../images/Conditions/incapacitated} &
+    \textbf{Incapacitated:} Zeigt einen Zustand der völligen Handlungsfähigkeit, bei dem keine Aktionen ausgeführt werden
+    können.
+
+    \includegraphics[width=2cm]{../images/Conditions/prone} &
+    \textbf{Prone:} Der liegende Zustand eines Charakters, der seine Manövrierfähigkeit und seinen Verteidigungswert
+    verringert.
+    \hline
+
+    \includegraphics[width=2cm]{../images/Conditions/stunned} &
+    \textbf{Stunned:} Ein betäubter Charakter ist nicht in der Lage, sich zu bewegen oder auf Aktionen anderer zu reagieren.
+    \hline
+
+\end{longtable}
+
+\subsection{Weitere Icons}\label{subsec:other_graphics}
+Zudem gibt es noch einzelne andere Grafiken, die wir integrieren wollen, um immer mehr Text zu ersetzen und bildlich
+mit den Spielern zu sprechen.
+
+\newline
+\newline
+
+\renewcommand{\arraystretch}{1.5}
+\begin{longtable}
+
+    \includegraphics[width=2cm]{../images/Icon/ac} &
+    \textbf{Rüstungsklasse:} Die Rüstungsklasse zeigt die Verteidigungsfähigkeit eines Charakters an.
+    Je höher der Wert, desto schwieriger ist es, den Charakter zu treffen.
+    \hline
+
+    \includegraphics[width=2cm]{../images/Icon/expertise} &
+    \textbf{Expertise:} Ein Status den man durch Klassen einigen Skills zuweisen kann um den Proficiency Bonus gleich
+    zweimal statt nur einmal dazu addieren kann.
+    \hline
+
+    \includegraphics[width=2cm]{../images/Icon/full} &
+    \textbf{Lebenspunkte:} Das Herz wird prozentual gefüllt abhängig vom gesamten HP Anzahl zu der aktuellen HP Anzahl.
+    \hline
+
+    \includegraphics[width=2cm]{../images/Conditions/initiative} &
+    \textbf{Initiative:} Zeigt die Reihenfolge und Reaktionszeit von Akteuren im Spiel an.
+    \hline
+
+\end{longtable}

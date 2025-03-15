@@ -10,7 +10,20 @@
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{lstdoc}
+\usepackage{csquotes}
 
+% Setup
+\hypersetup{
+    colorlinks=true,        % Farben für Links aktivieren
+    linkcolor=black,         % Farbe für interne Links
+    citecolor=grey,         % Farbe für Zitate
+    filecolor=magenta,      % Farbe für Dateien
+    urlcolor=blue,          % Farbe für externe URLs
+    pdfborder={0 0 0},      % Entfernt Rahmen um Links
+}
+
+\renewcommand{\cftsecfont}{\bfseries\itshape}
+\renewcommand{\cftsecpagefont}{\bfseries}
 
 
 % Document
@@ -47,6 +60,7 @@
     \input{Inhalt/finanzierung}
 
     \section{Schlusswort}\label{sec:chapter_finish}
+    \input{Inhalt/schlusswort}
 
 
 \end{document}

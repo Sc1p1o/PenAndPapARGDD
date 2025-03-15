@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  15 MAR 2025 21:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  15 MAR 2025 23:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -350,47 +350,94 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 \c@argcount=\count301
 \lst@samplebox=\box56
 )
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.sty
+Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
+\csq@reset=\count302
+\csq@gtype=\count303
+\csq@glevel=\count304
+\csq@qlevel=\count305
+\csq@maxlvl=\count306
+\csq@tshold=\count307
+\csq@ltx@everypar=\toks25
+
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
+File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+(C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.cfg
+File: csquotes.cfg 
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 23.
+
+PenAndPapAR.tex:25: LaTeX Error: Command \cftsecfont undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \renewcommand{\cftsecfont}
+                               {\bfseries\itshape}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+PenAndPapAR.tex:26: LaTeX Error: Command \cftsecpagefont undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \renewcommand{\cftsecpagefont}
+                                   {\bfseries}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... none found.
+
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count302
+\l__color_backend_stack_int=\count308
 \l__pdf_internal_box=\box57
 ) (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.aux)
 \openout1 = `PenAndPapAR.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count303
+\scratchcounter=\count309
 \scratchdimen=\dimen160
 \scratchbox=\box58
-\nofMPsegments=\count304
-\nofMParguments=\count305
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count306
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count312
 \MPscratchDim=\dimen161
-\MPnumerator=\count307
-\makeMPintoPDFobject=\count308
-\everyMPtoPDFconversion=\toks26
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks27
 )
 (C:\Users\maddi\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -402,15 +449,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring ON on input line 30.
  (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.out)
 (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.out)
 \@outlinefile=\write5
 \openout5 = `PenAndPapAR.out'.
 
-\c@lstlisting=\count309
+\c@lstlisting=\count315
 
-Overfull \hbox (57.60277pt too wide) in paragraph at lines 23--23
+Overfull \hbox (57.60277pt too wide) in paragraph at lines 36--36
  [] 
  []
 
@@ -422,32 +469,19 @@ Overfull \hbox (57.60277pt too wide) in paragraph at lines 23--23
 \openout6 = `PenAndPapAR.toc'.
 
  [2]
-(Inhalt/entwicklung.tex [3] [4] [5]
-
-Inhalt/entwicklung.tex:143: LaTeX Error: Lonely \item--perhaps a missing list e
-nvironment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143 
-      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 143
-[][]
+(Inhalt/entwicklung.tex [3] [4] [5] [6]
+Overfull \hbox (12.66551pt too wide) in paragraph at lines 175--176
+[]\OT1/cmr/m/n/10.95 Erstellung eines sim-plen tem-por^^?aren dedi-zierten Serv
+er auf einem Lokalen
  []
 
-) (Inhalt/idee.tex
+[7]) (Inhalt/idee.tex
 Overfull \hbox (5.76587pt too wide) in paragraph at lines 8--16
 \OT1/cmr/m/n/10.95 beizube-hal-ten. Genauso wichtig ist es den Spiel-ern nichts
  Dig-i-tales aufzuzwin-
  []
 
-[6]
+[8]
 Inhalt/idee.tex:56: Undefined control sequence.
 l.56 ...mente des Pen\&Papers zu digitalisieren.\n
                                                   
@@ -457,13 +491,13 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [7] (Inhalt/gameplay.tex
+) (Inhalt/gameplay.tex [9]
 Overfull \hbox (13.63878pt too wide) in paragraph at lines 17--20
 \OT1/cmr/m/n/10.95 eingef^^?ugt wer-den oder unter No-ti-zen notiert wer-den, d
 a ak-tuell keine Oberfl^^?ache
  []
 
-[8] [9]) (Inhalt/systems.tex
+[10]) (Inhalt/systems.tex [11]
 Underfull \hbox (badness 10000) in paragraph at lines 8--14
 
  []
@@ -473,52 +507,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--20
 
  []
 
-) [10] (Inhalt/zielgruppe.tex)
-Overfull \hbox (1.6546pt too wide) in paragraph at lines 14--42
+) (Inhalt/zielgruppe.tex [12])
+Overfull \hbox (1.6546pt too wide) in paragraph at lines 14--55
 \OT1/cmr/m/n/10.95 kreativen Freigeis-tern auch nicht die M^^?oglichkeit weg-ne
 hmen, ihre kreativit^^?at
  []
 
-(Inhalt/grafik_und_sound.tex [11]
-Overfull \hbox (13.18758pt too wide) in paragraph at lines 7--9
-\OT1/cmr/m/n/10.95 Spiel ver-wen-det wer-den. F^^?ur jede Grafik wird das entsp
-rechende Bild angezeigt,
+(Inhalt/grafik_und_sound.tex
+Overfull \hbox (8.8025pt too wide) in paragraph at lines 5--10
+\OT1/cmr/m/n/10.95 Zu aller erst wer-den die einzel-nen At-tribute eines Charak
+-ters grafisch angezeigt
  []
 
 
-Inhalt/grafik_und_sound.tex:14: LaTeX Error: Environment longtable undefined.
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
+
+ []
+
+
+Inhalt/grafik_und_sound.tex:12: LaTeX Error: Environment longtable undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 \begin{longtable}
-                      {|p{4cm}|p{10cm}|}
+l.12 \begin{longtable}
+                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-Inhalt/grafik_und_sound.tex:15: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.15 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--15
-
- []
-
-<../images/Conditions/blinded.png, id=194, 100.375pt x 100.375pt>
-File: ../images/Conditions/blinded.png Graphic file (type png)
-<use ../images/Conditions/blinded.png>
-Package pdftex.def Info: ../images/Conditions/blinded.png  used on input line 1
-7.
+<../images/Icon/strength.png, id=223, 100.375pt x 100.375pt>
+File: ../images/Icon/strength.png Graphic file (type png)
+<use ../images/Icon/strength.png>
+Package pdftex.def Info: ../images/Icon/strength.png  used on input line 13.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-Inhalt/grafik_und_sound.tex:17: Misplaced alignment tab character &.
-l.17 ...h=2cm]{../images/Conditions/blinded.png} &
+Inhalt/grafik_und_sound.tex:13: Misplaced alignment tab character &.
+l.13 ...[width=2cm]{../images/Icon/strength.png} &
                                                   
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -527,28 +557,236 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-Inhalt/grafik_und_sound.tex:20: Misplaced \noalign.
+Inhalt/grafik_und_sound.tex:17: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.20 \hline
-           
+l.17     \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+<../images/Icon/dexterity.png, id=225, 100.375pt x 100.375pt>
+File: ../images/Icon/dexterity.png Graphic file (type png)
+<use ../images/Icon/dexterity.png>
+Package pdftex.def Info: ../images/Icon/dexterity.png  used on input line 19.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:19: Misplaced alignment tab character &.
+l.19 ...width=2cm]{../images/Icon/dexterity.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:22: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.22     \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+[13 <../images/Icon/strength.png> <../images/Icon/dexterity.png>]
+<../images/Icon/constitution.png, id=233, 100.375pt x 100.375pt>
+File: ../images/Icon/constitution.png Graphic file (type png)
+<use ../images/Icon/constitution.png>
+Package pdftex.def Info: ../images/Icon/constitution.png  used on input line 24
+.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+
+Inhalt/grafik_und_sound.tex:24: Misplaced alignment tab character &.
+l.24 ...th=2cm]{../images/Icon/constitution.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:28: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.28     \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+<../images/Icon/intelligence.png, id=234, 100.375pt x 100.375pt>
+File: ../images/Icon/intelligence.png Graphic file (type png)
+<use ../images/Icon/intelligence.png>
+Package pdftex.def Info: ../images/Icon/intelligence.png  used on input line 30
+.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:30: Misplaced alignment tab character &.
+l.30 ...th=2cm]{../images/Icon/intelligence.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:33: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.33     \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+<../images/Icon/wisdom.png, id=235, 100.375pt x 100.375pt>
+File: ../images/Icon/wisdom.png Graphic file (type png)
+<use ../images/Icon/wisdom.png>
+Package pdftex.def Info: ../images/Icon/wisdom.png  used on input line 35.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:35: Misplaced alignment tab character &.
+l.35 ...cs[width=2cm]{../images/Icon/wisdom.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:38: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.38     \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+<../images/Icon/charisma.png, id=236, 100.375pt x 100.375pt>
+File: ../images/Icon/charisma.png Graphic file (type png)
+<use ../images/Icon/charisma.png>
+Package pdftex.def Info: ../images/Icon/charisma.png  used on input line 40.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:40: Misplaced alignment tab character &.
+l.40 ...[width=2cm]{../images/Icon/charisma.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:43: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.43     \hline
+               
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (14.18645pt too wide) in paragraph at lines 17--20
+Inhalt/grafik_und_sound.tex:45: LaTeX Error: \begin{document} ended by \end{lon
+gtable}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.45 \end{longtable}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Inhalt/grafik_und_sound.tex:55: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Inhalt/grafik_und_sound.tex:56: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \newline
+             
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Inhalt/grafik_und_sound.tex:58: LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \begin{longtable}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+Inhalt/grafik_und_sound.tex:59: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.59     \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+<../images/Conditions/blinded.png, id=237, 100.375pt x 100.375pt>
+File: ../images/Conditions/blinded.png Graphic file (type png)
+<use ../images/Conditions/blinded.png>
+Package pdftex.def Info: ../images/Conditions/blinded.png  used on input line 6
+1.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:61: Misplaced alignment tab character &.
+l.61 ...h=2cm]{../images/Conditions/blinded.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:64: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.64     \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (14.18645pt too wide) in paragraph at lines 61--64
 [][]  \OT1/cmr/bx/n/10.95 Blinded: \OT1/cmr/m/n/10.95 Der Zu-s-tand eines geble
 nde-ten Charak-ters, wodurch
  []
 
-<../images/Conditions/poisoned.png, id=195, 100.375pt x 100.375pt>
+[14 <../images/Icon/constitution.png> <../images/Icon/intelligence.png> <../ima
+ges/Icon/wisdom.png> <../images/Icon/charisma.png> <../images/Conditions/blinde
+d.png>]
+<../images/Conditions/poisoned.png, id=247, 100.375pt x 100.375pt>
 File: ../images/Conditions/poisoned.png Graphic file (type png)
 <use ../images/Conditions/poisoned.png>
 Package pdftex.def Info: ../images/Conditions/poisoned.png  used on input line 
-22.
+66.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-Inhalt/grafik_und_sound.tex:22: Misplaced alignment tab character &.
-l.22 ...=2cm]{../images/Conditions/poisoned.png} &
+
+Inhalt/grafik_und_sound.tex:66: Misplaced alignment tab character &.
+l.66 ...=2cm]{../images/Conditions/poisoned.png} &
                                                   
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -557,22 +795,22 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-Inhalt/grafik_und_sound.tex:25: Misplaced \noalign.
+Inhalt/grafik_und_sound.tex:69: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.25 \hline
-           
+l.69     \hline
+               
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-<../images/Conditions/restrained.png, id=197, 100.375pt x 100.375pt>
+<../images/Conditions/restrained.png, id=248, 100.375pt x 100.375pt>
 File: ../images/Conditions/restrained.png Graphic file (type png)
 <use ../images/Conditions/restrained.png>
 Package pdftex.def Info: ../images/Conditions/restrained.png  used on input lin
-e 27.
+e 71.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-Inhalt/grafik_und_sound.tex:27: Misplaced alignment tab character &.
-l.27 ...cm]{../images/Conditions/restrained.png} &
+Inhalt/grafik_und_sound.tex:71: Misplaced alignment tab character &.
+l.71 ...cm]{../images/Conditions/restrained.png} &
                                                   
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -581,287 +819,22 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-Inhalt/grafik_und_sound.tex:30: Misplaced \noalign.
+Inhalt/grafik_und_sound.tex:74: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.30 \hline
-           
+l.74     \hline
+               
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-<../images/Conditions/exhaustion.png, id=198, 100.375pt x 100.375pt>
+<../images/Conditions/exhaustion.png, id=249, 100.375pt x 100.375pt>
 File: ../images/Conditions/exhaustion.png Graphic file (type png)
 <use ../images/Conditions/exhaustion.png>
 Package pdftex.def Info: ../images/Conditions/exhaustion.png  used on input lin
-e 32.
+e 76.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-Inhalt/grafik_und_sound.tex:32: Misplaced alignment tab character &.
-l.32 ...cm]{../images/Conditions/exhaustion.png} &
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Inhalt/grafik_und_sound.tex:35: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.35 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (39.2951pt too wide) in paragraph at lines 32--35
-\OT1/cmr/m/n/10.95 Beeintr^^?achtigung mehrerer Werte schrit-tweise geschw^^?ac
-ht wird (z.B. Geschwindigkeit
- []
-
-[12 <../images/Conditions/blinded.png> <../images/Conditions/poisoned.png> <../
-images/Conditions/restrained.png>]
-<../images/Conditions/frightened.png, id=206, 100.375pt x 100.375pt>
-File: ../images/Conditions/frightened.png Graphic file (type png)
-<use ../images/Conditions/frightened.png>
-Package pdftex.def Info: ../images/Conditions/frightened.png  used on input lin
-e 37.
-(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-
-Inhalt/grafik_und_sound.tex:37: Misplaced alignment tab character &.
-l.37 ...cm]{../images/Conditions/frightened.png} &
-                                                   \textbf{Frightened:} Dies...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-
-Overfull \hbox (11.05333pt too wide) in paragraph at lines 37--39
-\OT1/cmr/m/n/10.95 Charak-ters, wodurch seine Be-we-gungs-frei-heit und sein Ve
-r-hal-ten eingeschr^^?ankt
- []
-
-<../images/Conditions/grappled.png, id=207, 100.375pt x 100.375pt>
-File: ../images/Conditions/grappled.png Graphic file (type png)
-<use ../images/Conditions/grappled.png>
-Package pdftex.def Info: ../images/Conditions/grappled.png  used on input line 
-41.
-(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-Inhalt/grafik_und_sound.tex:41: Misplaced alignment tab character &.
-l.41 ...=2cm]{../images/Conditions/grappled.png} &
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Inhalt/grafik_und_sound.tex:44: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.44 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (0.6738pt too wide) in paragraph at lines 41--44
-[][]  \OT1/cmr/bx/n/10.95 Grap-pled: \OT1/cmr/m/n/10.95 Der Zu-s-tand zeigt ein
-en fest-ge-hal-te-nen Charak-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--44
-
- []
-
-<../images/Conditions/charmed.png, id=208, 100.375pt x 100.375pt>
-File: ../images/Conditions/charmed.png Graphic file (type png)
-<use ../images/Conditions/charmed.png>
-Package pdftex.def Info: ../images/Conditions/charmed.png  used on input line 4
-6.
-(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-Inhalt/grafik_und_sound.tex:46: Misplaced alignment tab character &.
-l.46 ...h=2cm]{../images/Conditions/charmed.png} &
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Inhalt/grafik_und_sound.tex:49: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.49 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--49
-
- []
-
-<../images/Conditions/paralyzed.png, id=209, 100.375pt x 100.375pt>
-File: ../images/Conditions/paralyzed.png Graphic file (type png)
-<use ../images/Conditions/paralyzed.png>
-Package pdftex.def Info: ../images/Conditions/paralyzed.png  used on input line
- 51.
-(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-Inhalt/grafik_und_sound.tex:51: Misplaced alignment tab character &.
-l.51 ...2cm]{../images/Conditions/paralyzed.png} &
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Inhalt/grafik_und_sound.tex:53: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.53 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-<../images/Conditions/invisible.png, id=210, 100.375pt x 100.375pt>
-File: ../images/Conditions/invisible.png Graphic file (type png)
-<use ../images/Conditions/invisible.png>
-Package pdftex.def Info: ../images/Conditions/invisible.png  used on input line
- 55.
-(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-Inhalt/grafik_und_sound.tex:55: Misplaced alignment tab character &.
-l.55 ...2cm]{../images/Conditions/invisible.png} &
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Inhalt/grafik_und_sound.tex:58: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.58 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-<../images/Conditions/deafened.png, id=211, 100.375pt x 100.375pt>
-File: ../images/Conditions/deafened.png Graphic file (type png)
-<use ../images/Conditions/deafened.png>
-Package pdftex.def Info: ../images/Conditions/deafened.png  used on input line 
-60.
-(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-Inhalt/grafik_und_sound.tex:60: Misplaced alignment tab character &.
-l.60 ...=2cm]{../images/Conditions/deafened.png} &
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Inhalt/grafik_und_sound.tex:62: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.62 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-[13 <../images/Conditions/exhaustion.png> <../images/Conditions/frightened.png>
- <../images/Conditions/grappled.png> <../images/Conditions/charmed.png> <../ima
-ges/Conditions/paralyzed.png> <../images/Conditions/invisible.png>]
-<../images/Conditions/unconscious.png, id=223, 100.375pt x 100.375pt>
-File: ../images/Conditions/unconscious.png Graphic file (type png)
-<use ../images/Conditions/unconscious.png>
-Package pdftex.def Info: ../images/Conditions/unconscious.png  used on input li
-ne 64.
-(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-
-Inhalt/grafik_und_sound.tex:64: Misplaced alignment tab character &.
-l.64 ...m]{../images/Conditions/unconscious.png} &
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Inhalt/grafik_und_sound.tex:66: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.66 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-
-Overfull \hbox (5.69548pt too wide) in paragraph at lines 64--66
-[][]  \OT1/cmr/bx/n/10.95 Un-con-scious: \OT1/cmr/m/n/10.95 Ein be-wusst-loser 
-Charak-ter ist kamp-funf^^?ahig
- []
-
-<../images/Conditions/incapacitated.png, id=224, 100.375pt x 100.375pt>
-File: ../images/Conditions/incapacitated.png Graphic file (type png)
-<use ../images/Conditions/incapacitated.png>
-Package pdftex.def Info: ../images/Conditions/incapacitated.png  used on input 
-line 68.
-(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-Inhalt/grafik_und_sound.tex:68: Misplaced alignment tab character &.
-l.68 ...{../images/Conditions/incapacitated.png} &
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-<../images/Conditions/prone.png, id=225, 100.375pt x 100.375pt>
-File: ../images/Conditions/prone.png Graphic file (type png)
-<use ../images/Conditions/prone.png>
-Package pdftex.def Info: ../images/Conditions/prone.png  used on input line 72.
-
-(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-Inhalt/grafik_und_sound.tex:72: Misplaced alignment tab character &.
-l.72 ...dth=2cm]{../images/Conditions/prone.png} &
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-Inhalt/grafik_und_sound.tex:75: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.75 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-<../images/Conditions/stunned.png, id=226, 100.375pt x 100.375pt>
-File: ../images/Conditions/stunned.png Graphic file (type png)
-<use ../images/Conditions/stunned.png>
-Package pdftex.def Info: ../images/Conditions/stunned.png  used on input line 7
-7.
-(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
-Inhalt/grafik_und_sound.tex:77: Misplaced alignment tab character &.
-l.77 ...h=2cm]{../images/Conditions/stunned.png} &
+Inhalt/grafik_und_sound.tex:76: Misplaced alignment tab character &.
+l.76 ...cm]{../images/Conditions/exhaustion.png} &
                                                   
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -873,19 +846,47 @@ might try typing `S' now just to see what is salvageable.
 Inhalt/grafik_und_sound.tex:79: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.79 \hline
-           
+l.79     \hline
+               
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-<../images/Conditions/initiative.png, id=227, 100.375pt x 100.375pt>
-File: ../images/Conditions/initiative.png Graphic file (type png)
-<use ../images/Conditions/initiative.png>
-Package pdftex.def Info: ../images/Conditions/initiative.png  used on input lin
+
+Overfull \hbox (39.2951pt too wide) in paragraph at lines 76--79
+\OT1/cmr/m/n/10.95 Beeintr^^?achtigung mehrerer Werte schrit-tweise geschw^^?ac
+ht wird (z.B. Geschwindigkeit
+ []
+
+<../images/Conditions/frightened.png, id=250, 100.375pt x 100.375pt>
+File: ../images/Conditions/frightened.png Graphic file (type png)
+<use ../images/Conditions/frightened.png>
+Package pdftex.def Info: ../images/Conditions/frightened.png  used on input lin
 e 81.
 (pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
 Inhalt/grafik_und_sound.tex:81: Misplaced alignment tab character &.
-l.81 ...cm]{../images/Conditions/initiative.png} &
+l.81 ...cm]{../images/Conditions/frightened.png} &
+                                                   \textbf{Frightened:} Dies...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Overfull \hbox (11.05333pt too wide) in paragraph at lines 81--83
+\OT1/cmr/m/n/10.95 Charak-ters, wodurch seine Be-we-gungs-frei-heit und sein Ve
+r-hal-ten eingeschr^^?ankt
+ []
+
+<../images/Conditions/grappled.png, id=251, 100.375pt x 100.375pt>
+File: ../images/Conditions/grappled.png Graphic file (type png)
+<use ../images/Conditions/grappled.png>
+Package pdftex.def Info: ../images/Conditions/grappled.png  used on input line 
+85.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:85: Misplaced alignment tab character &.
+l.85 ...=2cm]{../images/Conditions/grappled.png} &
                                                   
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -894,24 +895,391 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-Inhalt/grafik_und_sound.tex:83: Misplaced \noalign.
+Inhalt/grafik_und_sound.tex:88: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.83 \hline
-           
+l.88     \hline
+               
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Inhalt/grafik_und_sound.tex:85: LaTeX Error: \begin{document} ended by \end{lon
-gtable}.
+Overfull \hbox (0.6738pt too wide) in paragraph at lines 85--88
+[][]  \OT1/cmr/bx/n/10.95 Grap-pled: \OT1/cmr/m/n/10.95 Der Zu-s-tand zeigt ein
+en fest-ge-hal-te-nen Charak-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
+
+ []
+
+<../images/Conditions/charmed.png, id=252, 100.375pt x 100.375pt>
+File: ../images/Conditions/charmed.png Graphic file (type png)
+<use ../images/Conditions/charmed.png>
+Package pdftex.def Info: ../images/Conditions/charmed.png  used on input line 9
+0.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:90: Misplaced alignment tab character &.
+l.90 ...h=2cm]{../images/Conditions/charmed.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:93: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.93     \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--93
+
+ []
+
+[15 <../images/Conditions/poisoned.png> <../images/Conditions/restrained.png> <
+../images/Conditions/exhaustion.png> <../images/Conditions/frightened.png> <../
+images/Conditions/grappled.png> <../images/Conditions/charmed.png>]
+<../images/Conditions/paralyzed.png, id=263, 100.375pt x 100.375pt>
+File: ../images/Conditions/paralyzed.png Graphic file (type png)
+<use ../images/Conditions/paralyzed.png>
+Package pdftex.def Info: ../images/Conditions/paralyzed.png  used on input line
+ 95.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+
+Inhalt/grafik_und_sound.tex:95: Misplaced alignment tab character &.
+l.95 ...2cm]{../images/Conditions/paralyzed.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:97: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.97     \hline
+               
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+<../images/Conditions/invisible.png, id=264, 100.375pt x 100.375pt>
+File: ../images/Conditions/invisible.png Graphic file (type png)
+<use ../images/Conditions/invisible.png>
+Package pdftex.def Info: ../images/Conditions/invisible.png  used on input line
+ 99.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:99: Misplaced alignment tab character &.
+l.99 ...2cm]{../images/Conditions/invisible.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:102: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.102     \hline
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+<../images/Conditions/deafened.png, id=265, 100.375pt x 100.375pt>
+File: ../images/Conditions/deafened.png Graphic file (type png)
+<use ../images/Conditions/deafened.png>
+Package pdftex.def Info: ../images/Conditions/deafened.png  used on input line 
+104.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:104: Misplaced alignment tab character &.
+l.104 ...2cm]{../images/Conditions/deafened.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:106: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.106     \hline
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+<../images/Conditions/unconscious.png, id=266, 100.375pt x 100.375pt>
+File: ../images/Conditions/unconscious.png Graphic file (type png)
+<use ../images/Conditions/unconscious.png>
+Package pdftex.def Info: ../images/Conditions/unconscious.png  used on input li
+ne 108.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:108: Misplaced alignment tab character &.
+l.108 ...]{../images/Conditions/unconscious.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:110: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.110     \hline
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (5.69548pt too wide) in paragraph at lines 108--110
+[][]  \OT1/cmr/bx/n/10.95 Un-con-scious: \OT1/cmr/m/n/10.95 Ein be-wusst-loser 
+Charak-ter ist kamp-funf^^?ahig
+ []
+
+<../images/Conditions/incapacitated.png, id=267, 100.375pt x 100.375pt>
+File: ../images/Conditions/incapacitated.png Graphic file (type png)
+<use ../images/Conditions/incapacitated.png>
+Package pdftex.def Info: ../images/Conditions/incapacitated.png  used on input 
+line 112.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:112: Misplaced alignment tab character &.
+l.112 ...../images/Conditions/incapacitated.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+<../images/Conditions/prone.png, id=268, 100.375pt x 100.375pt>
+File: ../images/Conditions/prone.png Graphic file (type png)
+<use ../images/Conditions/prone.png>
+Package pdftex.def Info: ../images/Conditions/prone.png  used on input line 116
+.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:116: Misplaced alignment tab character &.
+l.116 ...th=2cm]{../images/Conditions/prone.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:119: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.119     \hline
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+<../images/Conditions/stunned.png, id=269, 100.375pt x 100.375pt>
+File: ../images/Conditions/stunned.png Graphic file (type png)
+<use ../images/Conditions/stunned.png>
+Package pdftex.def Info: ../images/Conditions/stunned.png  used on input line 1
+21.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:121: Misplaced alignment tab character &.
+l.121 ...=2cm]{../images/Conditions/stunned.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:123: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.123     \hline
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Inhalt/grafik_und_sound.tex:125: LaTeX Error: \begin{document} ended by \end{lo
+ngtable}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.85 \end{longtable}
-                    
+l.125 \end{longtable}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Inhalt/grafik_und_sound.tex:131: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Inhalt/grafik_und_sound.tex:132: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.132 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Inhalt/grafik_und_sound.tex:135: LaTeX Error: Environment longtable undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 \begin{longtable}
+                       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[16 <../images/Conditions/paralyzed.png> <../images/Conditions/invisible.png> <
+../images/Conditions/deafened.png> <../images/Conditions/unconscious.png> <../i
+mages/Conditions/incapacitated.png> <../images/Conditions/prone.png> <../images
+/Conditions/stunned.png>]
+<../images/Icon/ac.png, id=281, 100.375pt x 100.375pt>
+File: ../images/Icon/ac.png Graphic file (type png)
+<use ../images/Icon/ac.png>
+Package pdftex.def Info: ../images/Icon/ac.png  used on input line 137.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+
+Inhalt/grafik_und_sound.tex:137: Misplaced alignment tab character &.
+l.137 ...phics[width=2cm]{../images/Icon/ac.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:140: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.140     \hline
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+<../images/Icon/expertise.png, id=282, 100.375pt x 100.375pt>
+File: ../images/Icon/expertise.png Graphic file (type png)
+<use ../images/Icon/expertise.png>
+Package pdftex.def Info: ../images/Icon/expertise.png  used on input line 142.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:142: Misplaced alignment tab character &.
+l.142 ...idth=2cm]{../images/Icon/expertise.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:145: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.145     \hline
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+<../images/Icon/full.png, id=283, 100.375pt x 100.375pt>
+File: ../images/Icon/full.png Graphic file (type png)
+<use ../images/Icon/full.png>
+Package pdftex.def Info: ../images/Icon/full.png  used on input line 147.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:147: Misplaced alignment tab character &.
+l.147 ...ics[width=2cm]{../images/Icon/full.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:149: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.149     \hline
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Overfull \hbox (0.65987pt too wide) in paragraph at lines 147--149
+[][]  \OT1/cmr/bx/n/10.95 Leben-spunkte: \OT1/cmr/m/n/10.95 Das Herz wird proze
+n-tual gef^^?ullt abh^^?angig
+ []
+
+<../images/Conditions/initiative.png, id=284, 100.375pt x 100.375pt>
+File: ../images/Conditions/initiative.png Graphic file (type png)
+<use ../images/Conditions/initiative.png>
+Package pdftex.def Info: ../images/Conditions/initiative.png  used on input lin
+e 151.
+(pdftex.def)             Requested size: 56.9055pt x 56.90648pt.
+Inhalt/grafik_und_sound.tex:151: Misplaced alignment tab character &.
+l.151 ...m]{../images/Conditions/initiative.png} &
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+Inhalt/grafik_und_sound.tex:153: Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.153     \hline
+                
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+
+Inhalt/grafik_und_sound.tex:155: LaTeX Error: \begin{document} ended by \end{lo
+ngtable}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.155 \end{longtable}
+                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -931,25 +1299,29 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[14 <../images/Conditions/deafened.png> <../images/Conditions/unconscious.png> 
-<../images/Conditions/incapacitated.png> <../images/Conditions/prone.png> <../i
-mages/Conditions/stunned.png> <../images/Conditions/initiative.png>]) [15]
-(E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.aux)
+[17 <../images/Icon/ac.png> <../images/Icon/expertise.png> <../images/Icon/full
+.png> <../images/Conditions/initiative.png>]) (Inhalt/schlusswort.tex
+Overfull \hbox (2.40489pt too wide) in paragraph at lines 2--8
+\OT1/cmr/m/n/10.95 Phase gehen k^^?onnen. Der kri-tis-chste noch fehlende Punkt
+ ist das Verkn^^?upfen,
+ []
+
+) [18] [19] (E:/IdeaProjects\PenAndPapARGDD\auxil\PenAndPapAR.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-13>
  ***********
 Package rerunfilecheck Info: File `PenAndPapAR.out' has not changed.
-(rerunfilecheck)             Checksum: BDCF123EA7251A8E3FCED01CF4DEB91E;3635.
+(rerunfilecheck)             Checksum: 2A71B15957B21C62400E8BD65C779566;4503.
  ) 
 Here is how much of TeX's memory you used:
- 11518 strings out of 474462
- 181607 string characters out of 5742883
- 1934998 words of memory out of 5000000
- 33636 multiletter control sequences out of 15000+600000
+ 12213 strings out of 474462
+ 194564 string characters out of 5742883
+ 1937998 words of memory out of 5000000
+ 34311 multiletter control sequences out of 15000+600000
  564825 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,327b,572s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,378b,620s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\maddi\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1095.pk><C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/maddi/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -959,9 +1331,9 @@ ype1/public/amsfonts/cm/cmr10.pfb><C:/Users/maddi/AppData/Local/Programs/MiKTeX
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/maddi/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 Output written on E:/IdeaProjects\PenAndPapARGDD\GameDesignDocument\PenAndPapAR
-.pdf (15 pages, 186869 bytes).
+.pdf (19 pages, 219668 bytes).
 PDF statistics:
- 286 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 292 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 347 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 377 words of extra memory for PDF output out of 10000 (max. 10000000)
 

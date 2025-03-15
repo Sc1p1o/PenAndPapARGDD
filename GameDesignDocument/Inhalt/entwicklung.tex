@@ -104,7 +104,9 @@ Die Datenbank benötigt folgende Funktionen:
 
 
 \subsection{Der Mitspieler}\label{subsec:the_player}
+
 Jeder Spieler hat Zugriff auf die Basis Spieler Tools, diese umfassen folgende Features:
+
 \begin{itemize}
     \item Verbindung zum Backend
     \begin{itemize}
@@ -139,13 +141,58 @@ Jeder Spieler hat Zugriff auf die Basis Spieler Tools, diese umfassen folgende F
 
 
 \subsection{Der Spielleiter}\label{subsec:gamemaster}
-\item
+Der Session-Host kann einen Spielleiter zuweisen, welcher einen weiteren Button in seinem HUD angezeigt bekommt, mit dem
+er dann die Spielleiter Ansicht laden kann.
 
+\begin{itemize}
+    \item Initialisierung des Spielleiter HUDS
+    \item Spielleiter HUD ansicht
+    \item Kampfwarteschlange
+    \item NPC Liste
+    \item Kartenrotation
+    \item Spieler Übersicht
+    \item Spieler interaktion
+    \item Erweiterung der Datenbank für Spielleiter Rollen
+\end{itemize}
 
 \subsection{Die Gefährten}\label{subsec:npcs}
-
+Spieler können zudem, durch Klassen oder durch die Kampagne Begleiter wie Haustiere oder Familiars bekommen.
+Diese werden vom Spielleiter dann einem Spieler zugeteilt, welcher dann mehr Kontrolle über diese NPCs hat.
+\begin{itemize}
+    \item NPC kann erstellt werden und hinzugefügt werden
+    \item NPC kann ausgewählt werde
+    \item NPC HUD ist implementiert als minimalistischeres Player Standard HUD
+    \item NPCs haben ein 3D Objekt
+    \item Spieler in Datenbank um verknüpfte NPCs erweitern
+\end{itemize}
 
 \subsection{Ein Held kommt selten allein}\label{subsec:connecting_friends}
+Die Spieler spielen selten allein mit der Brille.\ In dieser Etappe wird der Spieler die möglichkeit bekommen eine
+Session für das lokale Netzwerk zu öffnen und sich mit seinen Freunden zu verbinden.
+
+\begin{itemize}
+    \item Bestimmung von Protokollen, die in einer Session benötigt werden.
+    \item Erstellung eines simplen temporären dedizierten Server auf einem Lokalen Endgerät, (wahrscheinlich PC)
+    \item Zugriffs Beschränkungen verwalten und einrichten.
+\end{itemize}
+
+\subsection{Leben auf der flachen Erde}\label{subsec:flat_earth_society_is_real}
+Im vorletzten Abschnitt soll nun auch der Spielleiter eine Spielwelt generieren lassen basierend auf den JSONs aus
+verschiedenen Dungeon Buildern.
+Dafür müssen folgende Dinge erstellt werden.
+
+\begin{itemize}
+    \item Map Generierung mit 3D würfeln die noch keine Höhen Information auf der Karte zeigen
+    \item Map Generierung von Fog Of War
+    \item Map ist für alle Spieler einer Session Interaktiv
+    \item Spieler können ein Mini ihres Charakters auf der Map bewegen
+\end{itemize}
+
+\subsection{\enquote{Und sie ist trotzdem rund...}}\label{subsec:gallileo_approves_this_world}
+\begin{itemize}
+    \item Entschlüsselung der 3D-Informationen aus den Map Jsons
+    \item Implementierung der Höhe der Blöcke in der Map bzgl.\ abhängig der Höheninformationen
+    \item Implementierung von Licht auf Map
+\end{itemize}
 
 
-\subsection{Weltenbummler}\label{subsec:its_a_whole_new_world}
