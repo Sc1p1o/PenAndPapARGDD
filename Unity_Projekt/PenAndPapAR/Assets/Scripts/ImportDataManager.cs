@@ -44,16 +44,17 @@ public class ImportDataManager : MonoBehaviour
     // Methode für den Add Button (ohne Funktion)
     public void OnAddButtonClick()
     {
-        Debug.Log("Add Button wurde gedrückt, aber keine Funktion zugewiesen. Plan QR Code Scanner.");
+        // Lade den zuletzt gespeicherten Link
+        string lastSheetLink = PlayerPrefs.GetString(LastSheetLinkKey, defaultLink);
+
+        Debug.Log(lastSheetLink);
+
     }
 
     // Methode für den Load Button (letzten oder Standard-Link laden)
     public void OnLoadButtonClick()
     {
-        // Lade den zuletzt gespeicherten Link
-        string lastSheetLink = PlayerPrefs.GetString(LastSheetLinkKey, defaultLink);
-
-        Debug.Log("Lade Sheet-Link: " + lastSheetLink);
+      Debug.Log("Load Button wurde gedrückt, aber keine Funktion zugewiesen. Plan QR Code Scanner.");
 
     }
 
